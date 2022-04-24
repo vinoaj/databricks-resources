@@ -95,10 +95,8 @@ My **personal** list of resources and samples related to working with Databricks
 - [How CareSource Modernized Its Data Architecture to Provide Better Healthcare to Members](https://databricks.com/blog/2022/04/07/how-caresource-modernized-its-data-architecture-to-provide-better-healthcare-to-members.html)
 ![CareSource's data architecture](https://databricks.com/wp-content/uploads/2022/04/db-139-img-1.jpg)
 
-### Retail
-- [Collaborating Across the Retail Value Chain with Data and AI](https://databricks.com/p/ebook/collaborating-across-the-retail-value-chain-with-data-and-ai)(eBook)
-![Product insights use cases](https://databricks.com/wp-content/uploads/2022/03/db-118-blog-img-1.jpg)
-![Consumer insights use cases](https://databricks.com/wp-content/uploads/2022/03/db-118-blog-img-2.jpg)
+### Media & Entertainment
+- [LaLiga uses Databricks Lakehouse to enhance the fan and player experience](https://www.youtube.com/watch?v=EtB71FLb5Y4)
 
 ## Community & Support
 - [Databricks Community](https://community.databricks.com/s/)
@@ -116,4 +114,3 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Geospatial
 - [Mosaic](https://github.com/databrickslabs/mosaic): a Databricks Labs extension to the Apache Spark framework that allows easy and fast processing of very large geospatial datasets
- 
