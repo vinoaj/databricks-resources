@@ -1,6 +1,10 @@
 # databricks-resources
 My **personal** list of resources and samples related to working with Databricks. 
 
+## Value Generation
+- [Databricks 30 Index](https://databricks.com/blog/2021/03/17/winning-with-data-ai-meet-the-databricks-30-index.html)
+![Databricks 30 Index performance](https://databricks.com/wp-content/uploads/2021/03/db-30-blog-image-1.png)
+
 ## Using Databricks
 - Try the [Community Edition](https://community.cloud.databricks.com/login.html) for free (no Databricks or AWS costs are incurred)
 
