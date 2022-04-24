@@ -1,2 +1,119 @@
 # databricks-resources
-My personal list of resources and samples related to working with Databricks
+My **personal** list of resources and samples related to working with Databricks. 
+
+## Using Databricks
+- Try the [Community Edition](https://community.cloud.databricks.com/login.html) for free (no Databricks or AWS costs are incurred)
+
+## Lakehouse
+- [Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics](http://www.cidrdb.org/cidr2021/papers/cidr2021_paper17.pdf) Research paper from the 11th Annual Conference on Innovative Data Systems Research (CIDR ’21), January 11–15, 2021
+
+## Administration
+- [Functional Workspace Organization on Databricks](https://databricks.com/blog/2022/03/10/functional-workspace-organization-on-databricks.html) (Databricks Admin Essentials: Blog 1/5)
+
+## Apache Spark
+- [GitHub: Apache Spark](https://github.com/apache/spark)
+
+## Delta Lake
+- [Roadmap](https://github.com/delta-io/delta/issues/920)
+- [Releases](https://github.com/delta-io/delta/releases)
+- [Release Milestones](https://github.com/delta-io/delta/milestones)
+- [Delta Transactional Log Protocol](https://github.com/delta-io/delta/blob/master/PROTOCOL.md)
+- [Delta Lake paper](https://databricks.com/wp-content/uploads/2020/08/p975-armbrust.pdf) submitted to VLDB
+- [TPC-DS Benchmarking guide](https://github.com/delta-io/delta/tree/master/benchmarks)
+
+
+### Ingestion
+- [Auto-Loader](https://docs.databricks.com/spark/latest/structured-streaming/auto-loader.html)
+- [dbt](https://docs.databricks.com/dev-tools/dbt.html) ([GitHub](https://github.com/databricks/dbt-databricks))
+
+
+### Developing with Delta Lake
+- [The Ubiquity of Delta Standalone](https://databricks.com/blog/2022/01/28/the-ubiquity-of-delta-standalone-java-scala-hive-presto-trino-power-bi-and-more.html): a JVM library that can be used to read and write Delta Lake tables. Unlike Delta Lake Core, this project does not use Spark to read or write tables and has only a few transitive dependencies. It can be used by any application (e.g. Power BI) that cannot use a Spark cluster. The project allows developers to build a Delta connector for an external processing engine following the Delta protocol without using a manifest file. 
+
+
+## Delta Sharing
+- [GitHub repository](https://github.com/delta-io/delta-sharing)
+- [Release Milestones](https://github.com/delta-io/delta-sharing/milestones)
+
+
+## Analysis
+- [PipelineDP](https://github.com/OpenMined/PipelineDP): PipelineDP is a Python framework for applying differentially private aggregations to large datasets using batch processing systems such as Apache Spark, Apache Beam, and more. Developed by [OpenMined](https://www.openmined.org/) and Google
+
+## Performance tuning
+- [Make Your Data Lakehouse Run, Faster With Delta Lake 1.1](https://databricks.com/blog/2022/01/31/make-your-data-lakehouse-run-faster-with-delta-lake-1-1.html)
+- [Get to Know Your Queries With the New Databricks SQL Query Profile](https://databricks.com/blog/2022/02/23/get-to-know-your-queries-with-the-new-databricks-sql-query-profile.html)
+- [Top 5 Performance Tips](https://databricks.com/blog/2022/03/10/top-5-databricks-performance-tips.html)
+
+## Best Practices
+- [7 best practices to modernize data architecture on Databricks with LeapLogic](https://www.leaplogic.io/modernization/blog/cloud-engineering-data-engineering-etl-and-analytics-migration-ml-analytics-ai/7-best-practices-modernizing-data-architecture-databricks-lakehouse)
+
+## OSS & No Lock-in
+- Founding member of the [Data Cloud Alliance](https://cloud.google.com/solutions/data-cloud-alliance): "Commitment to accelerating adoption across industries through common industry data models, open standards, processes, and end-to-end integrated products and solutions"
+- 
+
+## BI
+### Power BI
+- [Architecting Aggregations in PowerBI with Databricks SQL](https://medium.com/@kyle.hale/architecting-aggregations-in-powerbi-with-databricks-sql-675899014ce3)
+
+## Machine Learning (ML) & Artificial Intelligence (AI)
+
+## MLflow
+- [Cross-version Testing in MLflow](https://databricks.com/blog/2022/03/11/cross-version-testing-in-mlflow.html): MLflow integrates with several popular ML frameworks. See how the Databricks Engineering team proactively adapt MLflow and third-party libraries to prevent against breaking changes
+
+## Customer Implementations
+- [How Gemini Built a Cryptocurrency Analytics Platform Using Lakehouse for Financial Services](https://databricks.com/blog/2022/02/15/how-gemini-built-a-cryptocurrency-analytics-platform-using-lakehouse-for-financial-services.html): "The core lakehouse foundation and features resonated with the team as an efficient way to build the data platform"
+![Gemini's Databricks architecture](https://databricks.com/wp-content/uploads/2022/02/gemini-order-book-newimage.png)
+
+## Use Cases
+### App Dev
+- [Taming JavaScript Exceptions With Databricks](https://databricks.com/blog/2022/01/25/taming-javascript-exceptions-with-databricks.html)
+
+### Cybersecurity
+- [Hunting Anomalous Connections and Infrastructure With TLS Certificates: TLS hashes as a source for the cybersecurity threat hunting program](https://databricks.com/blog/2022/01/20/hunting-anomalous-connections-and-infrastructure-with-tls-certificates.html)
+- [Learn how to connect Databricks to Okta to ingest System Logs, retain, and analyze for complete visibility using your Databricks Lakehouse Platform](https://databricks.com/blog/2022/04/07/analyzing-okta-logs-with-databricks-lakehouse-platform-to-detect-unusual-activity.html) (accompanying [notebooks](https://databricks.com/wp-content/uploads/notebooks/db-134-okta-logs/index.html#1_okta_create_table.html))
+
+## Deployment
+- [AWS Quickstart](https://aws.amazon.com/quickstart/architecture/databricks/)
+
+
+## ML/AI Roles
+### ML Engineer
+### Data Scientist
+### Software Engineer
+### CTO
+### ML Researcher
+### Data Engineer
+### Research Scientist
+### SRE
+### DevOps
+
+## Industry
+### FSI
+- [How NAB's buyout forced 86 400 to lift its data game: Sprints to adopt Databricks](https://www.itnews.com.au/news/how-nabs-buyout-forced-86-400-to-lift-its-data-game-577888)
+
+### Healthcare
+- [How CareSource Modernized Its Data Architecture to Provide Better Healthcare to Members](https://databricks.com/blog/2022/04/07/how-caresource-modernized-its-data-architecture-to-provide-better-healthcare-to-members.html)
+![CareSource's data architecture](https://databricks.com/wp-content/uploads/2022/04/db-139-img-1.jpg)
+
+### Retail
+- [Collaborating Across the Retail Value Chain with Data and AI](https://databricks.com/p/ebook/collaborating-across-the-retail-value-chain-with-data-and-ai)(eBook)
+![Product insights use cases](https://databricks.com/wp-content/uploads/2022/03/db-118-blog-img-1.jpg)
+![Consumer insights use cases](https://databricks.com/wp-content/uploads/2022/03/db-118-blog-img-2.jpg)
+
+## Community & Support
+- [Databricks Community](https://community.databricks.com/s/)
+- [Sydney Databricks User Group](https://www.meetup.com/Sydney-Databricks-User-Group/)
+
+# Spark
+- [Learning Spark (2nd Edition)](https://learning.oreilly.com/library/view/learning-spark-2nd/9781492050032/) (book)
+- [Learning Spark](https://github.com/databricks/LearningSparkV2) code samples
+
+## AWS
+- [Build an MLOps sentiment analysis pipeline using Amazon SageMaker Ground Truth and Databricks MLflow](https://aws.amazon.com/blogs/machine-learning/build-an-mlops-sentiment-analysis-pipeline-using-amazon-sagemaker-ground-truth-and-databricks-mlflow/)
+
+## Azure
+- [Azure Databricks Best Practices](https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md)
+
+## Geospatial
+- [Mosaic](https://github.com/databrickslabs/mosaic): a Databricks Labs extension to the Apache Spark framework that allows easy and fast processing of very large geospatial datasets
+ 
