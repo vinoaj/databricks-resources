@@ -91,13 +91,6 @@ My **personal** list of resources and samples related to working with Databricks
 ### FSI
 - [How NAB's buyout forced 86 400 to lift its data game: Sprints to adopt Databricks](https://www.itnews.com.au/news/how-nabs-buyout-forced-86-400-to-lift-its-data-game-577888)
 
-### Healthcare
-- [How CareSource Modernized Its Data Architecture to Provide Better Healthcare to Members](https://databricks.com/blog/2022/04/07/how-caresource-modernized-its-data-architecture-to-provide-better-healthcare-to-members.html)
-![CareSource's data architecture](https://databricks.com/wp-content/uploads/2022/04/db-139-img-1.jpg)
-
-### Media & Entertainment
-- [LaLiga uses Databricks Lakehouse to enhance the fan and player experience](https://www.youtube.com/watch?v=EtB71FLb5Y4)
-
 ## Community & Support
 - [Databricks Community](https://community.databricks.com/s/)
 - [Sydney Databricks User Group](https://www.meetup.com/Sydney-Databricks-User-Group/)
