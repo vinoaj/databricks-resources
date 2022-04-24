@@ -88,8 +88,6 @@ My **personal** list of resources and samples related to working with Databricks
 ### DevOps
 
 ## Industry
-### FSI
-- [How NAB's buyout forced 86 400 to lift its data game: Sprints to adopt Databricks](https://www.itnews.com.au/news/how-nabs-buyout-forced-86-400-to-lift-its-data-game-577888)
 
 ## Community & Support
 - [Databricks Community](https://community.databricks.com/s/)
@@ -107,3 +105,6 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Geospatial
 - [Mosaic](https://github.com/databrickslabs/mosaic): a Databricks Labs extension to the Apache Spark framework that allows easy and fast processing of very large geospatial datasets
+
+## Tools
+- [dbx](https://github.com/databrickslabs/dbx): DataBricks CLI eXtensions - aka `dbx` is a CLI tool for advanced Databricks jobs management
