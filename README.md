@@ -91,8 +91,6 @@ My **personal** list of resources and samples related to working with Databricks
 ### SRE
 ### DevOps
 
-## Industry
-
 ## Community & Support
 - [Databricks Community](https://community.databricks.com/s/)
 - [Sydney Databricks User Group](https://www.meetup.com/Sydney-Databricks-User-Group/)
@@ -112,3 +110,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Tools
 - [dbx](https://github.com/databrickslabs/dbx): DataBricks CLI eXtensions - aka `dbx` is a CLI tool for advanced Databricks jobs management
+
+## Disaster Recovery (DR) and High Availability (HA)
+- [Disaster Recovery Overview, Strategies, and Assessment](https://databricks.com/blog/2022/04/25/disaster-recovery-overview-strategies-and-assessment.html) (Part 1 of DR series)
+    - [Disaster Recovery Impact Assessment questionnaire doc](https://databricks.com/wp-content/uploads/2022/04/disaster-recovery-impact-assesment.pdf)
