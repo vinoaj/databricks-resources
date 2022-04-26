@@ -63,6 +63,9 @@ My **personal** list of resources and samples related to working with Databricks
 ### Power BI
 - [Architecting Aggregations in PowerBI with Databricks SQL](https://medium.com/@kyle.hale/architecting-aggregations-in-powerbi-with-databricks-sql-675899014ce3)
 
+## Security
+- [Security and Trust Center](https://databricks.com/trust)
+
 ## Machine Learning (ML) & Artificial Intelligence (AI)
 
 ## MLflow
