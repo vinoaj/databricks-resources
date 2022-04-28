@@ -1,6 +1,10 @@
 # databricks-resources
 My **personal** list of resources and samples related to working with Databricks. 
 
+## News & Learning Content
+- [YouTube channel](https://www.youtube.com/channel/UC3q8O3Bh2Le8Rj1-Q-_UUbA)
+- [Data Brew Podcast](https://databricks.com/discover/data-brew)
+
 ## Value Generation
 - [Databricks 30 Index](https://databricks.com/blog/2021/03/17/winning-with-data-ai-meet-the-databricks-30-index.html): (March 2021) The Databricks 30 is an equal-weight price index composed of 5 marquee customers each across Retail/Consumer Products, Financial Services, Healthcare, Media/Entertainment, Manufacturing/Logistics, in addition to 5 strategic partners
 ![Databricks 30 Index performance](https://databricks.com/wp-content/uploads/2021/03/db-30-blog-image-1.png)
@@ -43,6 +47,7 @@ My **personal** list of resources and samples related to working with Databricks
 ## Delta Live Tables (DLT)
 - [Simplifying Change Data Capture With Databricks Delta Live Tables](https://databricks.com/blog/2022/04/25/simplifying-change-data-capture-with-databricks-delta-live-tables.html)
 - [Delivering Real-Time Data to Retailers with Delta Live Tables](https://databricks.com/blog/2022/04/12/delivering-real-time-data-to-retailers-with-delta-live-tables.html) (fully documented [notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/POS_DLT/index.html#POS_DLT_1.html))
+- [How Uplift built CDC and Multiplexing data pipelines with Databricks Delta Live Tables](https://databricks.com/blog/2022/04/27/how-uplift-built-cdc-and-multiplexing-data-pipelines-with-databricks-delta-live-tables.html)
 
 ## Analysis
 - [PipelineDP](https://github.com/OpenMined/PipelineDP): PipelineDP is a Python framework for applying differentially private aggregations to large datasets using batch processing systems such as Apache Spark, Apache Beam, and more. Developed by [OpenMined](https://www.openmined.org/) and Google
@@ -65,6 +70,8 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Security
 - [Security and Trust Center](https://databricks.com/trust)
+- [Databricks Bug Bounty Program](https://hackerone.com/databricks?view_policy=true)
+
 
 ## Machine Learning (ML) & Artificial Intelligence (AI)
 
@@ -122,3 +129,6 @@ My **personal** list of resources and samples related to working with Databricks
 ## Disaster Recovery (DR) and High Availability (HA)
 - [Disaster Recovery Overview, Strategies, and Assessment](https://databricks.com/blog/2022/04/25/disaster-recovery-overview-strategies-and-assessment.html) (Part 1 of DR series)
     - [Disaster Recovery Impact Assessment questionnaire doc](https://databricks.com/wp-content/uploads/2022/04/disaster-recovery-impact-assesment.pdf)
+
+## Feedback / Feature Requests
+- Submit feature requests (ideas) through the [Ideas Portal](https://docs.databricks.com/resources/ideas.html)
