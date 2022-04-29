@@ -74,6 +74,8 @@ My **personal** list of resources and samples related to working with Databricks
 
 
 ## Machine Learning (ML) & Artificial Intelligence (AI)
+### Feature Store
+- [eBook: The Comprehensive Guide to Feature Stores](https://databricks.com/wp-content/uploads/2022/03/The-Comprehensive-Guide-to-Feature-Stores.pdf) (Mar 2022)
 
 ## MLflow
 - [Cross-version Testing in MLflow](https://databricks.com/blog/2022/03/11/cross-version-testing-in-mlflow.html): MLflow integrates with several popular ML frameworks. See how the Databricks Engineering team proactively adapt MLflow and third-party libraries to prevent against breaking changes
