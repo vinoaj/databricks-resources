@@ -33,6 +33,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### Ingestion
 - [Auto-Loader](https://docs.databricks.com/spark/latest/structured-streaming/auto-loader.html)
 - [dbt](https://docs.databricks.com/dev-tools/dbt.html) ([GitHub](https://github.com/databricks/dbt-databricks))
+- [Build Data and ML Pipelines More Easily With Databricks and Apache Airflow](https://databricks.com/blog/2022/04/29/build-data-and-ml-pipelines-more-easily-with-databricks-and-apache-airflow.html)
 
 
 ### Developing with Delta Lake
