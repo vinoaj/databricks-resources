@@ -2,7 +2,7 @@
 My **personal** list of resources and samples related to working with Databricks. 
 
 ## News & Learning Content
-- [YouTube channel](https://www.youtube.com/channel/UC3q8O3Bh2Le8Rj1-Q-_UUbA)
+- [▶️ YouTube channel](https://www.youtube.com/channel/UC3q8O3Bh2Le8Rj1-Q-_UUbA)
 - [🎧 Data Brew Podcast](https://databricks.com/discover/data-brew)
 
 ## Value Generation
