@@ -1,8 +1,14 @@
 # databricks-resources
 My **personal** list of resources and samples related to working with Databricks. 
 
-## News & Learning Content
+## Stay up to date & Learning
+### News & Learning Content
 [▶️ YouTube channel](https://www.youtube.com/channel/UC3q8O3Bh2Le8Rj1-Q-_UUbA) | [🎧 Data Brew Podcast](https://databricks.com/discover/data-brew)
+
+### Community & Support
+- [Databricks Community](https://community.databricks.com/s/)
+- Stack Overflow [databricks](https://stackoverflow.com/questions/tagged/databricks) [apache-spark](https://stackoverflow.com/questions/tagged/apache-spark) [psypark](https://stackoverflow.com/questions/tagged/pyspark) [apache-spark-sql](https://stackoverflow.com/questions/tagged/apache-spark-sql)
+- [Sydney Databricks User Group](https://www.meetup.com/Sydney-Databricks-User-Group/)
 
 ## Value Generation
 - [Databricks 30 Index](https://databricks.com/blog/2021/03/17/winning-with-data-ai-meet-the-databricks-30-index.html): (March 2021) The Databricks 30 is an equal-weight price index composed of 5 marquee customers each across Retail/Consumer Products, Financial Services, Healthcare, Media/Entertainment, Manufacturing/Logistics, in addition to 5 strategic partners
@@ -108,9 +114,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### SRE
 ### DevOps
 
-## Community & Support
-- [Databricks Community](https://community.databricks.com/s/)
-- [Sydney Databricks User Group](https://www.meetup.com/Sydney-Databricks-User-Group/)
+
 
 # Spark
 - [Learning Spark (2nd Edition)](https://learning.oreilly.com/library/view/learning-spark-2nd/9781492050032/) (book)
