@@ -22,6 +22,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Administration
 - [Functional Workspace Organization on Databricks](https://databricks.com/blog/2022/03/10/functional-workspace-organization-on-databricks.html) (Databricks Admin Essentials: Blog 1/5)
+- [Monitoring Your Databricks Lakehouse Platform with Audit Logs](https://databricks.com/blog/2022/05/02/monitoring-your-databricks-lakehouse-platform-with-audit-logs.html) (Databricks Admin Essentials: Blog 2/5) ([Notebook](https://github.com/andyweaves/databricks-audit-logs))
 
 ## Apache Spark
 - [GitHub: Apache Spark](https://github.com/apache/spark)
