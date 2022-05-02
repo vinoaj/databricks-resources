@@ -7,7 +7,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ### Community & Support
 - [Databricks Community](https://community.databricks.com/s/)
-- Stack Overflow [databricks](https://stackoverflow.com/questions/tagged/databricks) [apache-spark](https://stackoverflow.com/questions/tagged/apache-spark) [psypark](https://stackoverflow.com/questions/tagged/pyspark) [apache-spark-sql](https://stackoverflow.com/questions/tagged/apache-spark-sql)
+- Stack Overflow tags: [databricks](https://stackoverflow.com/questions/tagged/databricks), [apache-spark](https://stackoverflow.com/questions/tagged/apache-spark), [psypark](https://stackoverflow.com/questions/tagged/pyspark), [apache-spark-sql](https://stackoverflow.com/questions/tagged/apache-spark-sql)
 - [Sydney Databricks User Group](https://www.meetup.com/Sydney-Databricks-User-Group/)
 
 ## Value Generation
