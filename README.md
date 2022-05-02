@@ -79,6 +79,9 @@ My **personal** list of resources and samples related to working with Databricks
 - [Security and Trust Center](https://databricks.com/trust)
 - [Databricks Bug Bounty Program](https://hackerone.com/databricks?view_policy=true)
 
+### Audit Logs
+- [Audit Log schema](https://docs.databricks.com/administration-guide/account-settings/audit-logs.html#audit-log-schema)
+
 
 ## Machine Learning (ML) & Artificial Intelligence (AI)
 ### Feature Store
