@@ -4,6 +4,7 @@ My **personal** list of resources and samples related to working with Databricks
 ## Stay up to date & Learning
 ### News & Learning Content
 [▶️ YouTube channel](https://www.youtube.com/channel/UC3q8O3Bh2Le8Rj1-Q-_UUbA) | [🎧 Data Brew Podcast](https://databricks.com/discover/data-brew)
+- [Databricks Academy lab notebooks](https://github.com/databricks-academy)
 
 ### Community & Support
 - [Databricks Community](https://community.databricks.com/s/)
