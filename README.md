@@ -147,3 +147,6 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Feedback / Feature Requests
 - Submit feature requests (ideas) through the [Ideas Portal](https://docs.databricks.com/resources/ideas.html)
+
+## Case Studies
+- [Australia's heavy vehicle regulator builds 'fatigue engine' to reduce truckie deaths](https://www.itnews.com.au/news/heavy-vehicle-regulator-builds-fatigue-engine-to-reduce-truckie-deaths-580113)
