@@ -44,7 +44,7 @@ My **personal** list of resources and samples related to working with Databricks
     - [Disaster Recovery Impact Assessment questionnaire doc](https://databricks.com/wp-content/uploads/2022/04/disaster-recovery-impact-assesment.pdf)
 - [How illimity Bank Built a Disaster Recovery Strategy on the Lakehouse](https://databricks.com/blog/2022/05/09/how-illimity-bank-built-a-disaster-recovery-strategy-on-the-lakehouse.html) - DR strategy, Terraform management, data & metadata replication strategy
 
-### Security
+### Security 🔐
 - [Security and Trust Center](https://databricks.com/trust)
 - [Databricks Bug Bounty Program](https://hackerone.com/databricks?view_policy=true)
 - [Audit Log schema](https://docs.databricks.com/administration-guide/account-settings/audit-logs.html#audit-log-schema)
@@ -126,7 +126,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### App Dev
 - [Taming JavaScript Exceptions With Databricks](https://databricks.com/blog/2022/01/25/taming-javascript-exceptions-with-databricks.html)
 
-### Cybersecurity
+### Cybersecurity 🔐
 - [Hunting Anomalous Connections and Infrastructure With TLS Certificates: TLS hashes as a source for the cybersecurity threat hunting program](https://databricks.com/blog/2022/01/20/hunting-anomalous-connections-and-infrastructure-with-tls-certificates.html)
 - [Learn how to connect Databricks to Okta to ingest System Logs, retain, and analyze for complete visibility using your Databricks Lakehouse Platform](https://databricks.com/blog/2022/04/07/analyzing-okta-logs-with-databricks-lakehouse-platform-to-detect-unusual-activity.html) (accompanying [notebooks](https://databricks.com/wp-content/uploads/notebooks/db-134-okta-logs/index.html#1_okta_create_table.html))
 
