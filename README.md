@@ -62,6 +62,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Under the Hood: Apache Spark
 ### Apache Spark
+- Apache Spark wins [2022 ACM SIGMOD Systems Award](https://sigmod.org/2022-sigmod-systems-award/)! _“Apache Spark is an innovative, widely-used, open-source, unified data processing system encompassing relational, streaming, and machine-learning workloads.”_
 - [GitHub: Apache Spark](https://github.com/apache/spark)
 - [Learning Spark (2nd Edition)](https://learning.oreilly.com/library/view/learning-spark-2nd/9781492050032/) (book)
 - [Learning Spark](https://github.com/databricks/LearningSparkV2) code samples
@@ -149,6 +150,11 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Tools
 - [dbx](https://github.com/databrickslabs/dbx): DataBricks CLI eXtensions - aka `dbx` is a CLI tool for advanced Databricks jobs management
+
+---
+
+## End-to-end Guides
+- [Exploration of Twitter sentiment impact on cryptocurrency price](https://databricks.com/blog/2022/05/02/introduction-to-analyzing-crypto-data-using-databricks.html)
 
 ---
 
