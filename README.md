@@ -14,6 +14,9 @@ My **personal** list of resources and samples related to working with Databricks
 - Stack Overflow: [databricks](https://stackoverflow.com/questions/tagged/databricks), [apache-spark](https://stackoverflow.com/questions/tagged/apache-spark), [psypark](https://stackoverflow.com/questions/tagged/pyspark), [apache-spark-sql](https://stackoverflow.com/questions/tagged/apache-spark-sql)
 - User Groups: 🇦🇺 [Sydney](https://www.meetup.com/Sydney-Databricks-User-Group/) | [Melbourne](https://www.meetup.com/melbourne-databricks-user-group/)
 
+## Feedback / Feature Requests
+- Submit feature requests (ideas) through the [Ideas Portal](https://docs.databricks.com/resources/ideas.html)
+
 ---
 
 ## Value Generation
@@ -129,7 +132,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ---
 
-## Geospatial
+## Geospatial 🌏
 - [Mosaic](https://databrickslabs.github.io/mosaic/): a Databricks Labs extension to the Apache Spark framework that allows easy and fast processing of very large geospatial datasets 
 - [GitHub: Mosaic](https://github.com/databrickslabs/mosaic)
 - [High Scale Geospatial Processing With Mosaic](https://databricks.com/blog/2022/05/02/high-scale-geospatial-processing-with-mosaic.html): writeup on the underlying philosophy behind Mosaic's design
@@ -137,15 +140,10 @@ My **personal** list of resources and samples related to working with Databricks
 ## Tools
 - [dbx](https://github.com/databrickslabs/dbx): DataBricks CLI eXtensions - aka `dbx` is a CLI tool for advanced Databricks jobs management
 
-
-
-## Feedback / Feature Requests
-- Submit feature requests (ideas) through the [Ideas Portal](https://docs.databricks.com/resources/ideas.html)
+---
 
 ## Case Studies
 - [Australia's heavy vehicle regulator builds 'fatigue engine' to reduce truckie deaths](https://www.itnews.com.au/news/heavy-vehicle-regulator-builds-fatigue-engine-to-reduce-truckie-deaths-580113)
-
-
 
 ---
 
