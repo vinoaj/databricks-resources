@@ -3,6 +3,11 @@ My **personal** list of resources and samples related to working with Databricks
 
 ---
 
+- By Cloud: [AWS](clouds/aws/README.md) | [Azure](clouds/azure/README.md) | [Google Cloud](clouds/google-cloud/README.md)
+- By Industry: [FSI](by-industry/fsi/README.md) | [Healthcare](by-industry/healthcare/README.md) | [Media & Entertainment](by-industry/media-and-entertainment/README.md) | [Retail and CPG](by-industry/retail-and-cpg/README.md)
+
+---
+
 ## Keep Current and Learning Resources
 ### News and Learning Content
 [▶️ YouTube channel](https://www.youtube.com/channel/UC3q8O3Bh2Le8Rj1-Q-_UUbA) | [🎧 Data Brew Podcast](https://databricks.com/discover/data-brew) | [📖 Databricks Blog](https://databricks.com/blog)
@@ -94,11 +99,13 @@ My **personal** list of resources and samples related to working with Databricks
 - [Simplifying Change Data Capture With Databricks Delta Live Tables](https://databricks.com/blog/2022/04/25/simplifying-change-data-capture-with-databricks-delta-live-tables.html)
 - [Delivering Real-Time Data to Retailers with Delta Live Tables](https://databricks.com/blog/2022/04/12/delivering-real-time-data-to-retailers-with-delta-live-tables.html) (fully documented [notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/POS_DLT/index.html#POS_DLT_1.html))
 - [How Uplift built CDC and Multiplexing data pipelines with Databricks Delta Live Tables](https://databricks.com/blog/2022/04/27/how-uplift-built-cdc-and-multiplexing-data-pipelines-with-databricks-delta-live-tables.html)
+- [How Audantic Uses Databricks Delta Live Tables to Increase Productivity for Real Estate Market Segments](https://databricks.com/blog/2022/05/05/how-audantic-uses-databricks-delta-live-tables-to-increase-productivity-for-real-estate-market-segments.html)
+![Audantic's Delta Live Tables Architecture](https://databricks.com/wp-content/uploads/2022/04/db-80-blog-img-2.png)
 
 ---
 
 ## Analysis
-- [PipelineDP](https://github.com/OpenMined/PipelineDP): PipelineDP is a Python framework for applying differentially private aggregations to large datasets using batch processing systems such as Apache Spark, Apache Beam, and more. Developed by [OpenMined](https://www.openmined.org/) and Google
+
 
 ---
 
@@ -112,7 +119,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ---
 
-## Machine Learning (ML) & Artificial Intelligence (AI)
+## Machine Learning (ML) & Artificial Intelligence (AI) 🧠
 ### MLflow
 - [Cross-version Testing in MLflow](https://databricks.com/blog/2022/03/11/cross-version-testing-in-mlflow.html): MLflow integrates with several popular ML frameworks. See how the Databricks Engineering team proactively adapt MLflow and third-party libraries to prevent against breaking changes
 - [Model Evaluation in MLflow](https://databricks.com/blog/2022/04/19/model-evaluation-in-mlflow.html)
