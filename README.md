@@ -95,7 +95,10 @@ My **personal** list of resources and samples related to working with Databricks
 - [Auto-Loader](https://docs.databricks.com/spark/latest/structured-streaming/auto-loader.html)
 - [dbt](https://docs.databricks.com/dev-tools/dbt.html) ([GitHub](https://github.com/databricks/dbt-databricks))
 - [Build Data and ML Pipelines More Easily With Databricks and Apache Airflow](https://databricks.com/blog/2022/04/29/build-data-and-ml-pipelines-more-easily-with-databricks-and-apache-airflow.html)
+
+### Ingestion: Streaming
 - [Speed Up Streaming Queries With Asynchronous State Checkpointing](https://databricks.com/blog/2022/05/02/speed-up-streaming-queries-with-asynchronous-state-checkpointing.html)
+- [Confluent Streaming for Databricks: Build Scalable Real-time Applications on the Lakehouse (Part I)](https://databricks.com/blog/2022/01/13/confluent-streaming-for-databricks-build-scalable-real-time-applications-on-the-lakehouse.html) [(Part II)](https://databricks.com/blog/2022/05/17/build-scalable-real-time-applications-on-the-lakehouse-using-confluent-databricks-part-2.html)
 
 ### Delta Live Tables (DLT)
 - [Simplifying Change Data Capture With Databricks Delta Live Tables](https://databricks.com/blog/2022/04/25/simplifying-change-data-capture-with-databricks-delta-live-tables.html)
