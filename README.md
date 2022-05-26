@@ -54,6 +54,9 @@ My **personal** list of resources and samples related to working with Databricks
 - [Databricks Bug Bounty Program](https://hackerone.com/databricks?view_policy=true)
 - [Audit Log schema](https://docs.databricks.com/administration-guide/account-settings/audit-logs.html#audit-log-schema)
 
+### Unity Catalog
+- [Terraform scripts](https://github.com/databricks/unity-catalog-setup)
+
 ### Customer Implementations
 - [How Gemini Built a Cryptocurrency Analytics Platform Using Lakehouse for Financial Services](https://databricks.com/blog/2022/02/15/how-gemini-built-a-cryptocurrency-analytics-platform-using-lakehouse-for-financial-services.html): "The core lakehouse foundation and features resonated with the team as an efficient way to build the data platform"
 ![Gemini's Databricks architecture](https://databricks.com/wp-content/uploads/2022/02/gemini-order-book-newimage.png)
