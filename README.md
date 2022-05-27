@@ -12,6 +12,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### News and Learning Content
 [▶️ YouTube channel](https://www.youtube.com/channel/UC3q8O3Bh2Le8Rj1-Q-_UUbA) | [🎧 Data Brew Podcast](https://databricks.com/discover/data-brew) | [📖 Databricks Blog](https://databricks.com/blog)
 - [Databricks Academy lab notebooks](https://github.com/databricks-academy)
+- [APJ instructor led training (ILT)](https://databricks.com/learn/training/schedule-apj): Please note these are **paid** training courses.
 
 ### Community & Support
 - Try the [Community Edition](https://community.cloud.databricks.com/login.html) for free (no Databricks or AWS costs are incurred by you)
