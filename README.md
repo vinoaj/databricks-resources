@@ -91,6 +91,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### Delta Sharing
 - [GitHub repository](https://github.com/delta-io/delta-sharing)
 - [Release Milestones](https://github.com/delta-io/delta-sharing/milestones)
+- [Arcuate](https://databricks.com/blog/2022/05/24/arcuate-machine-learning-model-exchange-with-delta-sharing-and-mlflow.html): Machine Learning Model Exchange With Delta Sharing and MLflow
 
 ---
 
