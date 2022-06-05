@@ -121,6 +121,11 @@ My **personal** list of resources and samples related to working with Databricks
 - [Save Time and Money on Data and ML Workflows With “Repair and Rerun”](https://databricks.com/blog/2022/05/06/save-time-and-money-on-data-and-ml-workflows-with-repair-and-rerun.html)
 
 ---
+## DataOps
+- [GitHub Marketplace: Databricks](https://github.com/marketplace?query=databricks+publisher%3Adatabricks+)
+- [GitHub Actions documentation](https://docs.databricks.com/dev-tools/ci-cd/ci-cd-github.html)
+
+---
 
 ## Analysis
 
