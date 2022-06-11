@@ -5,4 +5,5 @@
 
 ## Case Studies
 - [Democratizing Data for Supply Chain Optimization: How Johnson & Johnson Leverages the Databricks Lakehouse](https://databricks.com/blog/2022/04/25/democratizing-data-for-supply-chain-optimization.html)
+- [Walgreens uses Databricks Lakehouse to empower its pharmacists with critical data](https://www.youtube.com/watch?v=L4XQ7ioIzc0)
 - [Walgreens uses Databricks Lakehouse to personalize patient experiences & optimize their supply chain](https://www.youtube.com/watch?v=l2rnu-6rEXU) (video)
