@@ -6,6 +6,10 @@
 
 - [Delivering Real-Time Data to Retailers with Delta Live Tables](https://databricks.com/blog/2022/04/12/delivering-real-time-data-to-retailers-with-delta-live-tables.html) (fully documented [notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/POS_DLT/index.html#POS_DLT_1.html))
 
+## Guides
+- [Getting Started with Personalization through Propensity Scoring](https://databricks.com/blog/2022/06/03/getting-started-with-personalization-through-propensity-scoring.html) (accompanying [notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/nightly/RCG/Propensity/index.html#Propensity_1.html))
+![Propensity scoring workflow](https://databricks.com/wp-content/uploads/2022/05/db-192-blog-img-1.png)
+
 ## Case Studies
 - [Democratizing Data for Supply Chain Optimization: How Johnson & Johnson Leverages the Databricks Lakehouse](https://databricks.com/blog/2022/04/25/democratizing-data-for-supply-chain-optimization.html)
 - [Walgreens uses Databricks Lakehouse to personalize patient experiences & optimize their supply chain](https://www.youtube.com/watch?v=l2rnu-6rEXU) (video)
