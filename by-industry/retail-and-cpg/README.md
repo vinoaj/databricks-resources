@@ -13,3 +13,8 @@
 ## Case Studies
 - [Democratizing Data for Supply Chain Optimization: How Johnson & Johnson Leverages the Databricks Lakehouse](https://databricks.com/blog/2022/04/25/democratizing-data-for-supply-chain-optimization.html)
 - [Walgreens uses Databricks Lakehouse to personalize patient experiences & optimize their supply chain](https://www.youtube.com/watch?v=l2rnu-6rEXU) (video)
+
+---
+
+## Sample Datasets
+- [![Kaggle dataset](../../assets/img/kaggle-transparent.svg|width=100) Dunnhumby - The Complete Journey](https://www.kaggle.com/datasets/frtgnn/dunnhumby-the-complete-journey): "This dataset contains household level transactions over two years from a group of 2,500 households who are frequent shoppers at a retailer. It contains all of each household’s purchases. For certain households, demographic information as well as direct marketing contact history are included. Due to the number of tables and the overall complexity of The Complete Journey, it is suggested that this database be used in more advanced classroom settings"
