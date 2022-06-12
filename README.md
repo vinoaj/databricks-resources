@@ -146,6 +146,19 @@ My **personal** list of resources and samples related to working with Databricks
 "By enabling Databricks Photon and using Intel’s 3rd Gen Xeon Scalable processors, without making any code modifications, we were able to save ⅔ of the costs on our TPC-DS benchmark at 10TB and run 6.7 times quicker"
 ![price performance](https://databricks.com/wp-content/uploads/2022/05/db-165-blog-img-2.png)
 
+#### Z-Ordering
+- Delta Lake orders the data in the Parquet files to make range selection on object storage more efficient
+- Limit the number of columns in the Z-Order to the best 1-4
+
+#### ANALYZE
+`ANALYZE TABLE db_name.table_name COMPUTE STATISTICS FOR ALL COLUMNS`
+- Utilised for [Adaptive Query Execution](https://docs.databricks.com/spark/latest/spark-sql/aqe.html) (AQE), re-optimisations that occur during query execution
+- 3 major features of AQE
+    - Coalescing post-shuffle partitions
+    - Converting sort-merge joins to broadcast joins
+    - Skew join optimisation
+- `ANALYZE TABLE` collects table statistics that allows AQE to know which plan to choose for you
+
 ---
 
 ## Machine Learning (ML) & Artificial Intelligence (AI) 🧠
