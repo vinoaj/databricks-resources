@@ -77,6 +77,8 @@ My **personal** list of resources and samples related to working with Databricks
 ---
 
 ## Under the Hood: Delta Lake
+<img src="https://docs.delta.io/latest/_static/delta-lake-white.png" width="100" alt="Delta Lake Logo"></img>
+
 ### Delta Lake
 - [Roadmap](https://github.com/delta-io/delta/issues/920)
 - [Releases](https://github.com/delta-io/delta/releases)
