@@ -117,6 +117,10 @@ My **personal** list of resources and samples related to working with Databricks
 ![Audantic's Delta Live Tables Architecture](https://databricks.com/wp-content/uploads/2022/04/db-80-blog-img-2.png)
 
 ---
+## Development
+- [SQL CLI](https://docs.databricks.com/dev-tools/databricks-sql-cli.html): run SQL queries on your SQL endpoints from your terminal. From the command line, you get productivity features such as suggestions and syntax highlighting
+
+---
 
 ## Orchestration
 ### Databricks Workflows
