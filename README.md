@@ -142,6 +142,8 @@ My **personal** list of resources and samples related to working with Databricks
 - [7 best practices to modernize data architecture on Databricks with LeapLogic](https://www.leaplogic.io/modernization/blog/cloud-engineering-data-engineering-etl-and-analytics-migration-ml-analytics-ai/7-best-practices-modernizing-data-architecture-databricks-lakehouse)
 
 ### Performance tuning
+- [Delta Lake best practices](https://docs.databricks.com/delta/best-practices.html)
+- [Optimize performance with file management](https://docs.databricks.com/delta/optimizations/file-mgmt.html)
 - [Make Your Data Lakehouse Run, Faster With Delta Lake 1.1](https://databricks.com/blog/2022/01/31/make-your-data-lakehouse-run-faster-with-delta-lake-1-1.html)
 - [Get to Know Your Queries With the New Databricks SQL Query Profile](https://databricks.com/blog/2022/02/23/get-to-know-your-queries-with-the-new-databricks-sql-query-profile.html)
 - [Top 5 Performance Tips](https://databricks.com/blog/2022/03/10/top-5-databricks-performance-tips.html)
