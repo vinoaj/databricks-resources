@@ -66,13 +66,17 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Under the Hood: Apache Spark
 ### Apache Spark
+- [Apache Spark and Photon Receive SIGMOD Awards](https://databricks.com/blog/2022/06/15/apache-spark-and-photon-receive-sigmod-awards.html)
 - Apache Spark wins [2022 ACM SIGMOD Systems Award](https://sigmod.org/2022-sigmod-systems-award/)! _“Apache Spark is an innovative, widely-used, open-source, unified data processing system encompassing relational, streaming, and machine-learning workloads.”_
 - [GitHub: Apache Spark](https://github.com/apache/spark)
 - [Learning Spark (2nd Edition)](https://learning.oreilly.com/library/view/learning-spark-2nd/9781492050032/) (book)
 - [Learning Spark](https://github.com/databricks/LearningSparkV2) code samples
 
-### Photon Engine
+---
+
+## Under the Hood: Photon Engine
 - [Photon: A Fast Query Engine for Lakehouse Systems](https://www-cs.stanford.edu/~matei/papers/2022/sigmod_photon.pdf): SIGMOD 2022 Paper
+- [Apache Spark and Photon Receive SIGMOD Awards](https://databricks.com/blog/2022/06/15/apache-spark-and-photon-receive-sigmod-awards.html)
 
 ---
 
