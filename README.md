@@ -57,6 +57,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ### Unity Catalog
 - [Terraform scripts](https://github.com/databricks/unity-catalog-setup)
+- [Export lineage via API](https://github.com/databricks/unity-catalog-setup/blob/main/lineage/lineage_export.py) example
 
 ### Customer Implementations
 - [How Gemini Built a Cryptocurrency Analytics Platform Using Lakehouse for Financial Services](https://databricks.com/blog/2022/02/15/how-gemini-built-a-cryptocurrency-analytics-platform-using-lakehouse-for-financial-services.html): "The core lakehouse foundation and features resonated with the team as an efficient way to build the data platform"
@@ -169,9 +170,10 @@ My **personal** list of resources and samples related to working with Databricks
 `ANALYZE TABLE db_name.table_name COMPUTE STATISTICS FOR ALL COLUMNS`
 - Utilised for [Adaptive Query Execution](https://docs.databricks.com/spark/latest/spark-sql/aqe.html) (AQE), re-optimisations that occur during query execution
 - 3 major features of AQE
-    - Coalescing post-shuffle partitions
-    - Converting sort-merge joins to broadcast joins
-    - Skew join optimisation
+    - Coalescing post-shuffle partitions (combine small partitions into reasonably sized partitions)
+    - Converting sort-merge joins to broadcast hash joins
+    - Skew join optimisation by splitting (and replicating if needed) skewed tasks into roughly evenly sized tasks
+    - Dynamically detects and propagates empty relations
 - `ANALYZE TABLE` collects table statistics that allows AQE to know which plan to choose for you
 
 ---
