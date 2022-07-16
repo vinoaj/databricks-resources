@@ -1,7 +1,7 @@
 # Databricks: Financial Services Industry (FSI) Use Cases
 
 ## Architecture
-- [Financial Services Lakehouse Architecture Terraform template](https://github.com/databricks/fs-lakehouse) (accompanying [blog post](https://databricks.com/blog/2022/06/22/lakehouse-for-financial-services-blueprints.html))
+- [Financial Services Lakehouse Architecture Terraform template](https://github.com/databricks/fs-lakehouse) (accompanying [📄 blog post](https://databricks.com/blog/2022/06/22/lakehouse-for-financial-services-blueprints.html), [▶️ video](https://www.youtube.com/watch?v=PogOrfq6KOc))
 
 ## Customer Stories
 - [How NAB's buyout forced 86 400 to lift its data game: Sprints to adopt Databricks](https://www.itnews.com.au/news/how-nabs-buyout-forced-86-400-to-lift-its-data-game-577888)
