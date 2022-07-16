@@ -14,6 +14,9 @@ My **personal** list of resources and samples related to working with Databricks
 - [Databricks Academy lab notebooks](https://github.com/databricks-academy)
 - [APJ instructor led training (ILT)](https://databricks.com/learn/training/schedule-apj): Please note these are **paid** training courses.
 
+### Release Notes
+- Azure Databricks: [Platform release notes](https://docs.microsoft.com/en-us/azure/databricks/release-notes/product/) | [Runtime release notes](https://docs.microsoft.com/en-us/azure/databricks/release-notes/runtime/) | [Databricks SQL release notes](https://docs.microsoft.com/en-us/azure/databricks/sql/release-notes/)
+
 ### Community & Support
 - Try the [Community Edition](https://community.cloud.databricks.com/login.html) for free (no Databricks or AWS costs are incurred by you)
 - [Databricks Community](https://community.databricks.com/s/) Q&A
