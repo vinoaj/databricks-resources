@@ -63,6 +63,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Security and Trust Center](https://databricks.com/trust)
 - [Databricks Bug Bounty Program](https://hackerone.com/databricks?view_policy=true)
 - [Audit Log schema](https://docs.databricks.com/administration-guide/account-settings/audit-logs.html#audit-log-schema)
+- [Scanning for Arbitrary Code in Databricks Workspace With Improved Search and Audit Logs](https://databricks.com/blog/2022/07/19/scanning-for-arbitrary-code-in-databricks-workspace-with-improved-search-and-audit-logs.html)
 
 ### Unity Catalog
 - [Terraform scripts](https://github.com/databricks/unity-catalog-setup)
