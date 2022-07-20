@@ -39,6 +39,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Lakehouse Paradigm
 - [Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics](http://www.cidrdb.org/cidr2021/papers/cidr2021_paper17.pdf) Research paper from the 11th Annual Conference on Innovative Data Systems Research (CIDR ’21), January 11–15, 2021. My [annotated version](assets/cidr2021_paper17_vinoaj_annotated.pdf)
+- [Don’t Let a Cloud Data Warehouse Bottleneck your Machine Learning](https://www.linkedin.com/pulse/dont-let-cloud-data-warehouse-bottleneck-your-machine-jason-pohl/)
 
 ---
 
@@ -214,6 +215,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Building ETL pipelines for the cybersecurity lakehouse with Delta Live Tables](https://databricks.com/blog/2022/06/03/building-etl-pipelines-for-the-cybersecurity-lakehouse-with-delta-live-tables.html): ingest & evaluate AWS CloudTrail & VPC Flow logs (accompanying notebooks: [CloudTrail DLT pipeline](https://databricks.com/wp-content/uploads/notebooks/db-172-dlt/cloudtrail-dlt-pipeline.html), [VPC Flow Logs DLT pipeline](https://databricks.com/wp-content/uploads/notebooks/db-172-dlt/vpc-flow-logs-dlt-pipeline.html), [Zeek DLT pipeline](https://databricks.com/wp-content/uploads/notebooks/db-172-dlt/zeek-dlt-pipeline.html))
 - [Learn how to connect Databricks to Okta to ingest System Logs, retain, and analyze for complete visibility using your Databricks Lakehouse Platform](https://databricks.com/blog/2022/04/07/analyzing-okta-logs-with-databricks-lakehouse-platform-to-detect-unusual-activity.html) (accompanying [notebooks](https://databricks.com/wp-content/uploads/notebooks/db-134-okta-logs/index.html#1_okta_create_table.html))
 - [Streaming Windows Event Logs into the Cybersecurity Lakehouse](https://databricks.com/blog/2022/05/05/streaming-windows-event-logs-into-the-cybersecurity-lakehouse.html) ([notebook](https://github.com/DerekKing001/databricks_cyber_notebooks/blob/master/winlogbeats-kafka-sysmon/winlogbeats-kafka-sysmon-example.py))
+- [Building a Cybersecurity Lakehouse for CrowdStrike Falcon Events Part I](https://databricks.com/blog/2021/05/20/building-a-cybersecurity-lakehouse-for-crowdstrike-falcon-events.html), [Part II](https://databricks.com/blog/2022/07/19/building-a-cybersecurity-lakehouse-for-crowdstrike-falcon-events-part-ii.html)
 
 ---
 
