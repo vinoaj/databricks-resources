@@ -11,7 +11,8 @@ My **personal** list of resources and samples related to working with Databricks
 ## Keep Current and Learning Resources
 ### News and Learning Content
 [▶️ YouTube channel](https://www.youtube.com/channel/UC3q8O3Bh2Le8Rj1-Q-_UUbA) | [🎧 Data Brew Podcast](https://databricks.com/discover/data-brew) | [📖 Databricks Blog](https://databricks.com/blog)
-- [Databricks Academy lab notebooks](https://github.com/databricks-academy)
+- [📄 Databricks Academy lab notebooks](https://github.com/databricks-academy)
+- [📄 Databricks Industry Solutions notebooks](https://github.com/databricks-industry-solutions)
 - [▶️ Data + AI Summit (DAIS) 2022 recordings](https://www.youtube.com/playlist?list=PLTPXxbhUt-YVWi_cf2UUDc9VZFLoRgu0l)
 - [APJ instructor led training (ILT)](https://databricks.com/learn/training/schedule-apj): Please note these are **paid** training courses.
 
