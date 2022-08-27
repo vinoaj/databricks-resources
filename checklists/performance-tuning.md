@@ -2,7 +2,7 @@
 
 ## Compute Optimisations
 - [ ] Photon is enabled on all clusters
-- [ ] Tune number of shuffle partitions to match the number of cores available: `spark.sql.shuffle.partitions = <2 * number of cores in the cluster>`
+- [ ] Tune number of shuffle partitions to match the number of cores available: `spark.sql.shuffle.partitions <2 * number of cores in the cluster>`
 
 ## Delta Table Tuning
 - [ ] Ensure your tables are **Delta** tables: `CONVERT TO DELTA table_name` (docs: [AWS](https://docs.databricks.com/delta/porting.html#convert-to-delta-table) | [GCP](https://docs.gcp.databricks.com/delta/porting.html#convert-to-delta-table) | [Azure](https://docs.microsoft.com/en-gb/azure/databricks/delta/porting#convert-to-delta-table))
@@ -36,13 +36,13 @@
 
 ## Join Optimisations
 - [ ] Limit number of sort-merge joins by turning them into either broadcast or shuffle hash joins
-    - [ ] `spark.sql.autoBroadcastJoinThreshold = 104857600`
-    - [ ] `spark.sql.join.preferSortMergeJoin = false`
+    - [ ] `spark.sql.autoBroadcastJoinThreshold 104857600`
+    - [ ] `spark.sql.join.preferSortMergeJoin false`
 
 ## Photon Optimisations
 - [ ] Maximise in-memory table scans
-    - [ ] `spark.databricks.photon.allDataSources.enabled = true`
-    - [ ] `spark.databricks.photon.photonRowToColumnar.enabled = true`
+    - [ ] `spark.databricks.photon.allDataSources.enabled true`
+    - [ ] `spark.databricks.photon.photonRowToColumnar.enabled true`
 
 
 
