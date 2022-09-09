@@ -8,6 +8,7 @@
 
 ## Solutions Accelerators
 - [Optimizing Order Picking to Increase Omnichannel Profitability with Databricks](https://www.databricks.com/blog/2022/08/04/optimizing-order-picking-to-increase-omnichannel-profitability-with-databricks.html) ([📄 notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/Optimized_Picking/index.html#Optimized_Picking_1.html))
+- [Scalable Route Generation](https://www.databricks.com/solutions/accelerators/scalable-route-generation) ([📄 notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/Routing/index.html#Routing_1.html))
 
 ## Guides
 - [Getting Started with Personalization through Propensity Scoring](https://databricks.com/blog/2022/06/03/getting-started-with-personalization-through-propensity-scoring.html) (accompanying [notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/nightly/RCG/Propensity/index.html#Propensity_1.html))
