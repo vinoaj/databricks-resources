@@ -222,6 +222,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### Distributed Training
 - [How (Not) To Scale Deep Learning in 6 Easy Steps](https://www.databricks.com/blog/2019/08/15/how-not-to-scale-deep-learning-in-6-easy-steps.html)
 - [Accelerating Your Deep Learning with PyTorch Lightning on Databricks](https://www.databricks.com/blog/2022/09/07/accelerating-your-deep-learning-pytorch-lightning-databricks.html)
+- [▶️ Scaling Deep Learning on Databricks](https://www.youtube.com/watch?v=A95_q24nA1o)
 
 ### Predictions
 - [Near Real-Time Anomaly Detection with Delta Live Tables and Databricks Machine Learning](https://www.databricks.com/blog/2022/08/08/near-real-time-anomaly-detection-with-delta-live-tables-and-databricks-machine-learning.html)
