@@ -175,6 +175,8 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Analysis
 
+### Analyst Experience
+- [▶️ Low-Code Exploratory Data Analysis with Bamboolib](https://www.youtube.com/watch?v=VC9LxBwaPFw)
 
 ---
 
