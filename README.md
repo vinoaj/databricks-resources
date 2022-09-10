@@ -215,6 +215,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Architecting MLOps on the Lakehouse](https://databricks.com/blog/2022/06/22/architecting-mlops-on-the-lakehouse.html)
 
 ### MLflow
+- [▶️ MLflow YouTube channel](https://www.youtube.com/channel/UC5d6sLKbZahYMaAHgeYmoAg)
 - [Cross-version Testing in MLflow](https://databricks.com/blog/2022/03/11/cross-version-testing-in-mlflow.html): MLflow integrates with several popular ML frameworks. See how the Databricks Engineering team proactively adapt MLflow and third-party libraries to prevent against breaking changes
 - [Model Evaluation in MLflow](https://databricks.com/blog/2022/04/19/model-evaluation-in-mlflow.html)
 
