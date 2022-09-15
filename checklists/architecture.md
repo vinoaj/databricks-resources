@@ -9,6 +9,7 @@
 ## Cluster Management
 - [ ] What cluster policies do you require?
     - [ ] Which groups / users are assigned to which cluster policies?
+- [ ] Are cluster policies adhering to best practices (AWS | Azure | [GCP](https://docs.gcp.databricks.com/administration-guide/clusters/policies-best-practices.html))
 
 ## Logging
 Place delivery bucket location outside of the projects/resource groups holding your workspaces. This way you will be able to:
@@ -35,3 +36,7 @@ Note: automated export of this is only available on AWS
 - [ ] Option 3: Path to automation: GCP billing data can be [exported to BigQuery](https://cloud.google.com/billing/docs/how-to/export-data-bigquery). This is usually set up as a matter of best practice when building out an enterprise's Google Cloud architecture, so you may already have a BigQuery dataset containing all your enterprise's billing usage data
     - Ask the BQ dataset admin to create a view on top of that data that limits it to the projects housing Databricks workspaces (e.g. filter by project names)
     - You can then utilise that view to keep a track of consumption of all resources associated with your workspace 
+
+### Log Analytics
+- [ ] Create billing dashboard
+- [ ] Create resource utilisation dashboard
