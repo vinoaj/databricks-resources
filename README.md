@@ -238,6 +238,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ### Guides
 - [Getting Started with Personalization through Propensity Scoring](https://databricks.com/blog/2022/06/03/getting-started-with-personalization-through-propensity-scoring.html) (accompanying [notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/nightly/RCG/Propensity/index.html#Propensity_1.html))
+- [Using MLflow to deploy Graph Neural Networks for Monitoring Supply Chain Risk](https://medium.com/@ajmal.t.aziz/using-mlflow-to-deploy-graph-neural-networks-for-monitoring-supply-chain-risk-644c87e5259e)
 - [Quantifying uncertainty with Tensorflow Probability](https://databricks.com/blog/2022/04/28/how-wrong-is-your-model.html)
 
 

@@ -13,6 +13,7 @@
 ## Guides
 - [Getting Started with Personalization through Propensity Scoring](https://databricks.com/blog/2022/06/03/getting-started-with-personalization-through-propensity-scoring.html) (accompanying [notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/nightly/RCG/Propensity/index.html#Propensity_1.html))
 ![Propensity scoring workflow](https://databricks.com/wp-content/uploads/2022/05/db-192-blog-img-1.png)
+- [Using MLflow to deploy Graph Neural Networks for Monitoring Supply Chain Risk](https://medium.com/@ajmal.t.aziz/using-mlflow-to-deploy-graph-neural-networks-for-monitoring-supply-chain-risk-644c87e5259e)
 
 ## Case Studies
 - [84.51° Uses Databricks Lakehouse to improve its forecasting accuracy across Kroger stores](https://www.youtube.com/watch?v=1TcmBjCOnL0)
