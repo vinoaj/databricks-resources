@@ -283,6 +283,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Case Studies
 - [Australia's heavy vehicle regulator builds 'fatigue engine' to reduce truckie deaths](https://www.itnews.com.au/news/heavy-vehicle-regulator-builds-fatigue-engine-to-reduce-truckie-deaths-580113)
+- [Why we migrated to a Data Lakehouse on Delta Lake for T-Mobile Data Science and Analytics Team](https://delta.io/blog/2022-09-14-why-migrate-lakehouse-delta-lake-tmo-dsna/)
 
 ---
 
