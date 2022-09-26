@@ -34,6 +34,8 @@ To set up Delta Lake in a non-Databricks environment, please [follow these instr
 
 # Upcoming Databricks Events
 ## (Free & in-person!) Data+AI World Tour Sydney
+![Data+AI World Tour Sydney](../../assets/img/data_ai_world_tour_sydney.png)
+
 [🔗 Registration link](https://www.databricks.com/dataaisummit/worldtour/sydney)
 Our lineup of data and AI experts, leaders and visionaries includes [Matei Zaharia](https://www.linkedin.com/in/mateizaharia), co-founder Apache Spark and Databricks. 
 
@@ -45,4 +47,5 @@ Come spend the day with Lakehouse experts and practitioners from across Australi
 We're holding **free** Databricks Bootcamps across Brisbane, Sydney, Melbourne, Adelaide, Perth, and Auckland over Oct - Dec.
 
 Led by Databricks instructors, these sessions will use real-world data sets as we go under the hood to demonstrate how to use robust technologies such as Delta Lake, Databricks SQL and MLflow
- 
+
+---
