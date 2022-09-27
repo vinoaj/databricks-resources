@@ -49,3 +49,9 @@ We're holding **free** Databricks Bootcamps across Brisbane, Sydney, Melbourne, 
 Led by Databricks instructors, these sessions will use real-world data sets as we go under the hood to demonstrate how to use robust technologies such as Delta Lake, Databricks SQL and MLflow
 
 ---
+
+# Further Reading & Resources
+- VLDB Paper: 
+- O'Reilly book:
+- Book 2: 
+- 
