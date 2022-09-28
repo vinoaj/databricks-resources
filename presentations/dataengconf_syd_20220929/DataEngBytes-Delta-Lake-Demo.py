@@ -25,7 +25,6 @@
 # MAGIC * DML support
 # MAGIC * Unify batch & streaming
 # MAGIC * Time Travel
-# MAGIC * Zero copy clones
 # MAGIC * Change data feeds
 # MAGIC * ... and more!
 # MAGIC 
@@ -830,7 +829,7 @@ display(spark.read.parquet(f"/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_CO
 # MAGIC %sql
 # MAGIC DESCRIBE HISTORY vinny_vijeyakumaar.stackoverflow_train01 LIMIT 1;
 # MAGIC 
-# MAGIC -- 43 files were coalesced into a single file
+# MAGIC -- Looking at operationMetrics, we can see that 43 files were coalesced into a single file
 
 # COMMAND ----------
 
@@ -843,7 +842,7 @@ display(spark.read.parquet(f"/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_CO
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC VACUUM vinny_vijeyakumaar.stackoverflow_train01 RETAIN 24 HOURS DRY RUN
+# MAGIC VACUUM vinny_vijeyakumaar.stackoverflow_train01 RETAIN 12 HOURS DRY RUN
 
 # COMMAND ----------
 
@@ -851,22 +850,17 @@ display(spark.read.parquet(f"/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_CO
 # MAGIC SET spark.databricks.delta.retentionDurationCheck.enabled = false;
 # MAGIC 
 # MAGIC -- Use `DRY RUN` to verify which files will be deleted
-# MAGIC VACUUM vinny_vijeyakumaar.stackoverflow_train01 RETAIN 24 HOURS DRY RUN;
+# MAGIC VACUUM vinny_vijeyakumaar.stackoverflow_train01 RETAIN 12 HOURS DRY RUN;
 
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC VACUUM vinny_vijeyakumaar.stackoverflow_train01 RETAIN 24 HOURS
+# MAGIC VACUUM vinny_vijeyakumaar.stackoverflow_train01 RETAIN 12 HOURS
 
 # COMMAND ----------
 
 # MAGIC %sql
 # MAGIC SELECT COUNT(*) FROM vinny_vijeyakumaar.stackoverflow_train01;
-
-# COMMAND ----------
-
-# MAGIC %sql
-# MAGIC SELECT COUNT(*) FROM vinny_vijeyakumaar.stackoverflow_train01 VERSION AS OF 299;
 
 # COMMAND ----------
 
@@ -880,7 +874,25 @@ display(spark.read.parquet(f"/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_CO
 # MAGIC   <img src="https://delta.io/static/delta-lake-logo-a1c0d80d23c17de5f5d7224cb40f15dc.svg" style="height:100px; padding:50px 0;"/>
 # MAGIC </div>
 # MAGIC &nbsp;
+# MAGIC 
+# MAGIC Find [**more resources here**](https://github.com/vinoaj/databricks-resources/tree/main/presentations/dataengconf_syd_20220929)
 
 # COMMAND ----------
 
-
+# MAGIC %md
+# MAGIC # Upcoming Databricks Events ... Join Us!
+# MAGIC ## (Free & in-person!) Data+AI World Tour Sydney
+# MAGIC ![Data+AI World Tour Sydney](https://github.com/vinoaj/databricks-resources/raw/main/assets/img/data_ai_world_tour_sydney.png)
+# MAGIC 
+# MAGIC [🔗 Registration link](https://www.databricks.com/dataaisummit/worldtour/sydney)
+# MAGIC 
+# MAGIC Our lineup of data and AI experts, leaders and visionaries includes [Matei Zaharia](https://www.linkedin.com/in/mateizaharia), co-founder Apache Spark and Databricks. 
+# MAGIC 
+# MAGIC Come spend the day with Lakehouse experts and practitioners from across Australia and New Zealand. Learn howlocal entrprises and startups are pushing the Lakehouse boundaries!
+# MAGIC 
+# MAGIC ## (Free & in-person!) Databricks Bootcamps
+# MAGIC [🔗 Registration link](https://pages.databricks.com/00-202202-APJ-FE-Databricks-Bootcamp-2022-q4-Router_LP---Registration-page.html?utm_source=databricks&utm_medium=vinny&utm_campaign=7013f000000LkDCAA0)
+# MAGIC 
+# MAGIC We're holding **free** Databricks Bootcamps across Brisbane, Sydney, Melbourne, Adelaide, Perth, and Auckland over Oct - Dec.
+# MAGIC 
+# MAGIC Led by Databricks instructors, these sessions will use real-world data sets as we go under the hood to demonstrate how to use robust technologies such as Delta Lake, Databricks SQL and MLflow
