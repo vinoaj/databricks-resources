@@ -30,6 +30,7 @@ To set up Delta Lake in a non-Databricks environment, please [follow these instr
 ![Data+AI World Tour Sydney](../../assets/img/data_ai_world_tour_sydney.png)
 
 [🔗 Registration link](https://www.databricks.com/dataaisummit/worldtour/sydney)
+
 Our lineup of data and AI experts, leaders and visionaries includes [Matei Zaharia](https://www.linkedin.com/in/mateizaharia), co-founder Apache Spark and Databricks. 
 
 Come spend the day with Lakehouse experts and practitioners from across Australia and New Zealand. Learn howlocal entrprises and startups are pushing the Lakehouse boundaries!
