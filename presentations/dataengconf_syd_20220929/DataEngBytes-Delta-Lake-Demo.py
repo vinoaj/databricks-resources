@@ -75,6 +75,8 @@ os.environ['KAGGLE_USERNAME'] = KAGGLE_USERNAME
 os.environ['KAGGLE_KEY'] = KAGGLE_KEY
 os.environ['KAGGLE_COMPETITION'] = KAGGLE_COMPETITION
 
+# COMMAND ----------
+
 import kaggle
 
 # COMMAND ----------
@@ -330,11 +332,11 @@ pretty_print_log(log_path)
 
 # COMMAND ----------
 
-# Let's get a clean view of some of the stats (look for the first "add" entry with stats)
-
+# Let's get a clean view of some of the stats
 with open(log_path, "r") as logfile:
   for line in logfile: 
     try:
+      # Look for the first "add" entry with stats
       json_obj = json.loads(line)
       stats = json_obj["add"]["stats"]
       print(f"File: {json_obj['add']['path']}")
@@ -349,24 +351,25 @@ with open(log_path, "r") as logfile:
 
 # MAGIC %md ## ![](https://pages.databricks.com/rs/094-YMS-629/images/delta-lake-tiny-logo.png) Unified Batch and Streaming Source and Sink
 # MAGIC 
-# MAGIC These cells showcase streaming and batch concurrent queries (inserts and reads)
+# MAGIC Delta Lake can simultaneously support streaming & batch reads & writes on the same table. These cells showcase streaming and batch concurrent queries (inserts and reads)
+# MAGIC 
 # MAGIC * We will run a streaming query on this data
-# MAGIC * This notebook will run an `INSERT` against our `lending_club_delta` table
+# MAGIC * This notebook will run an `INSERT` against our `stackoverflow_train01` table
 
 # COMMAND ----------
 
 # Read the insertion of data
 (spark.readStream
-   .table("vinny_vijeyakumaar.stackoverflow_train")
+   .table("vinny_vijeyakumaar.stackoverflow_train01")
    .createOrReplaceTempView("vv_so_train_readStream"))
 
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC -- Let's look up a user who shouldn't yet exist
+# MAGIC -- Let's look up a post that shouldn't yet exist
 # MAGIC SELECT *
 # MAGIC FROM vv_so_train_readStream
-# MAGIC WHERE OwnerUserId = 999999999
+# MAGIC WHERE PostId = 999999999
 
 # COMMAND ----------
 
@@ -376,8 +379,8 @@ with open(log_path, "r") as logfile:
 
 # DBTITLE 1,Let's add this user, it'll appear in our map as blue as the stream picks up the update
 # MAGIC %sql 
-# MAGIC insert into vinny_vijeyakumaar.stackoverflow_train (sk, OwnerUserId) 
-# MAGIC     values (999999999, 999999999) 
+# MAGIC INSERT INTO vinny_vijeyakumaar.stackoverflow_train01
+# MAGIC     VALUES (999999999, DATE("2007-08-01"), "", 999999999, "", "", "", "", "", "", "", "", "", "", "")
 
 # COMMAND ----------
 
@@ -540,7 +543,43 @@ generate_transactions(250)
 
 # COMMAND ----------
 
-display_log_files()
+# MAGIC %md
+# MAGIC ### ![](https://pages.databricks.com/rs/094-YMS-629/images/delta-lake-tiny-logo.png) Checkpoint files
+# MAGIC [Protocol reference](https://github.com/delta-io/delta/blob/master/PROTOCOL.md#checkpoints)
+# MAGIC 
+# MAGIC Checkpoint files are stored as `parquet` files in the `_delta_log` directory
+
+# COMMAND ----------
+
+!ls /dbfs/Users/vinny.vijeyakumaar@databricks.com/custom_demos/lakehouse/predict-closed-questions-on-stack-overflow/stackoverflow_train01/_delta_log/*.checkpoint.*
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC Rather than listing an entire directory to determine the last available checkpoint file, readers can locate the most recent checkpoint by looking at the `_delta_log/_last_checkpoint` file (which is a `JSON` file)
+# MAGIC 
+# MAGIC [Protocol reference](https://github.com/delta-io/delta/blob/master/PROTOCOL.md#last-checkpoint-file)
+# MAGIC 
+# MAGIC The checkpoint file points the reader to the latest available checkpoint log. In the below example it is `202`
+
+# COMMAND ----------
+
+filename = f"/dbfs/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_COMPETITION}/stackoverflow_train01/_delta_log/_last_checkpoint"
+with open(filename, "r") as checkpoint_file:
+    for line in checkpoint_file:
+      print(json.dumps(json.loads(line), indent=4))
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC A checkpoint file summarises the current state of the table's underlying files up to that checkpoint's version.
+# MAGIC A reader would reconstitute the current state of the table by
+# MAGIC - Reading the checkpoint file
+# MAGIC - Reading all **subsequent** log files (in this example it would be log files `0...203.json` and above)
+
+# COMMAND ----------
+
+display(spark.read.parquet(f"/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_COMPETITION}/stackoverflow_train01/_delta_log/00000000000000000202.checkpoint.parquet"))
 
 # COMMAND ----------
 
@@ -769,6 +808,65 @@ display_log_files()
 # MAGIC   FROM TABLE_CHANGES("vinny_vijeyakumaar.stackoverflow_train01", "2022-09-29 00:00:00")
 # MAGIC   WHERE _change_type IN ("delete")
 # MAGIC );
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ## ![](https://pages.databricks.com/rs/094-YMS-629/images/delta-lake-tiny-logo.png) Keeping a clean file system
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ### `OPTIMIZE`
+# MAGIC Coalesce many small files into larger files
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC OPTIMIZE vinny_vijeyakumaar.stackoverflow_train01
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC DESCRIBE HISTORY vinny_vijeyakumaar.stackoverflow_train01 LIMIT 1;
+# MAGIC 
+# MAGIC -- 43 files were coalesced into a single file
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ### `VACUUM`
+# MAGIC You can remove files no longer referenced by a Delta table and are older than the retention threshold by running the vacuum command on the table. `VACUUM` is not triggered automatically. The default retention threshold for the files is 7 days. 
+# MAGIC 
+# MAGIC **Note**: Vacuuming will prevent the ability to time travel back to a version where that version's files have been removed
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC VACUUM vinny_vijeyakumaar.stackoverflow_train01 RETAIN 24 HOURS DRY RUN
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC SET spark.databricks.delta.retentionDurationCheck.enabled = false;
+# MAGIC 
+# MAGIC -- Use `DRY RUN` to verify which files will be deleted
+# MAGIC VACUUM vinny_vijeyakumaar.stackoverflow_train01 RETAIN 24 HOURS DRY RUN;
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC VACUUM vinny_vijeyakumaar.stackoverflow_train01 RETAIN 24 HOURS
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC SELECT COUNT(*) FROM vinny_vijeyakumaar.stackoverflow_train01;
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC SELECT COUNT(*) FROM vinny_vijeyakumaar.stackoverflow_train01 VERSION AS OF 299;
 
 # COMMAND ----------
 
