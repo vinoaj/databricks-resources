@@ -1,7 +1,7 @@
 # Delta Lake: From Data Lake to Lakehouse
 
 ## Follow Along
-- [View pre-executed notebook and outputs](https://vinoaj.github.io/databricks-resources/presentations/dataengconf_syd_20220929/DataEngBytes-Delta-Lake-Demo.html)
+- [🌟 **Recommended**: View pre-executed notebook and outputs](https://vinoaj.github.io/databricks-resources/presentations/dataengconf_syd_20220929/DataEngBytes-Delta-Lake-Demo.html)
 - [Notebook](DataEngBytes-Delta-Lake-Demo.py)
 
 
