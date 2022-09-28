@@ -44,8 +44,22 @@ Led by Databricks instructors, these sessions will use real-world data sets as w
 
 ---
 
+<img src="https://docs.delta.io/latest/_static/delta-lake-white.png" width="100" alt="Delta Lake Logo"></img>
 # Further Reading & Resources
-- VLDB Paper: 
-- O'Reilly book:
-- Book 2: 
-- 
+
+## Understand the fundamentals
+- [Delta Lake VLDB paper](https://databricks.com/wp-content/uploads/2020/08/p975-armbrust.pdf) (my [annotated version](../../assets/p975-armbrust_vinoaj_annotated.pdf))
+- 📘 Delta Lake: The Definitive Guide (O'Reilly) ([access free preview](https://www.databricks.com/p/ebook/delta-lake-the-definitive-guide-by-oreilly) | [PDF direct link](https://www.databricks.com/wp-content/uploads/2021/05/9781098104528-1.pdf))
+
+## Further reading 
+- [Roadmap](https://github.com/delta-io/delta/issues/1307)
+- [Releases](https://github.com/delta-io/delta/releases)
+- [Release Milestones](https://github.com/delta-io/delta/milestones)
+- [Delta Transactional Log Protocol](https://github.com/delta-io/delta/blob/master/PROTOCOL.md)
+- [Diving Into Delta Lake: Unpacking The Transaction Log](https://www.databricks.com/blog/2019/08/21/diving-into-delta-lake-unpacking-the-transaction-log.html)
+- [Diving Into Delta Lake: Schema Enforcement & Evolution](https://www.databricks.com/blog/2019/09/24/diving-into-delta-lake-schema-enforcement-evolution.html)
+- [Diving Into Delta Lake: DML Internals (Update, Delete, Merge)](https://www.databricks.com/blog/2020/09/29/diving-into-delta-lake-dml-internals-update-delete-merge.html)
+- [Processing Petabytes of Data in Seconds with Databricks Delta](https://www.databricks.com/blog/2018/07/31/processing-petabytes-of-data-in-seconds-with-databricks-delta.html)
+- [Top 5 Reasons to Convert Your Cloud Data Lake to a Delta Lake](https://databricks.com/blog/2020/08/21/top-5-reasons-to-convert-your-cloud-data-lake-to-a-delta-lake.html)
+- [TPC-DS Benchmarking guide](https://github.com/delta-io/delta/tree/master/benchmarks)
+- [The Ubiquity of Delta Standalone](https://databricks.com/blog/2022/01/28/the-ubiquity-of-delta-standalone-java-scala-hive-presto-trino-power-bi-and-more.html): a JVM library that can be used to read and write Delta Lake tables. Unlike Delta Lake Core, this project does not use Spark to read or write tables and has only a few transitive dependencies. It can be used by any application (e.g. Power BI) that cannot use a Spark cluster. The project allows developers to build a Delta connector for an external processing engine following the Delta protocol without using a manifest file. 
