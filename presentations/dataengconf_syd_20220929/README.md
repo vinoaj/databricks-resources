@@ -1,5 +1,12 @@
 # Delta Lake: From Data Lake to Lakehouse
 
+## Follow Along
+- [View pre-executed notebook and outputs](https://vinoaj.github.io/databricks-resources/presentations/dataengconf_syd_20220929/DataEngBytes-Delta-Lake-Demo.html)
+- [Notebook](DataEngBytes-Delta-Lake-Demo.py)
+
+
+## About
+
 This notebook was prepared for [my talk](https://dataengconf.com.au/conference/schedule) at the [**DataEngBytes** conference](https://dataengconf.com.au/conference/sydney) held on 2022-09-29 in Sydney, Australia.
 
 - Author: Vinoaj (Vinny) Vijeyakumaar (vinoaj@gmail.com, vinny.vijeyakumaar@databricks.com)
