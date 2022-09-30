@@ -4,6 +4,8 @@
 - [🌟 **Recommended**: View pre-executed notebook and outputs](https://vinoaj.github.io/databricks-resources/presentations/dataengconf_syd_20220929/DataEngBytes-Delta-Lake-Demo.html)
 - [Notebook](DataEngBytes-Delta-Lake-Demo.py)
 
+## Recording
+[Watch here ![Watch recording](https://img.youtube.com/vi/k6IEaMF7U7A/mqdefault.jpg)](https://youtu.be/k6IEaMF7U7A?t=22131)
 
 ## About
 
@@ -25,7 +27,7 @@ To set up Delta Lake in a non-Databricks environment, please [follow these instr
 
 ---
 
-# Upcoming Databricks Events
+# Upcoming Databricks Events ... Join Us!
 ## (Free & in-person!) Data+AI World Tour Sydney
 ![Data+AI World Tour Sydney](../../assets/img/data_ai_world_tour_sydney.png)
 
