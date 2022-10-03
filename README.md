@@ -158,6 +158,7 @@ My **personal** list of resources and samples related to working with Databricks
 ---
 ## Development
 - [SQL CLI](https://docs.databricks.com/dev-tools/databricks-sql-cli.html): run SQL queries on your SQL endpoints from your terminal. From the command line, you get productivity features such as suggestions and syntax highlighting
+- [sqlparse](https://github.com/andialbrecht/sqlparse): open source library for formatting and analysing SQL strings
 
 ---
 
