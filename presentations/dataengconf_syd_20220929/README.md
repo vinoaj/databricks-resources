@@ -7,7 +7,7 @@
 ## Recording
 [▶️ Watch here](https://youtu.be/k6IEaMF7U7A?t=22131) 
 
-[![Watch recording](https://i.ytimg.com/vi/k6IEaMF7U7A/mqdefault.jpg)](https://youtu.be/k6IEaMF7U7A?t=22131)
+[![Watch recording](youtube_thumbnail.png)](https://youtu.be/k6IEaMF7U7A?t=22131)
 
 ## About
 
