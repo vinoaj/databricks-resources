@@ -94,6 +94,7 @@ My **personal** list of resources and samples related to working with Databricks
 ## Under the Hood: Photon Engine
 - [Photon: A Fast Query Engine for Lakehouse Systems](https://www-cs.stanford.edu/~matei/papers/2022/sigmod_photon.pdf): SIGMOD 2022 Paper
 - [Apache Spark and Photon Receive SIGMOD Awards](https://databricks.com/blog/2022/06/15/apache-spark-and-photon-receive-sigmod-awards.html)
+- [How DuPont achieved 11x latency reduction and 4x cost reduction with Photon](https://www.databricks.com/blog/2022/10/04/how-dupont-achieved-11x-latency-reduction-and-4x-cost-reduction-photon.html)
 
 ---
 
@@ -110,6 +111,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Diving Into Delta Lake: DML Internals (Update, Delete, Merge)](https://www.databricks.com/blog/2020/09/29/diving-into-delta-lake-dml-internals-update-delete-merge.html)
 - [Processing Petabytes of Data in Seconds with Databricks Delta](https://www.databricks.com/blog/2018/07/31/processing-petabytes-of-data-in-seconds-with-databricks-delta.html)
 - [Top 5 Reasons to Convert Your Cloud Data Lake to a Delta Lake](https://databricks.com/blog/2020/08/21/top-5-reasons-to-convert-your-cloud-data-lake-to-a-delta-lake.html)
+- [How to Rollback a Delta Lake Table to a Previous Version with Restore](https://delta.io/blog/2022-10-03-rollback-delta-lake-restore/)
 - [TPC-DS Benchmarking guide](https://github.com/delta-io/delta/tree/master/benchmarks)
 
 ### Developing with Delta Lake
@@ -286,6 +288,7 @@ My **personal** list of resources and samples related to working with Databricks
 ---
 
 ## Case Studies
+- [Monash University stands up 'lakehouse' in Databricks, Azure](https://www.itnews.com.au/news/monash-university-stands-up-lakehouse-in-databricks-azure-585801)
 - [Australia's heavy vehicle regulator builds 'fatigue engine' to reduce truckie deaths](https://www.itnews.com.au/news/heavy-vehicle-regulator-builds-fatigue-engine-to-reduce-truckie-deaths-580113)
 - [Why we migrated to a Data Lakehouse on Delta Lake for T-Mobile Data Science and Analytics Team](https://delta.io/blog/2022-09-14-why-migrate-lakehouse-delta-lake-tmo-dsna/)
 
