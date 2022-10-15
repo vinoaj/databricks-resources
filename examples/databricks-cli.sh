@@ -7,6 +7,15 @@
 ### Find your .databrickscfg file (usually in ~/)
 find / -name ".databrickscfg"
 
+### List profiles
+less ~/.databrickscfg
+
+### Create new profile
+databricks configure --token --profile new_profile_name
+
+### Using a profile
+databricks workspace ls --profile new_profile_name
+
 ## Working with secrets
 
 ### Create a secrets scope

@@ -8,3 +8,19 @@
 
 ## Integrations
 - [MLOps on Databricks with Vertex AI on Google Cloud](https://www.databricks.com/blog/2022/08/12/mlops-on-databricks-with-vertex-ai-on-google-cloud.html)
+
+## Security
+### Storing Service Account Keys in Databricks Secrets
+First `base64` encode the `json` key file
+```
+base64 credentials.json > credentials.json.b64.txt
+```
+
+Upload to Databricks secrets as a binary file
+```
+databricks secrets put \
+    --scope gcp-keys \
+    --key service-account-name@gcp-project.iam.gserviceaccount.com \
+    --binary-file credentials.json.b64.txt \
+    --profile config_profile_name # Optional if using multiple profiles
+```
