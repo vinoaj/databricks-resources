@@ -122,9 +122,11 @@ My **personal** list of resources and samples related to working with Databricks
 ### Delta Sharing
 - [GitHub repository](https://github.com/delta-io/delta-sharing)
 - [Release Milestones](https://github.com/delta-io/delta-sharing/milestones)
+- [▶️ Databricks Delta Sharing demo](https://www.youtube.com/watch?v=wRT1Vpbyy88)
 - [Arcuate](https://databricks.com/blog/2022/05/24/arcuate-machine-learning-model-exchange-with-delta-sharing-and-mlflow.html): Machine Learning Model Exchange With Delta Sharing and MLflow
 - [Java connector](https://github.com/databrickslabs/delta-sharing-java-connector)(supporting [blog post](https://databricks.com/blog/2022/06/29/designing-a-java-connector-for-delta-sharing-recipient.html))
 - [Security Best Practices for Delta Sharing](https://www.databricks.com/blog/2022/08/01/security-best-practices-for-delta-sharing.html)
+- [How Delta Sharing Helped Rearc Simplify Data Sharing and Maximize the Business Value of Its Data](https://www.databricks.com/blog/2022/09/13/how-delta-sharing-helped-rearc-simplify-data-sharing-and-maximize-business-value): With over 450+ open curated data products available across different sectors, Rearc's cross-industry catalog of datasets is one of the largest available today ([Rearc data library](https://www.rearc.io/data/delta-sharing/))
 
 ---
 

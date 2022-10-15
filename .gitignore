@@ -1,1 +1,12 @@
+# MacOS
 .DS_Store
+
+# Azure
+azurecreds.txt
+
+# Google credential files
+credentials.json
+credentials.json.b64.txt
+
+# Vinny
+*.ignore.*
