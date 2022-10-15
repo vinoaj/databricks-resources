@@ -94,6 +94,7 @@ My **personal** list of resources and samples related to working with Databricks
 ## Under the Hood: Photon Engine
 - [Photon: A Fast Query Engine for Lakehouse Systems](https://www-cs.stanford.edu/~matei/papers/2022/sigmod_photon.pdf): SIGMOD 2022 Paper
 - [Apache Spark and Photon Receive SIGMOD Awards](https://databricks.com/blog/2022/06/15/apache-spark-and-photon-receive-sigmod-awards.html)
+- [▶️ Advancing Spark - The Photon Whitepaper](https://www.youtube.com/watch?v=hxvQxI4FksY)
 - [How DuPont achieved 11x latency reduction and 4x cost reduction with Photon](https://www.databricks.com/blog/2022/10/04/how-dupont-achieved-11x-latency-reduction-and-4x-cost-reduction-photon.html)
 
 ---
