@@ -235,6 +235,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [How (Not) To Scale Deep Learning in 6 Easy Steps](https://www.databricks.com/blog/2019/08/15/how-not-to-scale-deep-learning-in-6-easy-steps.html)
 - [Accelerating Your Deep Learning with PyTorch Lightning on Databricks](https://www.databricks.com/blog/2022/09/07/accelerating-your-deep-learning-pytorch-lightning-databricks.html)
 - [▶️ Scaling Deep Learning on Databricks](https://www.youtube.com/watch?v=A95_q24nA1o)
+- [Mitigating Bias in Machine Learning With SHAP and Fairlearn](https://www.databricks.com/blog/2022/09/16/mitigating-bias-machine-learning-shap-and-fairlearn.html)([accompanying 📄 notebook](https://www.databricks.com/wp-content/uploads/notebooks/db-336-mitigating_bias_with_shap_fairlearn-blog.html))
 - [Parallel ML: How Compass Built a Framework for Training Many Machine Learning Models](https://www.databricks.com/blog/2022/07/20/parallel-ml-how-compass-built-a-framework-for-training-many-machine-learning-models-on-databricks.html)
 
 ### Predictions
