@@ -253,6 +253,15 @@ My **personal** list of resources and samples related to working with Databricks
 - [Using MLflow to deploy Graph Neural Networks for Monitoring Supply Chain Risk](https://medium.com/@ajmal.t.aziz/using-mlflow-to-deploy-graph-neural-networks-for-monitoring-supply-chain-risk-644c87e5259e)
 - [Quantifying uncertainty with Tensorflow Probability](https://databricks.com/blog/2022/04/28/how-wrong-is-your-model.html)
 
+---
+
+## Geospatial 🌏
+- [Mosaic](https://databrickslabs.github.io/mosaic/): a Databricks Labs extension to the Apache Spark framework that allows easy and fast processing of very large geospatial datasets 
+- [GitHub: Mosaic](https://github.com/databrickslabs/mosaic)
+- [High Scale Geospatial Processing With Mosaic](https://databricks.com/blog/2022/05/02/high-scale-geospatial-processing-with-mosaic.html): writeup on the underlying philosophy behind Mosaic's design
+- [Built-in H3 Expressions for Geospatial Processing and Analytics](https://www.databricks.com/blog/2022/09/14/announcing-built-h3-expressions-geospatial-processing-and-analytics.html)
+- [How Thasos Optimized and Scaled Geospatial Workloads with Mosaic on Databricks](https://www.databricks.com/blog/2022/10/12/how-thasos-optimized-and-scaled-geospatial-workloads-mosaic-databricks.html): Thasos is an alternative data intelligence firm that transforms real-time location data from mobile phones into actionable business performance insights. To derive actionable insights from mobile phone ping data (a time series of points defined by a latitude and longitude pair), Thasos created, maintains and manages a vast collection of verified geofences
+![Geofence polygons from Figure 1 showing contained H3 cells (in red) and the derived boundary chips (in blue)](https://cms.databricks.com/sites/default/files/inline-images/db-328-blog-img-2.jpg)
 
 ---
 
@@ -278,15 +287,6 @@ My **personal** list of resources and samples related to working with Databricks
 
 ### Marketing Analytics
 - [How to Build a Marketing Analytics Solution Using Fivetran and dbt on the Databricks Lakehouse](https://www.databricks.com/blog/2022/08/03/how-to-build-a-marketing-analytics-solution-using-fivetran-and-dbt-on-the-databricks-lakehouse.html)
-
----
-
-## Geospatial 🌏
-- [Mosaic](https://databrickslabs.github.io/mosaic/): a Databricks Labs extension to the Apache Spark framework that allows easy and fast processing of very large geospatial datasets 
-- [GitHub: Mosaic](https://github.com/databrickslabs/mosaic)
-- [High Scale Geospatial Processing With Mosaic](https://databricks.com/blog/2022/05/02/high-scale-geospatial-processing-with-mosaic.html): writeup on the underlying philosophy behind Mosaic's design
-- [How Thasos Optimized and Scaled Geospatial Workloads with Mosaic on Databricks](https://www.databricks.com/blog/2022/10/12/how-thasos-optimized-and-scaled-geospatial-workloads-mosaic-databricks.html): Thasos is an alternative data intelligence firm that transforms real-time location data from mobile phones into actionable business performance insights. To derive actionable insights from mobile phone ping data (a time series of points defined by a latitude and longitude pair), Thasos created, maintains and manages a vast collection of verified geofences
-![Geofence polygons from Figure 1 showing contained H3 cells (in red) and the derived boundary chips (in blue)](https://cms.databricks.com/sites/default/files/inline-images/db-328-blog-img-2.jpg)
 
 ---
 
