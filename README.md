@@ -131,6 +131,9 @@ My **personal** list of resources and samples related to working with Databricks
 ---
 
 ## ETL / ELT Patterns
+### Design
+- [Identity Columns to Generate Surrogate Keys](https://www.databricks.com/blog/2022/08/08/identity-columns-to-generate-surrogate-keys-are-now-available-in-a-lakehouse-near-you.html)
+
 ### Ingestion
 - [Auto-Loader](https://docs.databricks.com/spark/latest/structured-streaming/auto-loader.html)
 - [dbt](https://docs.databricks.com/dev-tools/dbt.html) ([GitHub](https://github.com/databricks/dbt-databricks))
@@ -161,8 +164,8 @@ My **personal** list of resources and samples related to working with Databricks
 - [How Audantic Uses Databricks Delta Live Tables to Increase Productivity for Real Estate Market Segments](https://databricks.com/blog/2022/05/05/how-audantic-uses-databricks-delta-live-tables-to-increase-productivity-for-real-estate-market-segments.html)
 ![Audantic's Delta Live Tables Architecture](https://databricks.com/wp-content/uploads/2022/04/db-80-blog-img-2.png)
 
-### Design
-- [Identity Columns to Generate Surrogate Keys](https://www.databricks.com/blog/2022/08/08/identity-columns-to-generate-surrogate-keys-are-now-available-in-a-lakehouse-near-you.html)
+### Transformation
+- [`dbt-databricks`](https://github.com/databricks/dbt-databricks)
 
 ---
 ## Development
