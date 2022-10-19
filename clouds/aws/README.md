@@ -1,5 +1,9 @@
 # Amazon Web Services (AWS)
 
+## Architecture
+- [Leveraging Delta Across Teams at McGraw Hill](https://www.databricks.com/blog/2022/09/14/leveraging-delta-across-teams-mcgraw-hill.html) ([source code](https://github.com/MHEducation/databricks-athena-blog-code) to automate the Databricks to Athena manifest based integration)
+![McGraw Hill architecture](https://cms.databricks.com/sites/default/files/inline-images/db-302-blog-img-4.png)
+
 ## Deployment
 - [Best Practices and Guidance for Cloud Engineers to Deploy Databricks on AWS: Part 1](https://www.databricks.com/blog/2022/09/30/best-practices-and-guidance-cloud-engineers-deploy-databricks-aws-part-1.html)
 - [Terraform script example (unofficial)](https://github.com/LeoneGarage/terraform)
