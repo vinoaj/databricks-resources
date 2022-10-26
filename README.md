@@ -60,6 +60,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Databricks Workspace Administration – Best Practices for Account, Workspace and Metastore Admins](https://www.databricks.com/blog/2022/08/26/databricks-workspace-administration-best-practices-for-account-workspace-and-metastore-admins.html)
 - [Functional Workspace Organization on Databricks](https://databricks.com/blog/2022/03/10/functional-workspace-organization-on-databricks.html) (Databricks Admin Essentials: Blog 1/5)
 - [Monitoring Your Databricks Lakehouse Platform with Audit Logs](https://databricks.com/blog/2022/05/02/monitoring-your-databricks-lakehouse-platform-with-audit-logs.html) (Databricks Admin Essentials: Blog 2/5) ([Notebook](https://github.com/andyweaves/databricks-audit-logs))
+- [Best Practices for Cost Management on Databricks](https://www.databricks.com/blog/2022/10/18/best-practices-cost-management-databricks.html)
 
 ### Disaster Recovery (DR) and High Availability (HA)
 - [Disaster Recovery Overview, Strategies, and Assessment](https://databricks.com/blog/2022/04/25/disaster-recovery-overview-strategies-and-assessment.html) (Part 1 of DR series) ([Part 2](https://databricks.com/blog/2022/07/18/disaster-recovery-automation-and-tooling-for-a-databricks-workspace.html))

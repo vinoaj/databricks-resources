@@ -1,14 +1,5 @@
 #!/bin/bash
-
-# Constants
-## Databricks-related
-DB_CLI_PROFILE=DEFAULT
-SECRET_SCOPE=cloud-credentials
-
-## Azure-related
-CRED_FILES=azurecreds.txt
-ADLS_ACCOUNT=vinnyvijeyakumaaradls
-ADLS_KEY=$(<$CRED_FILES)
+source config.sh
 
 databricks secrets put \
     --scope $SECRET_SCOPE \

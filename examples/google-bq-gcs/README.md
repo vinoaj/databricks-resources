@@ -5,3 +5,5 @@
 
 ## Pre-requisites
 - Databricks CLI installed on your local environment
+    - Databricks CLI authenticated with your target Databricks Workspace
+

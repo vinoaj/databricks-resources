@@ -9,7 +9,14 @@
 ## Cluster Management
 - [ ] What cluster policies do you require?
     - [ ] Which groups / users are assigned to which cluster policies?
-- [ ] Are cluster policies adhering to best practices (AWS | Azure | [GCP](https://docs.gcp.databricks.com/administration-guide/clusters/policies-best-practices.html))
+- [ ] Are cluster policies adhering to best practices ([General guidance](https://www.databricks.com/blog/2022/10/18/best-practices-cost-management-databricks.html) | AWS | Azure | [GCP](https://docs.gcp.databricks.com/administration-guide/clusters/policies-best-practices.html))
+    - [ ] Node count limits & auto-scaling
+    - [ ] Auto-termination minutes 
+    - [ ] Only allow latest DBRs
+    - [ ] Restrict node types for driver & workers
+    - [ ] Enforce Spot on workers
+    - [ ] Tags enforced for cost attribution
+    
 
 ## Logging
 Place delivery bucket location outside of the projects/resource groups holding your workspaces. This way you will be able to:

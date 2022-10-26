@@ -1,22 +1,25 @@
 #!/bin/bash
-
-# Constants
-## Databricks-related
-DB_CLI_PROFILE=DEFAULT
-SECRET_SCOPE=cloud-credentials
+include config.sh
 
 ## Google Cloud-related
 CRED_FILES=credentials.json
-SA_USER=vinny-vijeyakumaar-gcs-reader
-SA_PROJECT=my-gcp-project
-SA=$SA_USER@$SA_PROJECT.iam.gserviceaccount.com
+
+gcloud config set project $GCP_PROJECT_QUERYING
+
+# DO NOT persist this file in DBFS or your Git repo
+gcloud iam service-accounts keys create --iam-account \
+  "$SA" $CRED_FILES
 
 PRIVATE_KEY_ID=$(cat $CRED_FILES | jq -r '.private_key_id')
 PRIVATE_KEY=$(cat $CRED_FILES | jq -r '.private_key')
 
+
 # BigQuery credential requirements
 ## Register base64 encoded JSON file
 base64 $CRED_FILES > credentials.json.b64.txt
+
+databricks secrets create-scope --scope $SECRET_SCOPE \
+    --profile $DB_CLI_PROFILE
 
 databricks secrets put \
     --scope $SECRET_SCOPE \
@@ -24,7 +27,11 @@ databricks secrets put \
     --binary-file credentials.json.b64.txt \
     --profile $DB_CLI_PROFILE
 
-# Google Cloud Storage credential requirements
+## Delete credential files
+rm -f $CRED_FILES credentials.json.b64.txt
+
+
+# Google Cloud Storage (GCS) credential requirements
 ## Project ID
 databricks secrets put \
     --scope $SECRET_SCOPE \
@@ -46,11 +53,9 @@ databricks secrets put \
     --string-value "$PRIVATE_KEY" \
     --profile $DB_CLI_PROFILE
 
+
 # Verify
 databricks secrets list \
     --scope $SECRET_SCOPE \
     --output JSON \
     --profile $DB_CLI_PROFILE
-
-# Cleanup
-# rm $CRED_FILES credentials.json.b64.txt
