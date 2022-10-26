@@ -18,8 +18,29 @@ PRIVATE_KEY=$(cat $CRED_FILES | jq -r '.private_key')
 ## Register base64 encoded JSON file
 base64 $CRED_FILES > credentials.json.b64.txt
 
+## Create Databricks Secret scope
 databricks secrets create-scope --scope $SECRET_SCOPE \
     --profile $DB_CLI_PROFILE
+
+# Initially the user who runs this command has MANAGE permissions for this scope
+# Let's add some restrictions:
+#   - We'll assume you already have 2 groups in Databricks: "sec-admin" and "cluster-admin"
+#   - Members of the sec-admin group can MANAGE this scope
+#   - Members of the cluster-admin group can READ this scope
+#       - Note: they cannot read the CONTENTS of the secret; they are just able to access it
+#       - With READ access, cluster admins can include the secrets in cluster configurations
+#   - Members outside these groups can NOT READ from or WRITE to this scope
+
+databricks secrets put-acl \
+    --scope $SECRET_SCOPE \
+    --principal sec-admin \ 
+    --permission MANAGE
+
+databricks secrets put-acl \
+    --scope $SECRET_SCOPE \
+    --principal cluster-admin \ 
+    --permission READ
+
 
 databricks secrets put \
     --scope $SECRET_SCOPE \
