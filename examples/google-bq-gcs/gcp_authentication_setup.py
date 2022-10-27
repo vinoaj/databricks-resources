@@ -34,6 +34,8 @@
 # MAGIC ```
 # MAGIC # For BQ READ-ONLY
 # MAGIC credentials {{secrets/cloud-credentials/databricks-reader@vinoaj-querying-source.iam.gserviceaccount.com}}
+# MAGIC parentProject vinoaj-querying-source
+# MAGIC viewsEnabled true
 # MAGIC 
 # MAGIC # Include the below only if you require BQ WRITE and/or GCS READ+WRITE
 # MAGIC spark.hadoop.google.cloud.auth.service.account.enable true
@@ -41,4 +43,7 @@
 # MAGIC spark.hadoop.fs.gs.project.id vinoaj-querying-source
 # MAGIC spark.hadoop.fs.gs.auth.service.account.private.key {{secrets/cloud-credentials/databricks-reader@vinoaj-querying-source.iam.gserviceaccount.com-private-key}}
 # MAGIC spark.hadoop.fs.gs.auth.service.account.private.key.id {{secrets/cloud-credentials/databricks-reader@vinoaj-querying-source.iam.gserviceaccount.com-private-key-id}}
+# MAGIC temporaryGcsBucket vv_databricks_tmp_000
+# MAGIC materializationProject vinoaj-querying-source
+# MAGIC materializationDataset temp_us
 # MAGIC ```
