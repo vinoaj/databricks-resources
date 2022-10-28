@@ -50,5 +50,17 @@
     "gcp_attributes.availability": {
         "type": "fixed",
         "value": "PREEMPTIBLE_WITH_FALLBACK_GCP"
+    },
+    "custom_tags.cost_center": {
+        "type": "allowlist",
+        "values": [
+            "9999",
+            "9921",
+            "9531"
+        ]
+    },
+    "custom_tags.team": {
+        "type": "fixed",
+        "value": "product"
     }
 }

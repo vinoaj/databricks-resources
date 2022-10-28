@@ -23,3 +23,7 @@ databricks secrets create-scope --scope vinnyvijeyakumaar
 
 databricks secrets put --scope vinnyvijeyakumaar --key KAGGLE_USERNAME --string-value vinoaj
 databricks secrets put --scope vinnyvijeyakumaar --key KAGGLE_KEY --string-value XXXXXXXX
+
+
+### List scopes
+databricks secrets list-scopes --profile profile_name
