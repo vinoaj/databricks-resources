@@ -21,16 +21,13 @@ locals {
     "spark.hadoop.fs.gs.project.id"                          = var.gcp_project_querying,
     "spark.hadoop.fs.gs.auth.service.account.private.key"    = "{{${local.secret_prefix}-private-key}}",
     "spark.hadoop.fs.gs.auth.service.account.private.key.id" = "{{${local.secret_prefix}-private-key-id}}",
+    "temporaryGcsBucket"                                     = google_storage_bucket.tmp_storage_bucket.name
   })
-}
-
-output "secretstr" {
-    value = "{{${local.secret_prefix}}}"
 }
 
 resource "databricks_cluster" "bq_readonly" {
   depends_on              = [databricks_secret.credentials]
-  cluster_name            = "Shared Autoscaling - BQ READONLY ${google_service_account.sa.email}"
+  cluster_name            = "Shared Interactive - BQ READONLY ${google_service_account.sa.email}"
   spark_version           = data.databricks_spark_version.latest_lts.id
   node_type_id            = data.databricks_node_type.smallest.id
   autotermination_minutes = 20
@@ -58,7 +55,7 @@ resource "databricks_cluster" "bq_readonly" {
 
 resource "databricks_cluster" "bq_readwrite" {
   depends_on              = [databricks_secret.credentials]
-  cluster_name            = "Shared Autoscaling - BQ READ+WRITE ${google_service_account.sa.email}"
+  cluster_name            = "Shared Interactive - BQ READ+WRITE ${google_service_account.sa.email}"
   spark_version           = data.databricks_spark_version.latest_lts.id
   node_type_id            = data.databricks_node_type.smallest.id
   autotermination_minutes = 20
