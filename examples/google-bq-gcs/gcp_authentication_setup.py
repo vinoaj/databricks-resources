@@ -12,13 +12,13 @@
 # MAGIC   * Google Cloud project that will be the **querying** project. This is the project that will be billed for the queries run against BigQuery
 # MAGIC   * Google Cloud project that will be the **data source**. This is the project that houses the BigQuery datasets / tables to be queried
 # MAGIC   * (If requiring WRITEs to BQ): Identify a Google Cloud Storage (GCS) bucket to hold temporary Parquet files before loading them into BigQuery 
-# MAGIC 2. (If requiring WRITEs to BQ): Provision a GCS bucket to hold temporary Parquet files before loading them into BigQuery ([sample code](01_create_gcs_bucket.sh))
-# MAGIC 3. Google Cloud service account ([sample code](02_provision_gcp_service_account.sh))
+# MAGIC 2. (If requiring WRITEs to BQ): Provision a GCS bucket to hold temporary Parquet files before loading them into BigQuery
+# MAGIC 3. Google Cloud service account
 # MAGIC   * Create service account in querying project
 # MAGIC   * Provide service account with appropriate permissions to querying project
 # MAGIC   * Provide service account with appropriate permissions to BQ project
 # MAGIC   * (If requiring WRITEs to BQ): Provide service account with appropriate permissions to temporary storage bucket
-# MAGIC 4. Register service account credentials with Databricks Secrets ([sample code](03_register_gcp_secrets.sh))
+# MAGIC 4. Register service account credentials with Databricks Secrets
 # MAGIC 5. Configure clusters
 
 # COMMAND ----------
