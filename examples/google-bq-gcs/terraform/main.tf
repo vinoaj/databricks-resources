@@ -29,15 +29,3 @@ provider "time" {}
 data "databricks_current_user" "me" {}
 data "google_client_openid_userinfo" "me" {}
 data "google_client_config" "current" {}
-
-# data "databricks_group" "x" {
-#     display_name = "cluster-creator"
-# }
-
-# output "me" {
-#     value = data.databricks_current_user.me.user_name
-# }
-
-# output "group_members" {
-#     value = data.databricks_group.x.users
-# }

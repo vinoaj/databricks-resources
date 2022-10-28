@@ -8,6 +8,8 @@ data "databricks_spark_version" "latest_lts" {
 
 locals {
   secret_prefix = "secrets/${databricks_secret_scope.cloud_secrets_scope.name}/${google_service_account.sa.email}"
+  
+  # Base cluster Spark configuration values
   spark_conf_base = {
     "credentials"            = "{{${local.secret_prefix}}}",
     "parentProject"          = var.gcp_project_querying,
@@ -15,6 +17,8 @@ locals {
     "materializationProject" = var.gcp_project_querying,
     "materializationDataset" = google_bigquery_dataset.materialization_dataset.dataset_id
   }
+  
+  # Base + config values to support BQ writes
   spark_conf_write = merge(local.spark_conf_base, {
     "spark.hadoop.google.cloud.auth.service.account.enable"  = true,
     "spark.hadoop.fs.gs.auth.service.account.email"          = google_service_account.sa.email,

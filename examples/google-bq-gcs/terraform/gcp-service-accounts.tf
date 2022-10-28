@@ -29,20 +29,6 @@ locals {
   ))
 }
 
-output "prc" {
-  value = local.project_role_combo
-}
-
-# resource "google_project_iam_custom_role" "querying_project_permissions" {
-#   role_id = "databricks_querying_role"
-#   title   = "Databricks Role for Querying Project"
-#   permissions = [
-#     "bigquery.dataEditor",
-#     "bigquery.jobUser",
-#     "bigquery.readSessionUser",
-#   ]
-# }
-
 resource "google_project_iam_binding" "querying_project" {
   for_each = toset(local.querying_project_roles)
   project  = var.gcp_project_querying
@@ -50,18 +36,11 @@ resource "google_project_iam_binding" "querying_project" {
   members  = ["serviceAccount:${google_service_account.sa.email}"]
 }
 
-# resource "google_project_iam_custom_role" "datasource_projects_permissions" {
-#   role_id     = "databricks_datasource_access"
-#   title       = "Databricks Role for BigQuery Access"
-#   permissions = var.service_account_roles_datasource_project
-# }
-
 resource "time_offset" "expiry_period" {
   offset_days = var.sa_expiry_offset_days
 }
 
 resource "google_project_iam_binding" "datasource_projects" {
-  # for_each = toset(local.project_role_combo)
   for_each = { for entry in local.project_role_combo: "${entry.project}.${entry.role}" => entry}
   project  = each.value.project
   role     = each.value.role
@@ -73,16 +52,6 @@ resource "google_project_iam_binding" "datasource_projects" {
     expression  = "request.time < timestamp(\"${time_offset.expiry_period.rfc3339}\")"
   }
 }
-
-# resource "google_project_iam_custom_role" "tmp_bucket_permissions" {
-#   role_id = "databricks_tmp_bq_load_bucket"
-#   title   = "Databricks Role for BigQuery load staging GCS bucket"
-#   permissions = [
-#     "storage.objectAdmin",
-#     "storage.legacyBucketOwner",
-#     "storage.legacyObjectOwner"
-#   ]
-# }
 
 resource "google_storage_bucket_iam_binding" "tmp_bucket" {
   for_each = toset(local.temp_bucket_roles)

@@ -59,5 +59,5 @@ variable "bq_materialization_dataset" {
 
 variable "workspace_url" {
     type = string
-    default = "https://e2-demo-field-eng.cloud.databricks.com/"
+    default = "https://abcdef.cloud.databricks.com/"
 }
