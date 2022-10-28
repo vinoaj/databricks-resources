@@ -16,7 +16,7 @@ terraform {
 }
 
 provider "databricks" {
-    profile = "e2-field-eng-west"
+    profile = var.databricks_profile
     host = var.workspace_url
 }
 
@@ -24,7 +24,6 @@ provider "google" {
   project = var.gcp_project_querying
 }
 
-provider "time" {}
 
 data "databricks_current_user" "me" {}
 data "google_client_openid_userinfo" "me" {}
