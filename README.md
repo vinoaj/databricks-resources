@@ -267,6 +267,8 @@ My **personal** list of resources and samples related to working with Databricks
 ## Geospatial 🌏
 - [Mosaic](https://databrickslabs.github.io/mosaic/): a Databricks Labs extension to the Apache Spark framework that allows easy and fast processing of very large geospatial datasets 
 - [GitHub: Mosaic](https://github.com/databrickslabs/mosaic)
+- [Building a Geospatial Lakehouse, Part 1](https://databricks.com/blog/2021/12/17/building-a-geospatial-lakehouse-part-1.html)
+- [Building a Geospatial Lakehouse, Part 2](https://databricks.com/blog/2022/03/28/building-a-geospatial-lakehouse-part-2.html): includes downloadable notebooks
 - [High Scale Geospatial Processing With Mosaic](https://databricks.com/blog/2022/05/02/high-scale-geospatial-processing-with-mosaic.html): writeup on the underlying philosophy behind Mosaic's design
 - [Built-in H3 Expressions for Geospatial Processing and Analytics](https://www.databricks.com/blog/2022/09/14/announcing-built-h3-expressions-geospatial-processing-and-analytics.html)
 - [How Thasos Optimized and Scaled Geospatial Workloads with Mosaic on Databricks](https://www.databricks.com/blog/2022/10/12/how-thasos-optimized-and-scaled-geospatial-workloads-mosaic-databricks.html): Thasos is an alternative data intelligence firm that transforms real-time location data from mobile phones into actionable business performance insights. To derive actionable insights from mobile phone ping data (a time series of points defined by a latitude and longitude pair), Thasos created, maintains and manages a vast collection of verified geofences
