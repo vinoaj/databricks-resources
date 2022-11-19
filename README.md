@@ -237,6 +237,8 @@ My **personal** list of resources and samples related to working with Databricks
 ---
 
 ## Machine Learning (ML) & Artificial Intelligence (AI) 🧠
+- [Selecting an Effective & Productive Machine Learning Platform](https://alexanderkwok17.medium.com/selecting-an-effective-productive-machine-learning-platform-8b7d7efa3d4f)
+
 ### MLOps
 - [Architecting MLOps on the Lakehouse](https://databricks.com/blog/2022/06/22/architecting-mlops-on-the-lakehouse.html)
 
