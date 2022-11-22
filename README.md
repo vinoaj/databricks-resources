@@ -145,6 +145,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Build Data and ML Pipelines More Easily With Databricks and Apache Airflow](https://databricks.com/blog/2022/04/29/build-data-and-ml-pipelines-more-easily-with-databricks-and-apache-airflow.html)
 
 ### Ingestion: Streaming
+- [Simplifying Streaming Data Ingestion into Delta Lake](https://www.databricks.com/blog/2022/09/12/simplifying-streaming-data-ingestion-delta-lake.html)
 - [Speed Up Streaming Queries With Asynchronous State Checkpointing](https://databricks.com/blog/2022/05/02/speed-up-streaming-queries-with-asynchronous-state-checkpointing.html)
 - [Feature Deep Dive: Watermarking in Apache Spark Structured Streaming](https://www.databricks.com/blog/2022/08/22/feature-deep-dive-watermarking-in-apache-spark-structured-streaming.html)
 - [Python Arbitrary Stateful Processing in Structured Streaming](https://www.databricks.com/blog/2022/10/18/python-arbitrary-stateful-processing-structured-streaming.html)
