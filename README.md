@@ -77,10 +77,12 @@ My **personal** list of resources and samples related to working with Databricks
 - [Scanning for Arbitrary Code in Databricks Workspace With Improved Search and Audit Logs](https://databricks.com/blog/2022/07/19/scanning-for-arbitrary-code-in-databricks-workspace-with-improved-search-and-audit-logs.html)
 - [How Databricks restricts third party libraries in JVM compute platforms](https://www.databricks.com/blog/2022/08/23/restricting-libraries-in-jvm-compute-platforms.html)
 
-### Unity Catalog
+### Unity Catalog 🔐
 - [Terraform scripts](https://github.com/databricks/unity-catalog-setup)
 - [Export lineage via API](https://github.com/databricks/unity-catalog-setup/blob/main/lineage/lineage_export.py) example
-- [How to Seamlessly Upgrade Your Hive Metastore Objects to the Unity Catalog Metastore Using SYNC](https://www.databricks.com/blog/2022/11/03/how-seamlessly-upgrade-your-hive-metastore-objects-unity-catalog-metastore-using)
+
+#### Migrating to Unity Catalog
+- [How to Seamlessly Upgrade Your Hive Metastore Objects to the Unity Catalog Metastore Using SYNC](https://www.databricks.com/blog/2022/11/03/how-seamlessly-upgrade-your-hive-metastore-objects-unity-catalog-metastore-using) ([📄 notebook](https://www.databricks.com/wp-content/uploads/notebooks/db-382-unity-table-hive.dbc))
 
 ### Customer Implementations
 - [How Gemini Built a Cryptocurrency Analytics Platform Using Lakehouse for Financial Services](https://databricks.com/blog/2022/02/15/how-gemini-built-a-cryptocurrency-analytics-platform-using-lakehouse-for-financial-services.html): "The core lakehouse foundation and features resonated with the team as an efficient way to build the data platform"
