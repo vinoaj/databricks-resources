@@ -80,6 +80,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### Unity Catalog
 - [Terraform scripts](https://github.com/databricks/unity-catalog-setup)
 - [Export lineage via API](https://github.com/databricks/unity-catalog-setup/blob/main/lineage/lineage_export.py) example
+- [How to Seamlessly Upgrade Your Hive Metastore Objects to the Unity Catalog Metastore Using SYNC](https://www.databricks.com/blog/2022/11/03/how-seamlessly-upgrade-your-hive-metastore-objects-unity-catalog-metastore-using)
 
 ### Customer Implementations
 - [How Gemini Built a Cryptocurrency Analytics Platform Using Lakehouse for Financial Services](https://databricks.com/blog/2022/02/15/how-gemini-built-a-cryptocurrency-analytics-platform-using-lakehouse-for-financial-services.html): "The core lakehouse foundation and features resonated with the team as an efficient way to build the data platform"
@@ -163,6 +164,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Delta Live Tables Notebooks](https://github.com/databricks/delta-live-tables-notebooks)
 - [Deloitte’s Guide to Declarative Data Pipelines With Delta Live Tables](https://www.databricks.com/blog/2022/10/19/deloittes-guide-declarative-data-pipelines-delta-live-tables.html) ([Whitepaper](https://www.databricks.com/wp-content/uploads/2022/10/deloitte-delta-live-tables-databricks-white-paper.pdf))
 ![Deloitte's view on Delta Live Tables](https://cms.databricks.com/sites/default/files/inline-images/db-355-blog-img-1.png)
+- [Build a Customer 360 Solution with Fivetran and Delta Live Tables](https://www.databricks.com/blog/2022/11/09/build-customer-360-solution-fivetran-and-delta-live-tables.html) - includes SCD2 example
 - [Simplifying Change Data Capture With Databricks Delta Live Tables](https://databricks.com/blog/2022/04/25/simplifying-change-data-capture-with-databricks-delta-live-tables.html)
 - [Delivering Real-Time Data to Retailers with Delta Live Tables](https://databricks.com/blog/2022/04/12/delivering-real-time-data-to-retailers-with-delta-live-tables.html) (fully documented [notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/POS_DLT/index.html#POS_DLT_1.html))
 - [Building ETL pipelines for the cybersecurity lakehouse with Delta Live Tables](https://databricks.com/blog/2022/06/03/building-etl-pipelines-for-the-cybersecurity-lakehouse-with-delta-live-tables.html): ingest & evaluate AWS CloudTrail & VPC Flow logs (accompanying notebooks: [CloudTrail DLT pipeline](https://databricks.com/wp-content/uploads/notebooks/db-172-dlt/cloudtrail-dlt-pipeline.html), [VPC Flow Logs DLT pipeline](https://databricks.com/wp-content/uploads/notebooks/db-172-dlt/vpc-flow-logs-dlt-pipeline.html), [Zeek DLT pipeline](https://databricks.com/wp-content/uploads/notebooks/db-172-dlt/zeek-dlt-pipeline.html))
