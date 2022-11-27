@@ -85,6 +85,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 #### Migrating to Unity Catalog
 - [How to Seamlessly Upgrade Your Hive Metastore Objects to the Unity Catalog Metastore Using SYNC](https://www.databricks.com/blog/2022/11/03/how-seamlessly-upgrade-your-hive-metastore-objects-unity-catalog-metastore-using) ([📄 notebook](https://www.databricks.com/wp-content/uploads/notebooks/db-382-unity-table-hive.dbc))
+- [Simplify Access Policy Management With Privilege Inheritance in Unity Catalog](https://www.databricks.com/blog/2022/10/21/simplify-access-policy-management-privilege-inheritance-unity-catalog.html)
 
 ### Customer Implementations
 - [How Gemini Built a Cryptocurrency Analytics Platform Using Lakehouse for Financial Services](https://databricks.com/blog/2022/02/15/how-gemini-built-a-cryptocurrency-analytics-platform-using-lakehouse-for-financial-services.html): "The core lakehouse foundation and features resonated with the team as an efficient way to build the data platform"
