@@ -158,6 +158,7 @@ My **personal** list of resources and samples related to working with Databricks
 - Monitoring streaming queries ([PySpark](https://www.databricks.com/blog/2022/05/27/how-to-monitor-streaming-queries-in-pyspark.html) | [Scala](https://docs.databricks.com/structured-streaming/stream-monitoring.html#language-scala))
 - [Using Spark Structured Streaming to Scale Your Analytics](https://www.databricks.com/blog/2022/07/14/using-spark-structured-streaming-to-scale-your-analytics.html)
 - [State Rebalancing in Structured Streaming](https://www.databricks.com/blog/2022/10/04/state-rebalancing-structured-streaming.html)
+- [▶️ Streaming data into the Lakehouse](https://www.youtube.com/watch?v=FFVH7G9iN68)
 - [Simplifying Streaming Data Ingestion into Delta Lake](https://www.databricks.com/blog/2022/09/12/simplifying-streaming-data-ingestion-delta-lake.html)
 ![High level view of streaming data ingestion into delta lake](https://cms.databricks.com/sites/default/files/inline-images/db-265-blog-img-1.png)
 - Roadmap: [Project Lightspeed: Faster and Simpler Stream Processing With Apache Spark](https://www.databricks.com/blog/2022/06/28/project-lightspeed-faster-and-simpler-stream-processing-with-apache-spark.html)
