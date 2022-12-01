@@ -53,7 +53,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Five Simple Steps for Implementing a Star Schema in Databricks With Delta Lake](https://databricks.com/blog/2022/05/20/five-simple-steps-for-implementing-a-star-schema-in-databricks-with-delta-lake.html)
 - [Databricks Lakehouse and Data Mesh, (Part 1)](https://www.databricks.com/blog/2022/10/10/databricks-lakehouse-and-data-mesh-part-1.html) [(Part 2)](https://www.databricks.com/blog/2022/10/19/building-data-mesh-based-databricks-lakehouse-part-2.html)
 ![Data Mesh architecture](https://cms.databricks.com/sites/default/files/inline-images/db-363-blog-image-3.png)
-- [Dimensional modeling implementation on the modern lakehouse using Delta Live Tables](https://www.databricks.com/blog/2022/11/07/load-edw-dimensional-model-real-time-databricks-lakehouse.html)
+- [Dimensional modeling implementation on the modern lakehouse using Delta Live Tables](https://www.databricks.com/blog/2022/11/07/load-edw-dimensional-model-real-time-databricks-lakehouse.html): covers SCD1 & SCD2, PK/FK constraints, IDENTITY columns, and constraints
 - [Prescriptive Guidance for Implementing a Data Vault Model on the Databricks Lakehouse Platform](https://databricks.com/blog/2022/06/24/prescriptive-guidance-for-implementing-a-data-vault-model-on-the-databricks-lakehouse-platform.html)
 - [Architecting MLOps on the Lakehouse](https://databricks.com/blog/2022/06/22/architecting-mlops-on-the-lakehouse.html)
 - [Leveraging Delta Across Teams at McGraw Hill](https://www.databricks.com/blog/2022/09/14/leveraging-delta-across-teams-mcgraw-hill.html) ([source code](https://github.com/MHEducation/databricks-athena-blog-code) to automate the Databricks to Athena manifest based integration)
@@ -169,7 +169,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### Delta Live Tables (DLT)
 - [Delta Live Tables Cookbook](https://docs.databricks.com/data-engineering/delta-live-tables/delta-live-tables-cookbook.html)
 - [Delta Live Tables Notebooks](https://github.com/databricks/delta-live-tables-notebooks)
-- [Dimensional modeling implementation on the modern lakehouse using Delta Live Tables](https://www.databricks.com/blog/2022/11/07/load-edw-dimensional-model-real-time-databricks-lakehouse.html)
+- [Dimensional modeling implementation on the modern lakehouse using Delta Live Tables](https://www.databricks.com/blog/2022/11/07/load-edw-dimensional-model-real-time-databricks-lakehouse.html): covers SCD1 & SCD2, PK/FK constraints, IDENTITY columns, and constraints
 - [Deloitte’s Guide to Declarative Data Pipelines With Delta Live Tables](https://www.databricks.com/blog/2022/10/19/deloittes-guide-declarative-data-pipelines-delta-live-tables.html) ([Whitepaper](https://www.databricks.com/wp-content/uploads/2022/10/deloitte-delta-live-tables-databricks-white-paper.pdf))
 ![Deloitte's view on Delta Live Tables](https://cms.databricks.com/sites/default/files/inline-images/db-355-blog-img-1.png)
 - [Build a Customer 360 Solution with Fivetran and Delta Live Tables](https://www.databricks.com/blog/2022/11/09/build-customer-360-solution-fivetran-and-delta-live-tables.html) - includes SCD2 example
