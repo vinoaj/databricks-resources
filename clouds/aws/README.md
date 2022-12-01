@@ -6,8 +6,10 @@
 
 ## Deployment
 - [Best Practices and Guidance for Cloud Engineers to Deploy Databricks on AWS: Part 1](https://www.databricks.com/blog/2022/09/30/best-practices-and-guidance-cloud-engineers-deploy-databricks-aws-part-1.html)
+- [Optimizing AWS S3 Access for Databricks](https://www.databricks.com/blog/2022/11/08/optimizing-aws-s3-access-databricks.html)
 - [Terraform script example (unofficial)](https://github.com/LeoneGarage/terraform)
 - [Terraform script example (unofficial)](https://github.com/LeoneGarage/AWS-ISV-Summit-Provision)
+- [▶️ Deploying Databricks on the AWS Marketplace](https://www.youtube.com/watch?v=gU1BrfqMCYc)
 - [AWS Quickstart](https://aws.amazon.com/quickstart/architecture/databricks/)
 
 ## Guides
