@@ -271,6 +271,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Make Your Data Lakehouse Run, Faster With Delta Lake 1.1](https://databricks.com/blog/2022/01/31/make-your-data-lakehouse-run-faster-with-delta-lake-1-1.html)
 - [Get to Know Your Queries With the New Databricks SQL Query Profile](https://databricks.com/blog/2022/02/23/get-to-know-your-queries-with-the-new-databricks-sql-query-profile.html)
 - [Top 5 Performance Tips](https://databricks.com/blog/2022/03/10/top-5-databricks-performance-tips.html)
+- [Memory Profiling in PySpark](https://www.databricks.com/blog/2022/11/30/memory-profiling-pyspark.html)
 - [How to consistently get the best performance from star schema databases](https://databricks.com/blog/2022/05/20/five-simple-steps-for-implementing-a-star-schema-in-databricks-with-delta-lake.html)
 - [Introducing Ingestion Time Clustering with Databricks SQL and Databricks Runtime 11.2](https://www.databricks.com/blog/2022/11/18/introducing-ingestion-time-clustering-dbr-112.html): 19x faster query performance out-of-the-box. Write optimization, ensuring clustering is always maintained by ingestion time → significant query performance gains
 - [Faster insights With Databricks Photon Using AWS i4i Instances With the Latest Intel Ice Lake Scalable Processors](https://www.databricks.com/blog/2022/09/13/faster-insights-databricks-photon-using-aws-i4i-instances-latest-intel-ice-lake): Up to 2.5x price/performance benefits and 5.3x speed up!
