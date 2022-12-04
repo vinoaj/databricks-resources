@@ -253,6 +253,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### ODBC & JDBC connectivity
 
 - [Boosting Databricks ODBC Driver Performance](https://medium.com/creative-data/boosting-databricks-odbc-driver-be2cf08a7a4a)
+- [Connect Excel to Databricks SQL Warehouse](https://medium.com/@fpatano/connect-excel-to-databricks-sql-warehouse-ec5b707c35e5)
 
 ### Analyst Experience
 
