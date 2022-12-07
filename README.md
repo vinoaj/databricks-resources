@@ -148,6 +148,8 @@ My **personal** list of resources and samples related to working with Databricks
 - [Processing Petabytes of Data in Seconds with Databricks Delta](https://www.databricks.com/blog/2018/07/31/processing-petabytes-of-data-in-seconds-with-databricks-delta.html)
 - [Top 5 Reasons to Convert Your Cloud Data Lake to a Delta Lake](https://databricks.com/blog/2020/08/21/top-5-reasons-to-convert-your-cloud-data-lake-to-a-delta-lake.html)
 - [How to Rollback a Delta Lake Table to a Previous Version with Restore](https://delta.io/blog/2022-10-03-rollback-delta-lake-restore/)
+- [Exploring Delta Lake’s `ZORDER` and Performance](https://www.confessionsofadataguy.com/exploring-delta-lakes-zorder-and-performance-on-databricks/)
+- [Idempotent Writes to Delta Lake Tables](https://towardsdatascience.com/idempotent-writes-to-delta-lake-tables-96f49addd4aa)
 - [TPC-DS Benchmarking guide](https://github.com/delta-io/delta/tree/master/benchmarks)
 
 ### Developing with Delta Lake
