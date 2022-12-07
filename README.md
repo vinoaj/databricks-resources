@@ -356,6 +356,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Built-in H3 Expressions for Geospatial Processing and Analytics](https://www.databricks.com/blog/2022/09/14/announcing-built-h3-expressions-geospatial-processing-and-analytics.html)
 - [How Thasos Optimized and Scaled Geospatial Workloads with Mosaic on Databricks](https://www.databricks.com/blog/2022/10/12/how-thasos-optimized-and-scaled-geospatial-workloads-mosaic-databricks.html): Thasos is an alternative data intelligence firm that transforms real-time location data from mobile phones into actionable business performance insights. To derive actionable insights from mobile phone ping data (a time series of points defined by a latitude and longitude pair), Thasos created, maintains and manages a vast collection of verified geofences
 ![Geofence polygons from Figure 1 showing contained H3 cells (in red) and the derived boundary chips (in blue)](https://cms.databricks.com/sites/default/files/inline-images/db-328-blog-img-2.jpg)
+- [ArcGIS GeoAnalytics Engine in Databricks](https://www.databricks.com/blog/2022/12/07/arcgis-geoanalytics-engine-databricks.html)
 
 ---
 
