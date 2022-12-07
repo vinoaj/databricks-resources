@@ -274,6 +274,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Top 5 Performance Tips](https://databricks.com/blog/2022/03/10/top-5-databricks-performance-tips.html)
 - [Memory Profiling in PySpark](https://www.databricks.com/blog/2022/11/30/memory-profiling-pyspark.html)
 - [How to consistently get the best performance from star schema databases](https://databricks.com/blog/2022/05/20/five-simple-steps-for-implementing-a-star-schema-in-databricks-with-delta-lake.html)
+- [Delta – Best Practices for Managing Performance](https://daimlinc.com/blogs/data/delta-best-practices-for-managing-performance/) by partner Daimlinc
 - [Introducing Ingestion Time Clustering with Databricks SQL and Databricks Runtime 11.2](https://www.databricks.com/blog/2022/11/18/introducing-ingestion-time-clustering-dbr-112.html): 19x faster query performance out-of-the-box. Write optimization, ensuring clustering is always maintained by ingestion time → significant query performance gains
 - [Faster insights With Databricks Photon Using AWS i4i Instances With the Latest Intel Ice Lake Scalable Processors](https://www.databricks.com/blog/2022/09/13/faster-insights-databricks-photon-using-aws-i4i-instances-latest-intel-ice-lake): Up to 2.5x price/performance benefits and 5.3x speed up!
 ![2.5x relative price-performance improvement of i4i Photon](https://cms.databricks.com/sites/default/files/inline-images/db-325-blog-img-3.png)
@@ -336,6 +337,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 - [Getting Started with Personalization through Propensity Scoring](https://databricks.com/blog/2022/06/03/getting-started-with-personalization-through-propensity-scoring.html) (accompanying [notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/nightly/RCG/Propensity/index.html#Propensity_1.html))
 - [Using MLflow to deploy Graph Neural Networks for Monitoring Supply Chain Risk](https://medium.com/@ajmal.t.aziz/using-mlflow-to-deploy-graph-neural-networks-for-monitoring-supply-chain-risk-644c87e5259e)
+- [▶️ Streaming Data with Twitter, Delta Live Tables, Databricks Workflows, and Hugging Face](https://www.youtube.com/watch?v=LmHPk4jPnP8)
 - [Quantifying uncertainty with Tensorflow Probability](https://databricks.com/blog/2022/04/28/how-wrong-is-your-model.html)
 
 ---
