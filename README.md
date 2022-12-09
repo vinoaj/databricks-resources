@@ -139,6 +139,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 <img src="https://docs.delta.io/latest/_static/delta-lake-white.png" width="100" alt="Delta Lake Logo"></img>
 
+- [Newsletter: Last Week in a Byte](https://www.linkedin.com/newsletters/last-week-in-a-byte-7005016077193687040/)
 - [Roadmap](https://github.com/delta-io/delta/issues/1307)
 - [Releases](https://github.com/delta-io/delta/releases)
 - [Release Milestones](https://github.com/delta-io/delta/milestones)
