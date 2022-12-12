@@ -238,6 +238,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ### Databricks Workflows
 
+- [Databricks Workflows Through Terraform](https://www.databricks.com/blog/2022/12/5/databricks-workflows-through-terraform.html)
 - [Save Time and Money on Data and ML Workflows With “Repair and Rerun”](https://databricks.com/blog/2022/05/06/save-time-and-money-on-data-and-ml-workflows-with-repair-and-rerun.html)
 
 ---
