@@ -5,13 +5,15 @@
     },
     "autoscale.max_workers": {
         "type": "range",
-        "value": 10,
-        "defaultValue": 4
+        "minValue": 2,
+        "maxValue": 20,
+        "defaultValue": 8
     },
     "autotermination_minutes": {
-        "type": "fixed",
-        "value": 30,
-        "hidden": true
+        "type": "range",
+        "minValue": 0,
+        "maxValue": 120,
+        "defaultValue": 30
     },
     "driver_node_type_id": {
         "type": "fixed",
@@ -30,6 +32,11 @@
         "type": "regex",
         // TODO confirm utilises photon
         "pattern": "11\\.[0-9]+\\.x-scala.*"
+        // "pattern": "1[12]\\.[0-9]+\\.x-.*"
+    },
+    "aws_attributes.instance_profile_arn": {
+        "type": "fixed",
+        "value": "arn:aws:iam::123456789:instance-profile/role-name"
     },
     "aws_attributes.first_on_demand": {
         "type": "fixed",
@@ -50,6 +57,14 @@
     "gcp_attributes.availability": {
         "type": "fixed",
         "value": "PREEMPTIBLE_WITH_FALLBACK_GCP"
+    },
+    "spark_conf.databricks.hive.metastore.glueCatalog.enabled": {
+        "type": "fixed",
+        "value": "true"
+    },
+    "spark_env_vars.AWS_REGION": {
+        "type": "fixed",
+        "value": "ap-southeast-2"
     },
     "custom_tags.cost_center": {
         "type": "allowlist",
