@@ -58,6 +58,10 @@
         "type": "fixed",
         "value": "PREEMPTIBLE_WITH_FALLBACK_GCP"
     },
+    "gcp_attributes.google_service_account": {
+        "type": "fixed",
+        "value": "your-sa@your-project-name.iam.gserviceaccount.com"
+    },
     "spark_conf.databricks.hive.metastore.glueCatalog.enabled": {
         "type": "fixed",
         "value": "true"
