@@ -1,3 +1,6 @@
+# Databricks
+.databricks/
+
 # MacOS
 .DS_Store
 
