@@ -374,7 +374,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### Customer Data
 
 - [Customer Entity Resolution](https://www.databricks.com/blog/2022/08/04/new-solution-accelerator-customer-entity-resolution.html) ([Solution Accelerator page](https://www.databricks.com/solutions/accelerators/customer-entity-resolution) | [Notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/nightly/RCG/Customer_ER/index.html))
-- [The Emergence of the Composable Customer Data Platform](https://databricks.com/blog/2022/06/24/the-emergence-of-the-composable-customer-data-platform.html)
+- [The Emergence of the Composable Customer Data Platform](https://databricks.com/blog/2022/06/24/the-emergence-of-the-composable-customer-data-platform.html) ([whitepaper](https://cms.databricks.com/sites/default/files/2022-11/databricks_cdp_whitepaper_final-103122.pdf))
 
 ### Cybersecurity 🔐
 
