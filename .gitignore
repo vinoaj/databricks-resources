@@ -1,5 +1,6 @@
 # Databricks
 .databricks/
+sqltools_*
 
 # MacOS
 .DS_Store
@@ -13,6 +14,9 @@ credentials.json.b64.txt
 
 # Vinny
 *.ignore.*
+
+# VSCode
+.vscode/
 
 #Terraform
 # Local .terraform directories
