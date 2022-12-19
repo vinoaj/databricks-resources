@@ -386,7 +386,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Accelerating SIEM Migrations With the SPL to PySpark Transpiler](https://www.databricks.com/blog/2022/12/16/accelerating-siem-migrations-spl-pyspark-transpiler.html)
 - [Learn how to connect Databricks to Okta to ingest System Logs, retain, and analyze for complete visibility using your Databricks Lakehouse Platform](https://databricks.com/blog/2022/04/07/analyzing-okta-logs-with-databricks-lakehouse-platform-to-detect-unusual-activity.html) (accompanying [notebooks](https://databricks.com/wp-content/uploads/notebooks/db-134-okta-logs/index.html#1_okta_create_table.html))
 - [Streaming Windows Event Logs into the Cybersecurity Lakehouse](https://databricks.com/blog/2022/05/05/streaming-windows-event-logs-into-the-cybersecurity-lakehouse.html) ([notebook](https://github.com/DerekKing001/databricks_cyber_notebooks/blob/master/winlogbeats-kafka-sysmon/winlogbeats-kafka-sysmon-example.py))
-- [Building a Cybersecurity Lakehouse for CrowdStrike Falcon Events Part I](https://databricks.com/blog/2021/05/20/building-a-cybersecurity-lakehouse-for-crowdstrike-falcon-events.html), [Part II](https://databricks.com/blog/2022/07/19/building-a-cybersecurity-lakehouse-for-crowdstrike-falcon-events-part-ii.html)
+- [Building a Cybersecurity Lakehouse for CrowdStrike Falcon Events Part I](https://databricks.com/blog/2021/05/20/building-a-cybersecurity-lakehouse-for-crowdstrike-falcon-events.html), [Part II](https://databricks.com/blog/2022/07/19/building-a-cybersecurity-lakehouse-for-crowdstrike-falcon-events-part-ii.html), [Part III](https://www.databricks.com/blog/2022/12/16/building-cybersecurity-lakehouse-crowdstrike-falcon-events-part-iii.html)
 
 ### ERP
 
