@@ -21,6 +21,10 @@
     - Bonus: algorithm to determine how frequently forecasts should be generated
   - This solution accelerator can be used to augment your existing forecasting solutions, or as a thought-starter to enhance your existing forecasting models. As with all our solution accelerators, this is free to access and repurpose
 
+### Brickbuilder Solutions
+
+- [Bending Retails’ Curve – Moving Beyond Possible With Tredence](https://www.databricks.com/blog/2022/12/19/bending-retails-curve-moving-beyond-possible-tredence.html)
+
 ## Guides
 
 - [Getting Started with Personalization through Propensity Scoring](https://databricks.com/blog/2022/06/03/getting-started-with-personalization-through-propensity-scoring.html) (accompanying [notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/nightly/RCG/Propensity/index.html#Propensity_1.html))
