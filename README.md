@@ -47,6 +47,11 @@ My **personal** list of resources and samples related to working with Databricks
 
 - Founding member of the [Data Cloud Alliance](https://cloud.google.com/solutions/data-cloud-alliance): "Commitment to accelerating adoption across industries through common industry data models, open standards, processes, and end-to-end integrated products and solutions"
 
+### Analyst Evaluations
+
+- [Databricks Named a Leader in 2022 Gartner® Magic Quadrant™ for Cloud Database Management Systems (Dec 2022)](https://www.databricks.com/blog/2022/12/16/databricks-named-leader-2022-gartner-magic-quadrant-cloud-database-management)
+![Gartner magic quadrant DBMS Dec 2022](https://cms.databricks.com/sites/default/files/inline-images/db-423-blog-image-1.png)
+
 ---
 
 ## Lakehouse Paradigm
