@@ -10,9 +10,11 @@
 
 ## Cluster Management
 
+A cluster policy limits the ability to configure clusters based on a set of rules. The policy rules limit the attributes or attribute values available for cluster creation. Cluster policies have ACLs that limit their use to specific users and groups. Therefore you can control who can or cannot create clusters, and the limits to which they can configure those clusters.
+
 - [ ] What cluster policies do you require?
   - [ ] Which groups / users are assigned to which cluster policies?
-- [ ] Are cluster policies adhering to best practices ([General guidance](https://www.databricks.com/blog/2022/10/18/best-practices-cost-management-databricks.html) | AWS | Azure | [GCP](https://docs.gcp.databricks.com/administration-guide/clusters/policies-best-practices.html))
+- [ ] Are cluster policies adhering to best practices ([General guidance](https://www.databricks.com/blog/2022/10/18/best-practices-cost-management-databricks.html) | [AWS](https://docs.databricks.com/administration-guide/clusters/policies-best-practices.html) | [Azure](https://learn.microsoft.com/en-gb/azure/databricks/administration-guide/clusters/policies-best-practices) | [GCP](https://docs.gcp.databricks.com/administration-guide/clusters/policies-best-practices.html))
   - [ ] Node count limits & auto-scaling
   - [ ] Auto-termination minutes
   - [ ] Only allow latest DBRs
