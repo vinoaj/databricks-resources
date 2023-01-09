@@ -5,7 +5,7 @@
 - [Notebook](DataEngBytes-Delta-Lake-Demo.py)
 
 ## Recording
-[▶️ Watch here](https://youtu.be/k6IEaMF7U7A?t=22131) 
+[▶️ Watch here](https://www.youtube.com/watch?v=nGmpnYe9k-A) 
 
 [![Watch recording](youtube_thumbnail.png)](https://youtu.be/k6IEaMF7U7A?t=22131)
 
