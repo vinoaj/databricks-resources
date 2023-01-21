@@ -265,7 +265,11 @@ My **personal** list of resources and samples related to working with Databricks
 
 ---
 
-## Analysis & Business Intelligence (BI)
+## Databricks SQL, Analysis & Business Intelligence (BI)
+
+### SQL
+
+- [What’s New With SQL User-Defined Functions](https://www.databricks.com/blog/2023/01/18/whats-new-sql-user-defined-functions.html) 2023-01-18
 
 ### ODBC & JDBC connectivity
 
