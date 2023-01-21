@@ -82,7 +82,11 @@ My **personal** list of resources and samples related to working with Databricks
 - [Functional Workspace Organization on Databricks](https://databricks.com/blog/2022/03/10/functional-workspace-organization-on-databricks.html) (Databricks Admin Essentials: Blog 1/5)
 - [Monitoring Your Databricks Lakehouse Platform with Audit Logs](https://databricks.com/blog/2022/05/02/monitoring-your-databricks-lakehouse-platform-with-audit-logs.html) (Databricks Admin Essentials: Blog 2/5) ([Notebook](https://github.com/andyweaves/databricks-audit-logs))
 - [Serving Up a Primer for Unity Catalog Onboarding](https://www.databricks.com/blog/2022/11/22/serving-primer-unity-catalog-onboarding.html) (Databricks Admin Essentials)
+
+#### Cost Management
+
 - [Best Practices for Cost Management on Databricks](https://www.databricks.com/blog/2022/10/18/best-practices-cost-management-databricks.html)
+- [Cost-conscious R&D in the Cloud that Data Scientists Will Love](https://medium.com/@kurlare/cost-conscious-r-d-in-the-cloud-that-data-scientists-will-love-148837b5ab51)
 
 ### Disaster Recovery (DR) and High Availability (HA)
 
