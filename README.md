@@ -200,7 +200,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### Ingestion: Streaming
 
 - [Simplifying Streaming Data Ingestion into Delta Lake](https://www.databricks.com/blog/2022/09/12/simplifying-streaming-data-ingestion-delta-lake.html)
-- [Streaming in Production: Collected Best Practices](https://www.databricks.com/blog/2022/12/12/streaming-production-collected-best-practices.html)
+- [Streaming in Production: Collected Best Practices - Part 1](https://www.databricks.com/blog/2022/12/12/streaming-production-collected-best-practices.html), [Part 2](https://www.databricks.com/blog/2023/01/10/streaming-production-collected-best-practices-part-2.html)
 - [Speed Up Streaming Queries With Asynchronous State Checkpointing](https://databricks.com/blog/2022/05/02/speed-up-streaming-queries-with-asynchronous-state-checkpointing.html)
 - [Feature Deep Dive: Watermarking in Apache Spark Structured Streaming](https://www.databricks.com/blog/2022/08/22/feature-deep-dive-watermarking-in-apache-spark-structured-streaming.html)
 - [Python Arbitrary Stateful Processing in Structured Streaming](https://www.databricks.com/blog/2022/10/18/python-arbitrary-stateful-processing-structured-streaming.html)
@@ -289,7 +289,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Best Practices
 
-- [Streaming in Production: Collected Best Practices](https://www.databricks.com/blog/2022/12/12/streaming-production-collected-best-practices.html)
+- [Streaming in Production: Collected Best Practices - Part 1](https://www.databricks.com/blog/2022/12/12/streaming-production-collected-best-practices.html), [Part 2](https://www.databricks.com/blog/2023/01/10/streaming-production-collected-best-practices-part-2.html)
 
 ### Performance tuning
 
