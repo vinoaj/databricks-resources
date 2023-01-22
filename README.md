@@ -381,6 +381,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Building a Geospatial Lakehouse, Part 1](https://databricks.com/blog/2021/12/17/building-a-geospatial-lakehouse-part-1.html)
 - [Building a Geospatial Lakehouse, Part 2](https://databricks.com/blog/2022/03/28/building-a-geospatial-lakehouse-part-2.html): includes downloadable notebooks
 - [High Scale Geospatial Processing With Mosaic](https://databricks.com/blog/2022/05/02/high-scale-geospatial-processing-with-mosaic.html): writeup on the underlying philosophy behind Mosaic's design
+- [Building Geospatial Data Products](https://www.databricks.com/blog/2023/01/06/building-geospatial-data-products.html)
 - [Built-in H3 Expressions for Geospatial Processing and Analytics](https://www.databricks.com/blog/2022/09/14/announcing-built-h3-expressions-geospatial-processing-and-analytics.html)
 - [Spatial Analytics at Any Scale With H3 and Photon: A Comparison of Discrete, Vector, and Hybrid Approaches](https://www.databricks.com/blog/2022/12/13/spatial-analytics-any-scale-h3-and-photon.html)
 ![Geospatial libraries decision tree](https://cms.databricks.com/sites/default/files/inline-images/db-400-blog-img-2.png)
