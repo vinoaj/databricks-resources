@@ -87,6 +87,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 - [Best Practices for Cost Management on Databricks](https://www.databricks.com/blog/2022/10/18/best-practices-cost-management-databricks.html)
 - [Cost-conscious R&D in the Cloud that Data Scientists Will Love](https://medium.com/@kurlare/cost-conscious-r-d-in-the-cloud-that-data-scientists-will-love-148837b5ab51)
+- [How We Cut Our Databricks Costs by 50% (AWS)](https://medium.com/similarweb-engineering/how-we-cut-our-databricks-costs-by-50-7c60d6b6c069)
 
 ### Disaster Recovery (DR) and High Availability (HA)
 
