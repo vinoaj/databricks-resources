@@ -165,7 +165,11 @@ My **personal** list of resources and samples related to working with Databricks
 - [How to Rollback a Delta Lake Table to a Previous Version with Restore](https://delta.io/blog/2022-10-03-rollback-delta-lake-restore/)
 - [Exploring Delta Lake’s `ZORDER` and Performance](https://www.confessionsofadataguy.com/exploring-delta-lakes-zorder-and-performance-on-databricks/)
 - [Idempotent Writes to Delta Lake Tables](https://towardsdatascience.com/idempotent-writes-to-delta-lake-tables-96f49addd4aa)
+  
+### Delta Lake Benchmarking ⚡️
+
 - [TPC-DS Benchmarking guide](https://github.com/delta-io/delta/tree/master/benchmarks)
+  - [Benchmarking Open Table Formats](https://brooklyndata.co/blog/benchmarking-open-table-formats) ([repo](https://github.com/brooklyn-data/delta/tree/master/benchmarks/src/main/scala/benchmark/etl))
 
 ### Developing with Delta Lake
 
