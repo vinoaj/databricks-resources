@@ -41,6 +41,11 @@ My **personal** list of resources and samples related to working with Databricks
 
 - [Databricks 30 Index](https://databricks.com/blog/2021/03/17/winning-with-data-ai-meet-the-databricks-30-index.html): (March 2021) The Databricks 30 is an equal-weight price index composed of 5 marquee customers each across Retail/Consumer Products, Financial Services, Healthcare, Media/Entertainment, Manufacturing/Logistics, in addition to 5 strategic partners
 ![Databricks 30 Index performance](https://databricks.com/wp-content/uploads/2021/03/db-30-blog-image-1.png)
+- [Forrester Total Economic Impact™ Study](https://www.databricks.com/p/whitepaper/forrester-tei-study) (April 2020)
+  - Customers averaged nearly $29 million in total economic impact and ROI over three years totaled 417%, driven by:
+    - 5% increase in revenue by unlocking new data science opportunities
+    - $11 million savings from retiring on-prem infrastructure and legacy licenses
+    - Faster time to market due to improved data team productivity of up to 25%
 - [Why we bet our business on Databricks, and why you should too](https://lovelytics.com/blog/why-we-bet-our-business-on-databricks-and-why-you-should-too/)
 
 ### OSS & No Lock-in
