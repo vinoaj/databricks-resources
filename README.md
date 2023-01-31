@@ -15,14 +15,18 @@ My **personal** list of resources and samples related to working with Databricks
 
 [▶️ YouTube channel](https://www.youtube.com/channel/UC3q8O3Bh2Le8Rj1-Q-_UUbA) | [🎧 Data Brew Podcast](https://databricks.com/discover/data-brew) | [📖 Databricks Blog](https://databricks.com/blog)
 
-- [📄 Databricks Academy lab notebooks](https://github.com/databricks-academy)
-- [📄 Databricks Industry Solutions notebooks](https://github.com/databricks-industry-solutions)
 - [▶️ Data + AI Summit (DAIS) 2022 recordings](https://www.youtube.com/playlist?list=PLTPXxbhUt-YVWi_cf2UUDc9VZFLoRgu0l)
 - [APJ instructor led training (ILT)](https://databricks.com/learn/training/schedule-apj): Please note these are **paid** training courses.
 
 ### Release Notes
 
 - Azure Databricks: [Platform release notes](https://docs.microsoft.com/en-us/azure/databricks/release-notes/product/) | [Runtime release notes](https://docs.microsoft.com/en-us/azure/databricks/release-notes/runtime/) | [Databricks SQL release notes](https://docs.microsoft.com/en-us/azure/databricks/sql/release-notes/)
+
+### GitHub repos
+
+- [📄 Databricks Academy lab notebooks](https://github.com/databricks-academy)
+- [📄 Databricks Industry Solutions notebooks](https://github.com/databricks-industry-solutions)
+- [Notebook gallery](https://github.com/databricks/notebook_gallery)
 
 ### Community & Support
 
