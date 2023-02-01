@@ -6,6 +6,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 - By Cloud: [AWS](clouds/aws/README.md) | [Azure](clouds/azure/README.md) | [Google Cloud](clouds/google-cloud/README.md)
 - By Industry: [FSI](by-industry/fsi/README.md) | [Healthcare](by-industry/healthcare/README.md) | [Media & Entertainment](by-industry/media-and-entertainment/README.md) | [Retail and CPG](by-industry/retail-and-cpg/README.md)
+- [dbdemos.ai](https://www.dbdemos.ai/index.html)
 
 ---
 
