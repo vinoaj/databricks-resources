@@ -390,6 +390,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [How Outreach Productionizes PyTorch-based Hugging Face Transformers for NLP](https://www.databricks.com/blog/2021/05/14/how-outreach-productionizes-pytorch-based-hugging-face-transformers-for-nlp.html)
 - [▶️ Streaming Data with Twitter, Delta Live Tables, Databricks Workflows, and Hugging Face](https://www.youtube.com/watch?v=LmHPk4jPnP8)
 - [Quantifying uncertainty with Tensorflow Probability](https://databricks.com/blog/2022/04/28/how-wrong-is-your-model.html)
+- [How Corning Built End-to-end ML on Databricks Lakehouse Platform](https://www.databricks.com/blog/2023/01/05/how-corning-built-end-end-ml-databricks-lakehouse-platform.html) ([▶️ AWS re:Invent 2022 talk](https://www.youtube.com/watch?v=DH_NQVT8Qc0))
 
 ---
 
