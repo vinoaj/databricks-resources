@@ -181,6 +181,10 @@ My **personal** list of resources and samples related to working with Databricks
 - [TPC-DS Benchmarking guide](https://github.com/delta-io/delta/tree/master/benchmarks)
   - [Benchmarking Open Table Formats](https://brooklyndata.co/blog/benchmarking-open-table-formats) ([repo](https://github.com/brooklyn-data/delta/tree/master/benchmarks/src/main/scala/benchmark/etl))
 
+### Utilities
+
+- [hydro 💧](https://github.com/christophergrant/hydro): a collection of Python-based Apache Spark and Delta Lake extensions
+
 ### Developing with Delta Lake
 
 - [The Ubiquity of Delta Standalone](https://databricks.com/blog/2022/01/28/the-ubiquity-of-delta-standalone-java-scala-hive-presto-trino-power-bi-and-more.html): a JVM library that can be used to read and write Delta Lake tables. Unlike Delta Lake Core, this project does not use Spark to read or write tables and has only a few transitive dependencies. It can be used by any application (e.g. Power BI) that cannot use a Spark cluster. The project allows developers to build a Delta connector for an external processing engine following the Delta protocol without using a manifest file.
