@@ -195,6 +195,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Release Milestones](https://github.com/delta-io/delta-sharing/milestones)
 - [▶️ Databricks Delta Sharing demo](https://www.youtube.com/watch?v=wRT1Vpbyy88)
 - [▶️ PowerBI and Delta Sharing](https://www.linkedin.com/posts/dennyglee_powerbi-deltasharing-deltalake-activity-6988515550570196992-lsFw/?utm_source=share&utm_medium=member_ios)
+- [▶️ Advancing Spark - Delta Sharing and Excel](https://www.youtube.com/watch?v=wRzx6GCiY70) (via PowerBI)
 - [Arcuate](https://databricks.com/blog/2022/05/24/arcuate-machine-learning-model-exchange-with-delta-sharing-and-mlflow.html): Machine Learning Model Exchange With Delta Sharing and MLflow
 - [Java connector](https://github.com/databrickslabs/delta-sharing-java-connector)(supporting [blog post](https://databricks.com/blog/2022/06/29/designing-a-java-connector-for-delta-sharing-recipient.html))
 - [Security Best Practices for Delta Sharing](https://www.databricks.com/blog/2022/08/01/security-best-practices-for-delta-sharing.html)
