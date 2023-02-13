@@ -14,6 +14,12 @@
 - [▶️ Deploying Databricks on the AWS Marketplace](https://www.youtube.com/watch?v=gU1BrfqMCYc)
 - [AWS Quickstart](https://aws.amazon.com/quickstart/architecture/databricks/)
 
+## ETL / ELT
+
+### Ingestion: Streaming
+
+- [Enhanced Fan-Out for Kinesis on Databricks](https://www.databricks.com/blog/2023/01/31/announcing-support-enhanced-fan-out-kinesis-databricks.html)
+
 ## Guides
 
 - [Build an MLOps sentiment analysis pipeline using Amazon SageMaker Ground Truth and Databricks MLflow](https://aws.amazon.com/blogs/machine-learning/build-an-mlops-sentiment-analysis-pipeline-using-amazon-sagemaker-ground-truth-and-databricks-mlflow/)

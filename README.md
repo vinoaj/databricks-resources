@@ -230,6 +230,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [▶️ Streaming data into the Lakehouse](https://www.youtube.com/watch?v=FFVH7G9iN68)
 - [Simplifying Streaming Data Ingestion into Delta Lake](https://www.databricks.com/blog/2022/09/12/simplifying-streaming-data-ingestion-delta-lake.html)
 ![High level view of streaming data ingestion into delta lake](https://cms.databricks.com/sites/default/files/inline-images/db-265-blog-img-1.png)
+- [Enhanced Fan-Out for Kinesis on Databricks](https://www.databricks.com/blog/2023/01/31/announcing-support-enhanced-fan-out-kinesis-databricks.html)
 - Roadmap: [Project Lightspeed: Faster and Simpler Stream Processing With Apache Spark](https://www.databricks.com/blog/2022/06/28/project-lightspeed-faster-and-simpler-stream-processing-with-apache-spark.html)
 - [Debugging using the Structured Streaming UI](https://www.databricks.com/blog/2020/07/29/a-look-at-the-new-structured-streaming-ui-in-apache-spark-3-0.html) ([Spark docs](https://spark.apache.org/docs/latest/web-ui.html#structured-streaming-tab))
 - [Confluent Streaming for Databricks: Build Scalable Real-time Applications on the Lakehouse (Part I)](https://databricks.com/blog/2022/01/13/confluent-streaming-for-databricks-build-scalable-real-time-applications-on-the-lakehouse.html) [(Part II)](https://databricks.com/blog/2022/05/17/build-scalable-real-time-applications-on-the-lakehouse-using-confluent-databricks-part-2.html)
