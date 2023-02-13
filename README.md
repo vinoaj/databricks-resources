@@ -256,6 +256,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### Transformation
 
 - [`dbt-databricks`](https://github.com/databricks/dbt-databricks)
+- [▶️ dbt core on Databricks](https://www.youtube.com/watch?v=frkz-dBiaM4)
 - [Faster MERGE Performance With Low-Shuffle MERGE and Photon](https://www.databricks.com/blog/2022/10/17/faster-merge-performance-low-shuffle-merge-and-photon.html)
 
 ---
