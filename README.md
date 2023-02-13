@@ -109,7 +109,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 - [Security and Trust Center](https://databricks.com/trust)
 - [Databricks Bug Bounty Program](https://hackerone.com/databricks?view_policy=true) (example of bug bounty response: [Admin Isolation on Shared Clusters](https://www.databricks.com/blog/2022/10/10/admin-isolation-shared-clusters.html))
-- [Security Analysis Tool (SAT)](https://www.databricks.com/blog/2022/11/02/announcing-security-analysis-tool-sat.html): [📄 GitHub repo](https://github.com/databricks-industry-solutions/security-analysis-tool), [▶️ Setup instructions](https://www.youtube.com/watch?v=kLSc3UHKL40)
+- [Security Analysis Tool (SAT)](https://www.databricks.com/blog/2023/02/03/announcing-multi-cloud-support-security-analysis-tool-sat.html): [📄 GitHub repo](https://github.com/databricks-industry-solutions/security-analysis-tool), [▶️ Setup instructions](https://www.youtube.com/watch?v=kLSc3UHKL40)
 - [Audit Log schema](https://docs.databricks.com/administration-guide/account-settings/audit-logs.html#audit-log-schema)
 - [Admin Isolation on Shared Clusters](https://www.databricks.com/blog/2022/10/10/admin-isolation-shared-clusters.html)
 - [Scanning for Arbitrary Code in Databricks Workspace With Improved Search and Audit Logs](https://databricks.com/blog/2022/07/19/scanning-for-arbitrary-code-in-databricks-workspace-with-improved-search-and-audit-logs.html)
