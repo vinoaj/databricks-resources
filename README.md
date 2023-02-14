@@ -281,6 +281,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## DataOps
 
+- [VS Code extension](https://marketplace.visualstudio.com/items?itemName=databricks.databricks)
 - [Use an IDE with Databricks](https://docs.databricks.com/dev-tools/ide-how-to.html#set-up-the-code-sample)
 - [Software engineering best practices for notebooks](https://docs.databricks.com/notebooks/best-practices.html) ([accompanying notebooks](https://github.com/databricks/notebook-best-practices)) ([accompanying notebooks](https://github.com/databricks/ide-best-practices))
 - [Build Reliable Production Data and ML Pipelines With Git Support for Databricks Workflows](https://databricks.com/blog/2022/06/21/build-reliable-production-data-and-ml-pipelines-with-git-support-for-databricks-workflows.html) ([📄 notebooks](https://github.com/RafiKurlansik/e2e-cuj))
