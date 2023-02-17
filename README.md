@@ -456,6 +456,12 @@ My **personal** list of resources and samples related to working with Databricks
 
 ---
 
+## Migrations
+
+- [How To Migrate Your Oracle PL/SQL Code to Databricks Lakehouse Platform](https://www.databricks.com/blog/2023/02/13/how-migrate-your-oracle-plsql-code-databricks-lakehouse-platform.html)
+
+---
+
 ## End-to-end Guides
 
 - [Exploration of Twitter sentiment impact on cryptocurrency price](https://databricks.com/blog/2022/05/02/introduction-to-analyzing-crypto-data-using-databricks.html)
