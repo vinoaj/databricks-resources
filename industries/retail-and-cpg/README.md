@@ -20,6 +20,7 @@
     - Generating forecasts, picking the best model for each time series
     - Bonus: algorithm to determine how frequently forecasts should be generated
   - This solution accelerator can be used to augment your existing forecasting solutions, or as a thought-starter to enhance your existing forecasting models. As with all our solution accelerators, this is free to access and repurpose
+  - [Products We Think You Might Like: Generating Personalized Recommendations Using Matrix Factorization](https://www.databricks.com/blog/2023/01/06/products-we-think-you-might-generating-personalized-recommendations.html)
 
 ### Brickbuilder Solutions
 
@@ -36,6 +37,7 @@
 - [84.51° Uses Databricks Lakehouse to improve its forecasting accuracy across Kroger stores](https://www.youtube.com/watch?v=1TcmBjCOnL0)
 - [Democratizing Data for Supply Chain Optimization: How Johnson & Johnson Leverages the Databricks Lakehouse](https://databricks.com/blog/2022/04/25/democratizing-data-for-supply-chain-optimization.html)
 - [Walgreens uses Databricks Lakehouse to personalize patient experiences & optimize their supply chain](https://www.youtube.com/watch?v=l2rnu-6rEXU) (video)
+- [Crisp and Databricks bring supply chain visibility to the lakehouse](https://www.gocrisp.com/blog/databricks)
 
 ---
 
