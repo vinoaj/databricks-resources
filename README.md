@@ -360,6 +360,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### MLOps
 
 - [Architecting MLOps on the Lakehouse](https://databricks.com/blog/2022/06/22/architecting-mlops-on-the-lakehouse.html)
+- [MLOps at Walgreens Boots Alliance With Databricks Lakehouse Platform](https://www.databricks.com/blog/2022/12/05/mlops-walgreens-boots-alliance-databricks-lakehouse-platform.html) - experiences with preview of MLOps Stack
 
 ### MLflow
 
