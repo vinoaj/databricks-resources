@@ -1,0 +1,59 @@
+{
+    "autoscale.min_workers": {
+        "type": "fixed",
+        "value": 1
+    },
+    "autoscale.max_workers": {
+        "type": "range",
+        "minValue": 2,
+        "maxValue": 20,
+        "defaultValue": 8
+    },
+    "autotermination_minutes": {
+        "type": "range",
+        "minValue": 0,
+        "maxValue": 120,
+        "defaultValue": 10
+    },
+    "driver_node_type_id": {
+        "type": "fixed",
+        "value": "n2-highmem-4"
+    },
+    "node_type_id": {
+        "type": "allowlist",
+        "values": [
+            "n2-highmem-4",
+            "n2-highmem-8",
+            "n2-highmem-16"
+        ],
+        "defaultValue": "n2-highmem-8"
+    },
+    "spark_version": {
+        "type": "regex",
+        "pattern": "1[12]\\.[0-9]+\\.x-.*"
+    },
+    "gcp_attributes.google_service_account": {
+        "type": "fixed",
+        "value": "your-sa@your-project-name.iam.gserviceaccount.com"
+    },
+    "gcp_attributes.availability": {
+        "type": "fixed",
+        "value": "PREEMPTIBLE_GCP"
+    },
+    "gcp_attributes.zone_id": {
+        "type": "fixed",
+        "value": "AUTO"
+    },
+    "custom_tags.cost_center": {
+        "type": "allowlist",
+        "values": [
+            "9999",
+            "9921",
+            "9531"
+        ]
+    },
+    "custom_tags.team": {
+        "type": "fixed",
+        "value": "squad-abc"
+    }
+}

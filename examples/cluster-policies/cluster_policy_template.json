@@ -62,6 +62,10 @@
         "type": "fixed",
         "value": "your-sa@your-project-name.iam.gserviceaccount.com"
     },
+    "gcp_attributes.zone_id": {
+        "type": "fixed",
+        "value": "AUTO"
+    },
     "spark_conf.databricks.hive.metastore.glueCatalog.enabled": {
         "type": "fixed",
         "value": "true"
