@@ -241,6 +241,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Delta Live Tables Cookbook](https://docs.databricks.com/data-engineering/delta-live-tables/delta-live-tables-cookbook.html)
 - [Delta Live Tables Notebooks](https://github.com/databricks/delta-live-tables-notebooks)
 - [Dimensional modeling implementation on the modern lakehouse using Delta Live Tables](https://www.databricks.com/blog/2022/11/07/load-edw-dimensional-model-real-time-databricks-lakehouse.html): covers SCD1 & SCD2, PK/FK constraints, IDENTITY columns, and constraints ([📄 Notebook](https://github.com/dbsys21/databricks-lakehouse/blob/main/lakehouse-buildout/dimensional-modeling/E2E-Dimensional-Modeling-DLT.sql))
+- [Data Vault Best practice & Implementation on the Lakehouse](https://www.databricks.com/blog/2023/02/24/data-vault-best-practice-implementation-lakehouse.html)
 - [Deloitte’s Guide to Declarative Data Pipelines With Delta Live Tables](https://www.databricks.com/blog/2022/10/19/deloittes-guide-declarative-data-pipelines-delta-live-tables.html) ([Whitepaper](https://www.databricks.com/wp-content/uploads/2022/10/deloitte-delta-live-tables-databricks-white-paper.pdf))
 ![Deloitte's view on Delta Live Tables](https://cms.databricks.com/sites/default/files/inline-images/db-355-blog-img-1.png)
 - [Build a Customer 360 Solution with Fivetran and Delta Live Tables](https://www.databricks.com/blog/2022/11/09/build-customer-360-solution-fivetran-and-delta-live-tables.html) - includes SCD2 example
