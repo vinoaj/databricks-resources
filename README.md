@@ -222,6 +222,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Simplifying Streaming Data Ingestion into Delta Lake](https://www.databricks.com/blog/2022/09/12/simplifying-streaming-data-ingestion-delta-lake.html)
 - [Streaming in Production: Collected Best Practices - Part 1](https://www.databricks.com/blog/2022/12/12/streaming-production-collected-best-practices.html), [Part 2](https://www.databricks.com/blog/2023/01/10/streaming-production-collected-best-practices-part-2.html)
 - [Speed Up Streaming Queries With Asynchronous State Checkpointing](https://databricks.com/blog/2022/05/02/speed-up-streaming-queries-with-asynchronous-state-checkpointing.html)
+- [Scalable Spark Structured Streaming for REST API Destinations](https://www.databricks.com/blog/2023/03/02/scalable-spark-structured-streaming-rest-api-destinations.html): How to use Spark Structured Streaming's foreachBatch to scalably publish data to REST APIs
 - [Feature Deep Dive: Watermarking in Apache Spark Structured Streaming](https://www.databricks.com/blog/2022/08/22/feature-deep-dive-watermarking-in-apache-spark-structured-streaming.html)
 - [Python Arbitrary Stateful Processing in Structured Streaming](https://www.databricks.com/blog/2022/10/18/python-arbitrary-stateful-processing-structured-streaming.html)
 - Monitoring streaming queries ([PySpark](https://www.databricks.com/blog/2022/05/27/how-to-monitor-streaming-queries-in-pyspark.html) | [Scala](https://docs.databricks.com/structured-streaming/stream-monitoring.html#language-scala))
