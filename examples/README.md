@@ -6,6 +6,7 @@
 
 - [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/)
 - [Papers with Code](https://paperswithcode.com/datasets)
+- [Google Dataset search](https://datasetsearch.research.google.com/)
 - [🇺🇸 Data.gov](https://catalog.data.gov/dataset)
 
 ### Datasets
