@@ -397,6 +397,9 @@ My **personal** list of resources and samples related to working with Databricks
 - [Using MLflow to deploy Graph Neural Networks for Monitoring Supply Chain Risk](https://medium.com/@ajmal.t.aziz/using-mlflow-to-deploy-graph-neural-networks-for-monitoring-supply-chain-risk-644c87e5259e)
 - [Predicting the 2022 World Cup with no-code data science and machine learning](https://medium.com/@andrewpweaver/predicting-the-2022-world-cup-with-no-code-data-science-and-machine-learning-134b459f4b1a): covers `bamboolib` + AutoML + serverless inference ([repo](https://github.com/andyweaves/worldcup22))
 - [How Outreach Productionizes PyTorch-based Hugging Face Transformers for NLP](https://www.databricks.com/blog/2021/05/14/how-outreach-productionizes-pytorch-based-hugging-face-transformers-for-nlp.html)
+- [Getting started with NLP using Hugging Face transformers pipelines](https://www.databricks.com/blog/2023/02/06/getting-started-nlp-using-hugging-face-transformers-pipelines.html)
+- [Rapid NLP Development With Databricks, Delta, and Transformers](https://www.databricks.com/blog/2022/09/09/rapid-nlp-development-databricks-delta-and-transformers.html): Hugging Face, BERT
+- [GPU-accelerated Sentiment Analysis Using Pytorch and Hugging Face on Databricks](https://www.databricks.com/blog/2021/10/28/gpu-accelerated-sentiment-analysis-using-pytorch-and-huggingface-on-databricks.html)
 - [▶️ Streaming Data with Twitter, Delta Live Tables, Databricks Workflows, and Hugging Face](https://www.youtube.com/watch?v=LmHPk4jPnP8)
 - [Quantifying uncertainty with Tensorflow Probability](https://databricks.com/blog/2022/04/28/how-wrong-is-your-model.html)
 - [How Corning Built End-to-end ML on Databricks Lakehouse Platform](https://www.databricks.com/blog/2023/01/05/how-corning-built-end-end-ml-databricks-lakehouse-platform.html) ([▶️ AWS re:Invent 2022 talk](https://www.youtube.com/watch?v=DH_NQVT8Qc0))
