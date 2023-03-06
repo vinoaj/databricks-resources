@@ -101,7 +101,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ### Disaster Recovery (DR) and High Availability (HA)
 
-- [Disaster Recovery Overview, Strategies, and Assessment](https://databricks.com/blog/2022/04/25/disaster-recovery-overview-strategies-and-assessment.html) (Part 1 of DR series) ([Part 2](https://databricks.com/blog/2022/07/18/disaster-recovery-automation-and-tooling-for-a-databricks-workspace.html))
+- [Disaster Recovery Overview, Strategies, and Assessment](https://databricks.com/blog/2022/04/25/disaster-recovery-overview-strategies-and-assessment.html) (Part 1 of DR series) ([Part 2](https://databricks.com/blog/2022/07/18/disaster-recovery-automation-and-tooling-for-a-databricks-workspace.html)) ([Part 3](https://www.databricks.com/blog/2023/03/03/implementing-disaster-recovery-databricks-workspace.html))
   - [Disaster Recovery Impact Assessment questionnaire doc](https://databricks.com/wp-content/uploads/2022/04/disaster-recovery-impact-assesment.pdf)
 - [How illimity Bank Built a Disaster Recovery Strategy on the Lakehouse](https://databricks.com/blog/2022/05/09/how-illimity-bank-built-a-disaster-recovery-strategy-on-the-lakehouse.html) - DR strategy, Terraform management, data & metadata replication strategy
 
