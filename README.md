@@ -318,6 +318,7 @@ My **personal** list of resources and samples related to working with Databricks
 ## Best Practices
 
 - [Streaming in Production: Collected Best Practices - Part 1](https://www.databricks.com/blog/2022/12/12/streaming-production-collected-best-practices.html), [Part 2](https://www.databricks.com/blog/2023/01/10/streaming-production-collected-best-practices-part-2.html)
+- [10 Best Practices for writing SQL in Databricks](https://medium.com/@fpatano/10-best-practices-for-writing-sql-in-databricks-7a445740e540)
 
 ### Performance tuning
 
