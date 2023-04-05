@@ -1,0 +1,52 @@
+{
+    "autoscale.min_workers": {
+        "type": "fixed",
+        "value": 1
+    },
+    "autoscale.max_workers": {
+        "type": "range",
+        "minValue": 1,
+        "maxValue": 20,
+        "defaultValue": 8
+    },
+    "autotermination_minutes": {
+        "type": "range",
+        "minValue": 0,
+        "maxValue": 120,
+        "defaultValue": 10
+    },
+    "driver_node_type_id": {
+        "type": "fixed",
+        "value": "Standard_DS12_v2"
+    },
+    "node_type_id": {
+        "type": "allowlist",
+        "values": [
+            "Standard_DS12_v2",
+            "Standard_DS13_v2",
+            "Standard_DS14_v2"
+        ],
+        "defaultValue": "Standard_DS12_v2"
+    },
+    "spark_version": {
+        "type": "regex",
+        "pattern": "1[12]\\.[0-9]+\\.x-.*"
+    },
+    "azure_attributes.availability": {
+        "type": "unlimited",
+        "defaultValue": "SPOT_WITH_FALLBACK_AZURE"
+    },
+    "custom_tags.cost_center": {
+        "type": "allowlist",
+        "values": [
+            "9999",
+            "9998",
+            "9997"
+        ],
+        "defaultValue": "9999"
+    },
+    "custom_tags.team": {
+        "type": "fixed",
+        "value": "finance-data-engineering"
+    }
+}
