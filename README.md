@@ -115,6 +115,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Scanning for Arbitrary Code in Databricks Workspace With Improved Search and Audit Logs](https://databricks.com/blog/2022/07/19/scanning-for-arbitrary-code-in-databricks-workspace-with-improved-search-and-audit-logs.html)
 - [Monitoring Notebook Command Logs With Static Analysis Tools](https://www.databricks.com/blog/2022/11/02/monitoring-notebook-command-logs-static-analysis-tools.html) ([📄 Notebooks](https://github.com/granturing/notebook-monitoring))
 - [How Databricks restricts third party libraries in JVM compute platforms](https://www.databricks.com/blog/2022/08/23/restricting-libraries-in-jvm-compute-platforms.html)
+- [Building the Trusted Research Environment with Azure Databricks](https://www.databricks.com/blog/2023/03/27/trusted-research-environments-health-and-life-sciences.html)
 
 ### Unity Catalog 🔐
 
@@ -200,6 +201,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Arcuate](https://databricks.com/blog/2022/05/24/arcuate-machine-learning-model-exchange-with-delta-sharing-and-mlflow.html): Machine Learning Model Exchange With Delta Sharing and MLflow
 - [Java connector](https://github.com/databrickslabs/delta-sharing-java-connector)(supporting [blog post](https://databricks.com/blog/2022/06/29/designing-a-java-connector-for-delta-sharing-recipient.html))
 - [Security Best Practices for Delta Sharing](https://www.databricks.com/blog/2022/08/01/security-best-practices-for-delta-sharing.html)
+- [Cost Effective and Secure Data Sharing: The Advantages of Leveraging Data Partitions for Sharing Large Datasets](https://www.databricks.com/blog/2023/03/27/cost-effective-and-secure-data-sharing-advantages-leveraging-data.html)
 - [How Delta Sharing Helped Rearc Simplify Data Sharing and Maximize the Business Value of Its Data](https://www.databricks.com/blog/2022/09/13/how-delta-sharing-helped-rearc-simplify-data-sharing-and-maximize-business-value): With over 450+ open curated data products available across different sectors, Rearc's cross-industry catalog of datasets is one of the largest available today ([Rearc data library](https://www.rearc.io/data/delta-sharing/))
 
 ---
@@ -215,6 +217,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Auto-Loader](https://docs.databricks.com/spark/latest/structured-streaming/auto-loader.html)
 - [Easy Ingestion to Lakehouse With `COPY INTO`](https://www.databricks.com/blog/2023/01/17/easy-ingestion-lakehouse-copy.html)
 - [dbt](https://docs.databricks.com/dev-tools/dbt.html) ([GitHub](https://github.com/databricks/dbt-databricks))
+- [▶️ dbt Projects Integration in Databricks Workflows](https://www.youtube.com/watch?v=C4-FOpJzhKs)
 - [Best Practices for Super Powering Your dbt Project on Databricks](https://www.databricks.com/blog/2022/12/15/best-practices-super-powering-your-dbt-project-databricks.html)
 - [Build Data and ML Pipelines More Easily With Databricks and Apache Airflow](https://databricks.com/blog/2022/04/29/build-data-and-ml-pipelines-more-easily-with-databricks-and-apache-airflow.html)
 
