@@ -17,7 +17,11 @@ My **personal** list of resources and samples related to working with Databricks
 [▶️ YouTube channel](https://www.youtube.com/channel/UC3q8O3Bh2Le8Rj1-Q-_UUbA) | [🎧 Data Brew Podcast](https://databricks.com/discover/data-brew) | [📖 Databricks Blog](https://databricks.com/blog)
 
 - [▶️ Data + AI Summit (DAIS) 2022 recordings](https://www.youtube.com/playlist?list=PLTPXxbhUt-YVWi_cf2UUDc9VZFLoRgu0l)
-- [APJ instructor led training (ILT)](https://databricks.com/learn/training/schedule-apj): Please note these are **paid** training courses.
+- [Free Live Onboarding Training](https://files.training.databricks.com/static/ilt-sessions/onboarding/index.html): no-cost, role-based onboarding training, multiple times a day across key geographic regions for Databricks customers, partners, as well as the general public
+- [Customer Academy](https://customer-academy.databricks.com/learn): all your self-paced training and certification needs in one place
+- [Paid Instructor-Lead Training (ILT) Training](https://www.databricks.com/learn/training/schedule)
+- [Request private training](https://www.databricks.com/learn/training/private-training-requests-form)
+- [Databricks Community](https://community.databricks.com/s/): community forum
 
 ### Release Notes
 
@@ -73,7 +77,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Deployment Architecture & Management
 
-### Architecture Design
+### Architecture & Data Model Design
 
 - [6 Guiding Principles to Build an Effective Data Lakehouse](https://databricks.com/blog/2022/07/14/6-guiding-principles-to-build-an-effective-data-lakehouse.html)
 - [Data Warehousing Modeling Techniques and Their Implementation on the Databricks Lakehouse Platform](https://databricks.com/blog/2022/06/24/data-warehousing-modeling-techniques-and-their-implementation-on-the-databricks-lakehouse-platform.html)
@@ -85,6 +89,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Architecting MLOps on the Lakehouse](https://databricks.com/blog/2022/06/22/architecting-mlops-on-the-lakehouse.html)
 - [Leveraging Delta Across Teams at McGraw Hill](https://www.databricks.com/blog/2022/09/14/leveraging-delta-across-teams-mcgraw-hill.html) ([source code](https://github.com/MHEducation/databricks-athena-blog-code) to automate the Databricks to Athena manifest based integration)
 ![McGraw Hill architecture](https://cms.databricks.com/sites/default/files/inline-images/db-302-blog-img-4.png)
+- [Data Modeling using erwin on Databricks](https://www.databricks.com/blog/2023/04/05/visual-data-modeling-using-erwin-data-modeler-databricks-lakehouse-platform.html)
 
 ### Administration
 
@@ -224,6 +229,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ### Ingestion: Streaming
 
+- [Real-Time Insights: The Top Three Reasons Why Customers Love Data Streaming with Databricks](https://www.databricks.com/blog/2023/03/14/real-time-insights-top-three-reasons-why-customers-love-data-streaming.html)
 - [Simplifying Streaming Data Ingestion into Delta Lake](https://www.databricks.com/blog/2022/09/12/simplifying-streaming-data-ingestion-delta-lake.html)
 - [Streaming in Production: Collected Best Practices - Part 1](https://www.databricks.com/blog/2022/12/12/streaming-production-collected-best-practices.html), [Part 2](https://www.databricks.com/blog/2023/01/10/streaming-production-collected-best-practices-part-2.html)
 - [Speed Up Streaming Queries With Asynchronous State Checkpointing](https://databricks.com/blog/2022/05/02/speed-up-streaming-queries-with-asynchronous-state-checkpointing.html)
@@ -243,7 +249,6 @@ My **personal** list of resources and samples related to working with Databricks
 
 ### Delta Live Tables (DLT)
 
-- [Delta Live Tables Cookbook](https://docs.databricks.com/data-engineering/delta-live-tables/delta-live-tables-cookbook.html)
 - [Delta Live Tables Notebooks](https://github.com/databricks/delta-live-tables-notebooks)
 - [Dimensional modeling implementation on the modern lakehouse using Delta Live Tables](https://www.databricks.com/blog/2022/11/07/load-edw-dimensional-model-real-time-databricks-lakehouse.html): covers SCD1 & SCD2, PK/FK constraints, IDENTITY columns, and constraints ([📄 Notebook](https://github.com/dbsys21/databricks-lakehouse/blob/main/lakehouse-buildout/dimensional-modeling/E2E-Dimensional-Modeling-DLT.sql))
 - [Data Vault Best practice & Implementation on the Lakehouse](https://www.databricks.com/blog/2023/02/24/data-vault-best-practice-implementation-lakehouse.html)
