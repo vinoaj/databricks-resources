@@ -220,6 +220,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [▶️ dbt Projects Integration in Databricks Workflows](https://www.youtube.com/watch?v=C4-FOpJzhKs)
 - [Best Practices for Super Powering Your dbt Project on Databricks](https://www.databricks.com/blog/2022/12/15/best-practices-super-powering-your-dbt-project-databricks.html)
 - [Build Data and ML Pipelines More Easily With Databricks and Apache Airflow](https://databricks.com/blog/2022/04/29/build-data-and-ml-pipelines-more-easily-with-databricks-and-apache-airflow.html)
+- [Ingesting emails (IMAP)](https://medium.com/@ottoli/automating-data-extraction-from-e-mail-attachments-with-databricks-6d74e4c68006)
 
 ### Ingestion: Streaming
 
