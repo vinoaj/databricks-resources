@@ -25,6 +25,29 @@ print(json.dumps(
 # COMMAND ----------
 
 # MAGIC %md
+# MAGIC ## Identify Cloud
+
+# COMMAND ----------
+
+# Option 1
+cloud = spark.conf.get("spark.databricks.clusterUsageTags.cloudProvider").upper()
+print(f"Cloud (using Option 1): {cloud}")
+
+# Option 2
+hostname = dbutils.notebook.entry_point.getDbutils().notebook().getContext().browserHostName().get()
+cloud = None
+if ".gcp.databricks.com" in hostname:
+    cloud = "GCP"
+elif ".cloud.databricks.com" in hostname:
+    cloud = "AWS"
+elif ".azuredatabricks.net" in hostname:
+    cloud = "AZURE"
+print(f"Cloud (using Option 2): {cloud} (determined from hostname {hostname})")
+
+
+# COMMAND ----------
+
+# MAGIC %md
 # MAGIC ## View Cluster configuration
 
 # COMMAND ----------
