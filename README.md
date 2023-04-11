@@ -127,6 +127,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Serving Up a Primer for Unity Catalog Onboarding](https://www.databricks.com/blog/2022/11/22/serving-primer-unity-catalog-onboarding.html) (Databricks Admin Essentials)
 - [How Terraform can enable Unity Catalog deployment at scale for different governance models](https://www.databricks.com/blog/2022/12/08/automated-guide-distributed-and-decentralized-management-unity-catalog.html)
 - [Terraform scripts](https://github.com/databricks/unity-catalog-setup)
+- [▶️ https://www.youtube.com/watch?v=l_fZ7RFOf_s](https://www.youtube.com/watch?v=l_fZ7RFOf_s)
 - [Export lineage via API](https://github.com/databricks/unity-catalog-setup/blob/main/lineage/lineage_export.py) example
 
 #### Migrating to Unity Catalog
