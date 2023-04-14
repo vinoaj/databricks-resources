@@ -13,6 +13,7 @@
 - [Terraform script example (unofficial)](https://github.com/LeoneGarage/AWS-ISV-Summit-Provision)
 - [▶️ Deploying Databricks on the AWS Marketplace](https://www.youtube.com/watch?v=gU1BrfqMCYc)
 - [AWS Quickstart](https://aws.amazon.com/quickstart/architecture/databricks/)
+- [CloudFormation custom resources to wrap the Databricks API](https://github.com/ioannisatdatabricks/databricks_deployments_on_aws)
 
 ## ETL / ELT
 

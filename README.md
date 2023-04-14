@@ -407,6 +407,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### Guides
 
 - [Getting Started with Personalization through Propensity Scoring](https://databricks.com/blog/2022/06/03/getting-started-with-personalization-through-propensity-scoring.html) (accompanying [notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/nightly/RCG/Propensity/index.html#Propensity_1.html))
+- [Building an End-to-End No Code Pipeline with Databricks](https://medium.com/@l.h.g/building-an-end-to-end-no-code-pipeline-with-databricks-18c3819dadf0)
 - [Using MLflow to deploy Graph Neural Networks for Monitoring Supply Chain Risk](https://medium.com/@ajmal.t.aziz/using-mlflow-to-deploy-graph-neural-networks-for-monitoring-supply-chain-risk-644c87e5259e)
 - [Predicting the 2022 World Cup with no-code data science and machine learning](https://medium.com/@andrewpweaver/predicting-the-2022-world-cup-with-no-code-data-science-and-machine-learning-134b459f4b1a): covers `bamboolib` + AutoML + serverless inference ([repo](https://github.com/andyweaves/worldcup22))
 - [Fine-Tuning Large Language Models with Hugging Face and DeepSpeed](https://www.databricks.com/blog/2023/03/20/fine-tuning-large-language-models-hugging-face-and-deepspeed.html)
