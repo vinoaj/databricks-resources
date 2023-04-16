@@ -47,10 +47,15 @@ df.write.mode("overwrite").saveAsTable(TARGET_TABLE)
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC SELECT COUNT(*)
-# MAGIC FROM $target_table
-# MAGIC WHERE product_category IN ("Grocery")
-# MAGIC --LIMIT 10
-# MAGIC ;
+# MAGIC -- Optimise table for query performance
+# MAGIC OPTIMIZE $target_table;
+# MAGIC ANALYZE TABLE $target_table COMPUTE STATISTICS;
 
 # COMMAND ----------
+
+# MAGIC %sql
+# MAGIC -- View sample of newly created Delta table
+# MAGIC SELECT *
+# MAGIC FROM $target_table
+# MAGIC WHERE product_category IN ("Grocery")
+# MAGIC LIMIT 10;
