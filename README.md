@@ -110,15 +110,18 @@ My **personal** list of resources and samples related to working with Databricks
   - [Disaster Recovery Impact Assessment questionnaire doc](https://databricks.com/wp-content/uploads/2022/04/disaster-recovery-impact-assesment.pdf)
 - [How illimity Bank Built a Disaster Recovery Strategy on the Lakehouse](https://databricks.com/blog/2022/05/09/how-illimity-bank-built-a-disaster-recovery-strategy-on-the-lakehouse.html) - DR strategy, Terraform management, data & metadata replication strategy
 
-### Security 🔐
+## 🔐
 
 - [Security and Trust Center](https://databricks.com/trust)
 - [Databricks Bug Bounty Program](https://hackerone.com/databricks?view_policy=true) (example of bug bounty response: [Admin Isolation on Shared Clusters](https://www.databricks.com/blog/2022/10/10/admin-isolation-shared-clusters.html))
+- [Security best practices](https://www.databricks.com/blog/2023/03/30/security-best-practices-databricks-lakehouse-platform.html) including comprehensive checklists for [GCP](https://www.databricks.com/wp-content/uploads/2022/09/security-best-practices-databricks-on-gcp.pdf), [Azure](https://www.databricks.com/sites/default/files/2023-01/azure_databricks-security_best_practices_and_threat_model.pdf), and [AWS](https://www.databricks.com/wp-content/uploads/2022/09/security-best-practices-databricks-on-aws.pdf)
 - [Security Analysis Tool (SAT)](https://www.databricks.com/blog/2023/02/03/announcing-multi-cloud-support-security-analysis-tool-sat.html): [📄 GitHub repo](https://github.com/databricks-industry-solutions/security-analysis-tool), [▶️ Setup instructions](https://www.youtube.com/watch?v=kLSc3UHKL40)
+- [GxP Best Practices Whitepaper](https://www.databricks.com/trust/gxp): GxP stands for "Good x Practices" and the variable `x` refers to a specific discipline, such as clinical, manufacturing or laboratory. The goal of GxP compliance is to ensure that regulated industries have a process that runs reliably, can survive failures and human error, and meets global traceability, accountability and data integrity requirements. No matter what industry you operate in, I believe these are solid practices to align with
 - [Audit Log schema](https://docs.databricks.com/administration-guide/account-settings/audit-logs.html#audit-log-schema)
 - [Admin Isolation on Shared Clusters](https://www.databricks.com/blog/2022/10/10/admin-isolation-shared-clusters.html)
 - [Scanning for Arbitrary Code in Databricks Workspace With Improved Search and Audit Logs](https://databricks.com/blog/2022/07/19/scanning-for-arbitrary-code-in-databricks-workspace-with-improved-search-and-audit-logs.html)
 - [Monitoring Notebook Command Logs With Static Analysis Tools](https://www.databricks.com/blog/2022/11/02/monitoring-notebook-command-logs-static-analysis-tools.html) ([📄 Notebooks](https://github.com/granturing/notebook-monitoring))
+- [An example](https://systemweakness.com/simplified-data-masking-in-databricks-8649adb3f60f) of using the [`MASK()`](https://docs.databricks.com/sql/language-manual/functions/mask.html) (available in DBR 12.2+) function for easy data masking
 - [How Databricks restricts third party libraries in JVM compute platforms](https://www.databricks.com/blog/2022/08/23/restricting-libraries-in-jvm-compute-platforms.html)
 - [Building the Trusted Research Environment with Azure Databricks](https://www.databricks.com/blog/2023/03/27/trusted-research-environments-health-and-life-sciences.html)
 
@@ -208,6 +211,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Java connector](https://github.com/databrickslabs/delta-sharing-java-connector)(supporting [blog post](https://databricks.com/blog/2022/06/29/designing-a-java-connector-for-delta-sharing-recipient.html))
 - [Security Best Practices for Delta Sharing](https://www.databricks.com/blog/2022/08/01/security-best-practices-for-delta-sharing.html)
 - [Cost Effective and Secure Data Sharing: The Advantages of Leveraging Data Partitions for Sharing Large Datasets](https://www.databricks.com/blog/2023/03/27/cost-effective-and-secure-data-sharing-advantages-leveraging-data.html)
+- [Using Delta Sharing to Accelerate Insights with Nasdaq’s Digital Assets Market Data](https://www.databricks.com/blog/2023/03/06/using-delta-sharing-accelerate-insights-nasdaqs-digital-assets-market-data.html): an example of analysing Nasdaq data shared via Delta Sharing (sample [📕 Notebooks](https://github.com/databricks-industry-solutions/nasdaq-crypto))
 - [How Delta Sharing Helped Rearc Simplify Data Sharing and Maximize the Business Value of Its Data](https://www.databricks.com/blog/2022/09/13/how-delta-sharing-helped-rearc-simplify-data-sharing-and-maximize-business-value): With over 450+ open curated data products available across different sectors, Rearc's cross-industry catalog of datasets is one of the largest available today ([Rearc data library](https://www.rearc.io/data/delta-sharing/))
 
 ---
@@ -264,6 +268,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [How I Built A Streaming Analytics App With SQL and Delta Live Tables](https://databricks.com/blog/2022/05/19/how-i-built-a-streaming-analytics-app-with-sql-and-delta-live-tables.html): accompanying [repo](https://github.com/databricks/delta-live-tables-notebooks/tree/main/divvy-bike-demo)
 - [How Uplift built CDC and Multiplexing data pipelines with Databricks Delta Live Tables](https://databricks.com/blog/2022/04/27/how-uplift-built-cdc-and-multiplexing-data-pipelines-with-databricks-delta-live-tables.html)
 - [Near Real-Time Anomaly Detection with Delta Live Tables and Databricks Machine Learning](https://www.databricks.com/blog/2022/08/08/near-real-time-anomaly-detection-with-delta-live-tables-and-databricks-machine-learning.html)
+- [How Collective Health uses Delta Live Tables and Structured Streaming for Data Integration](https://www.databricks.com/blog/2023/04/13/how-collective-health-uses-delta-live-tables-and-structured-streaming.html): informative walkthrough of how they use DLT to perform quality control on data shared by partners while also managing schema evolution
 - [How Audantic Uses Databricks Delta Live Tables to Increase Productivity for Real Estate Market Segments](https://databricks.com/blog/2022/05/05/how-audantic-uses-databricks-delta-live-tables-to-increase-productivity-for-real-estate-market-segments.html)
 ![Audantic's Delta Live Tables Architecture](https://databricks.com/wp-content/uploads/2022/04/db-80-blog-img-2.png)
 
@@ -300,6 +305,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Use an IDE with Databricks](https://docs.databricks.com/dev-tools/ide-how-to.html#set-up-the-code-sample)
 - [Software engineering best practices for notebooks](https://docs.databricks.com/notebooks/best-practices.html) ([accompanying notebooks](https://github.com/databricks/notebook-best-practices)) ([accompanying notebooks](https://github.com/databricks/ide-best-practices))
 - [Build Reliable Production Data and ML Pipelines With Git Support for Databricks Workflows](https://databricks.com/blog/2022/06/21/build-reliable-production-data-and-ml-pipelines-with-git-support-for-databricks-workflows.html) ([📄 notebooks](https://github.com/RafiKurlansik/e2e-cuj))
+- [Run SQL Queries on Databricks From Visual Studio Code](https://www.databricks.com/blog/2023/03/29/run-sql-queries-databricks-visual-studio-code.html): makes life easy if you use the SQLTools extension and want to iterate on your SQL logic while in your local environment (e.g. while debugging `dbt` model logic) (download [Databricks driver for SQLTools](https://marketplace.visualstudio.com/items?itemName=databricks.sqltools-databricks-driver)
 
 ### GitHub
 
@@ -441,6 +447,10 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Use Cases
 
+### Anomaly Detection
+
+- [Unsupervised Outlier Detection on Databricks](https://www.databricks.com/blog/2023/03/13/unsupervised-outlier-detection-databricks.html) utilising Databricks' new [Kakapo package](https://pypi.org/project/databricks-kakapo/) (which integrates the vast [PyOD library](https://pyod.readthedocs.io/en/latest/) of outlier detection algorithms with MLFlow for tracking and packaging of models and [Hyperopt](http://hyperopt.github.io/hyperopt/) for exploring vast, complex and heterogeneous search spaces) (sample [📕 Notebook](https://d1r5llqwmkrl74.cloudfront.net/notebooks/PUB/rare-event-inspection/index.html))
+
 ### App Dev
 
 - [Taming JavaScript Exceptions With Databricks](https://databricks.com/blog/2022/01/25/taming-javascript-exceptions-with-databricks.html)
@@ -470,6 +480,11 @@ My **personal** list of resources and samples related to working with Databricks
 
 - [How to Build a Marketing Analytics Solution Using Fivetran and dbt on the Databricks Lakehouse](https://www.databricks.com/blog/2022/08/03/how-to-build-a-marketing-analytics-solution-using-fivetran-and-dbt-on-the-databricks-lakehouse.html)
 
+### Personalisation & Recommendations
+
+- [Real-Time Propensity Estimation to Drive Online Sales](https://www.databricks.com/blog/2023/03/21/using-real-time-propensity-estimation-drive-online-sales.html): real-time scoring of purchase intent doesn't have to be hard! This Solution Accelerator walks you through the end-to-end process of having your own real-time scoring model on Databricks. Check out the [📄 detailed notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/clickstream-analytics/index.html#clickstream-analytics_1.html) that walk you through data preparation, ETL, model training with Feature Store, model registry, processing live events in streaming or batch, and deploying the model for real-time inference
+- [Enhancing the Amperity CDP with Personalized Product Recommendations](https://www.databricks.com/blog/2023/03/15/enhancing-amperity-cdp-personalized-product-recommendations.html): move identity resolution data easily between Amperity and Databricks using [Amperity's Databricks Delta table destination connector](https://docs.amperity.com/datagrid/destination_databricks_delta_table.html) (sample [📕 Notebook](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/amperity-cdp-rec/index.html#amperity-cdp-rec_1.html))
+
 ---
 
 ## Tools 🛠
@@ -495,6 +510,8 @@ My **personal** list of resources and samples related to working with Databricks
 - [Monash University stands up 'lakehouse' in Databricks, Azure](https://www.itnews.com.au/news/monash-university-stands-up-lakehouse-in-databricks-azure-585801)
 - [Australia's heavy vehicle regulator builds 'fatigue engine' to reduce truckie deaths](https://www.itnews.com.au/news/heavy-vehicle-regulator-builds-fatigue-engine-to-reduce-truckie-deaths-580113)
 - [Why we migrated to a Data Lakehouse on Delta Lake for T-Mobile Data Science and Analytics Team](https://delta.io/blog/2022-09-14-why-migrate-lakehouse-delta-lake-tmo-dsna/)
+- [Having your cake and eating it too: How _Vizio_ built a next-generation data platform to enable BI reporting, real-time streaming, and AI/ML](https://medium.com/@parveen.jindal/having-your-cake-and-eating-it-too-how-vizio-built-a-next-generation-data-platform-to-enable-bi-4fc42c539543): Vizio's journey in adopting the Lakehouse for a single platform that met their data warehouse and ML needs. _" Databricks was the only platform that could handle ETL, monitoring, orchestration, streaming, ML, and Data Governance on a single platform. Not only was Databricks SQL + Delta able to run queries faster on real-world data (in our analysis, Databricks was 3x faster) but we no longer needed to buy other services just to run the platform and add features in the future"_
+- [_Ripple_: ML Training and Deployment Pipeline Using Databricks](https://engineering.ripple.com/ml-training-and-deployment-pipeline-using-databricks/): how Ripple uses Databricks to manage robust MLOps pipelines across a multi-cloud (GCP and AWS) architecture: _"ML flow tracking and MLflow API help coordinate these actions with ease in spite of using different platforms for model development, testing and deployment"_
 
 ---
 

@@ -8,6 +8,7 @@
 
 ## Solutions Accelerators
 
+- [Real-Time Propensity Estimation to Drive Online Sales](https://www.databricks.com/blog/2023/03/21/using-real-time-propensity-estimation-drive-online-sales.html): real-time scoring of purchase intent doesn't have to be hard! This Solution Accelerator walks you through the end-to-end process of having your own real-time scoring model on Databricks. Check out the [📄 detailed notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/clickstream-analytics/index.html#clickstream-analytics_1.html) that walk you through data preparation, ETL, model training with Feature Store, model registry, processing live events in streaming or batch, and deploying the model for real-time inference
 - [Optimizing Order Picking to Increase Omnichannel Profitability with Databricks](https://www.databricks.com/blog/2022/08/04/optimizing-order-picking-to-increase-omnichannel-profitability-with-databricks.html) ([📄 notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/Optimized_Picking/index.html#Optimized_Picking_1.html))
 - [Scalable Route Generation](https://www.databricks.com/solutions/accelerators/scalable-route-generation) ([📄 notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/Routing/index.html#Routing_1.html))
 - [Intermittent Demand Forecasting](https://www.databricks.com/blog/2022/12/06/intermittent-demand-forecasting-nixtla-databricks.html): Forecasting on a per-SKU and per-store level has always been a challenge, especially when there are periods with zero-unit demand. 
@@ -28,6 +29,7 @@
 
 ## Guides
 
+- [Enhancing the Amperity CDP with Personalized Product Recommendations](https://www.databricks.com/blog/2023/03/15/enhancing-amperity-cdp-personalized-product-recommendations.html): move identity resolution data easily between Amperity and Databricks using [Amperity's Databricks Delta table destination connector](https://docs.amperity.com/datagrid/destination_databricks_delta_table.html) (sample [📕 Notebook](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/amperity-cdp-rec/index.html#amperity-cdp-rec_1.html))
 - [Getting Started with Personalization through Propensity Scoring](https://databricks.com/blog/2022/06/03/getting-started-with-personalization-through-propensity-scoring.html) (accompanying [notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/nightly/RCG/Propensity/index.html#Propensity_1.html))
 ![Propensity scoring workflow](https://databricks.com/wp-content/uploads/2022/05/db-192-blog-img-1.png)
 - [Using MLflow to deploy Graph Neural Networks for Monitoring Supply Chain Risk](https://medium.com/@ajmal.t.aziz/using-mlflow-to-deploy-graph-neural-networks-for-monitoring-supply-chain-risk-644c87e5259e)
