@@ -33,4 +33,4 @@
 
 ## Security
 
-- Using Enhanced Security Monitoring to Detect & Alert for Suspicious Activity on Your Databricks Clusters](<https://www.databricks.com/blog/2022/09/01/using-enhanced-security-monitoring-detect-alert-suspicious-activity-your-databricks>)
+- [Using Enhanced Security Monitoring to Detect & Alert for Suspicious Activity on Your Databricks Clusters](https://www.databricks.com/blog/2022/09/01/using-enhanced-security-monitoring-detect-alert-suspicious-activity-your-databricks)
