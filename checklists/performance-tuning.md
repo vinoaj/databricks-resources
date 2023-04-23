@@ -10,10 +10,17 @@ Checklist of items to consider for optimising performance and cloud infrastructu
 ## Storage Optimisations
 
 - [ ] **`VACUUM` unused files**
-  - This is a **per-table** operation. Removes all files from the table directory that are not managed by Delta, as well as data files that are no longer in the latest state of the transaction log for the table and are older than a retention threshold. [Documentation](https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/delta-vacuum)
+  - This is a **per-table** operation. Removes all files from the table directory that are not managed by Delta, as well as data files that are no longer in the latest state of the transaction log for the table and are older than a retention threshold. Documentation: [Azure](https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/delta-vacuum), [GCP](https://docs.gcp.databricks.com/delta/vacuum.html)
   - `VACUUM`ing is good hygiene for optimising your cloud storage costs. If you have not been `VACUUM`ing your tables, this can significantly decrease your storage costs
-  - **Caution**: you lose the ability to time travel back to a version older than the specified data retention period
-  - [ ] Example - clean up files but still provide ability to time travel up to 90 days: `VACUUM dbname.tablename RETAIN 2160 HOURS`
+  - **CAUTION**
+    - **Caution**: you lose the ability to time travel back to a version older than the specified data retention period
+    - **Caution**: non Delta Lake files in the table's folder will be deleted. Please first ensure there are no files in the location that you require for other purposes
+    - **Caution**: ensure your log and data retention for the table is aligned with your `VACUUM` retention timeframe
+      - To time travel to a previous version you must retain both the log and data files for that version
+      - The default interval is 30 days
+  - [ ] Example - clean up files but still provide ability to time travel up to 14 days:
+    - [ ] First do a dry run `VACUUM dbname.tablename RETAIN 336 HOURS DRY RUN` and make sure no important non Delta Lake files will be deleted. If there are files you require, now is the time to move them out to another location
+    - [ ] Execute `VACUUM dbname.tablename RETAIN 336 HOURS`
   - [ ] Automate `VACUUM` cleanups as periodic jobs
     - When you run `VACUUM` for the first time on a table that has a long time travel history, that first job may take a long period. Subsequent runs, if done frequently enough, should be shorter
     - `VACUUM` operations do not interfere with concurrent reads & writes. However, it is recommended to schedule `VACUUM` operations during a quiet period
