@@ -46,7 +46,10 @@ Checklist of items to consider for optimising performance and cloud infrastructu
     - SQL: `ALTER TABLE db_name.table_name SET TBLPROPERTIES (delta.targetFileSize=33554432)`
     - Python: `spark.conf.set("spark.databricks.delta.targetFileSize", True)`
     - A good file size range is 32-128MB
-- [ ] **Z-Ordering**
+- [ ] **OPTIMIZE (without Z-Ordering)**
+  - Compact data files for better query performance
+  - `OPTIMIZE db_name.table_name`
+- [ ] **OPTIMIZE (with Z-Ordering)**
   - Limit the number of columns in the Z-Order to the best 1-4
   - SQL: `OPTIMIZE db_name.table_name ZORDER BY (COL_1, COL_2, ...)`
   - Considerations
