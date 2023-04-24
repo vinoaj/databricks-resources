@@ -27,4 +27,4 @@ Use the [Databricks Secrets CLI](https://docs.databricks.com/dev-tools/cli/secre
 
 - If you don't already have a secret scope to keep your OpenAI keys in, create one now: `databricks secrets create-scope --scope openai`
 - You will need to give `READ` or higher access for principals (e.g. users, groups) who are allowed to connect to OpenAI. We recommend creating a group `openai-users` and adding permitted users to that group. Then give that group `READ` permission to the scope: `databricks secrets put-acl --scope openai --principal openai-users --permission READ`
-- Create a secret for your API key. We recommend format `<resource-name>_key`: `databricks secrets put --scope openai --key vvtest_key --string-value yourkeyhere1234567`
+- Create a secret for your API key. We recommend format `<resource-name>-key`: `databricks secrets put --scope openai --key vvtest-key --string-value yourkeyhere1234567`
