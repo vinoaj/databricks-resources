@@ -2,6 +2,8 @@
 # MAGIC %md
 # MAGIC # Gathering Table Sizes
 # MAGIC 
+# MAGIC Link to this Notebook: https://github.com/vinoaj/databricks-resources/blob/main/examples/tables_size_scan.py
+# MAGIC 
 # MAGIC This Notebook demonstrates how to retrieve table sizes across your schemas (databases) as well as the physical size taken up at your table's file location
 # MAGIC 
 # MAGIC Based on this information you can take actions such as:
