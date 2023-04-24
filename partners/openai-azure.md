@@ -4,18 +4,30 @@
 - Navigate to [Azure OpenAI Studio](https://oai.azure.com/)
   - Select a resource or [Create](https://portal.azure.com/?microsoft_azure_marketplace_ItemHideKey=microsoft_openai_tip#create/Microsoft.CognitiveServicesOpenAI) an Azure OpenAI resource
 - Go to [Deployments](https://oai.azure.com/portal/deployment)
+
+  <img src="https://raw.githubusercontent.com/vinoaj/databricks-resources/main/assets/img/openai/azure-openai-deployments.png" width="600">
+
   - Click on `Create new deployment`
   - For GPT3.5 Turbo, select the following
     - Model name: `gpt-35-turbo`
     - Model version: `0301`
     - Deployment name: `<deployment name>`
+  
+      <img src="https://raw.githubusercontent.com/vinoaj/databricks-resources/main/assets/img/openai/azure-openai-deployments-create.png" width="600">
+
   - Click `Create`
 - Get your key and endpoint information
   - [Navigate to Azure Portal > All Services > Cognitive Services > Azure OpenAI](https://portal.azure.com/#view/Microsoft_Azure_ProjectOxford/CognitiveServicesHub/~/OpenAI)
+    
+    <img src="https://raw.githubusercontent.com/vinoaj/databricks-resources/main/assets/img/openai/azure-openai-cognitive-services-overview.png" width="600">
+
   - Click into the relevant resource
   - Click on `Keys and Endpoint`
+
+    <img src="https://raw.githubusercontent.com/vinoaj/databricks-resources/main/assets/img/openai/azure-openai-cognitive-services-keys-endpoints.png" width="470">
+
   - Note down your:
-    - Key (do NOT store this in plaintext, include it in your code, and/or commit it into your git repo)
+    - Key (do **NOT** store this in plaintext, include it in your code, and/or commit it into your git repo)
     - Region
     - Endpoint URL (of the form `https://<resource-name>.openai.azure.com/`)
 
