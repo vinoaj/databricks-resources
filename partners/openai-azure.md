@@ -37,6 +37,13 @@ We'll use [secrets](https://docs.databricks.com/security/secrets/index.html) to 
 
 Use the [Databricks Secrets CLI](https://docs.databricks.com/dev-tools/cli/secrets-cli.html) or [Secrets API 2.0](https://docs.databricks.com/dev-tools/api/latest/secrets.html)
 
-- If you don't already have a secret scope to keep your OpenAI keys in, create one now: `databricks secrets create-scope --scope openai`
-- You will need to give `READ` or higher access for principals (e.g. users, groups) who are allowed to connect to OpenAI. We recommend creating a group `openai-users` and adding permitted users to that group. Then give that group `READ` permission to the scope: `databricks secrets put-acl --scope openai --principal openai-users --permission READ`
-- Create a secret for your API key. We recommend format `<resource-name>-key`: `databricks secrets put --scope openai --key vvtest-key --string-value yourkeyhere1234567`
+- If you don't already have a secret scope to keep your OpenAI keys in, create one now: 
+  `databricks secrets create-scope --scope openai`
+- You will need to give `READ` or higher access for principals (e.g. users, groups) who are allowed to connect to OpenAI. We recommend creating a group `openai-users` and adding permitted users to that group. Then give that group `READ` permission to the scope: 
+  `databricks secrets put-acl --scope openai --principal openai-users --permission READ`
+- Create a secret for your API key. We recommend format `<resource-name>-key`: 
+  `databricks secrets put --scope openai --key vvtest-key --string-value yourkeyhere1234567`
+
+## Resources
+
+- [Azure OpenAI vs OpenAI: What's the Difference?](https://www.advancinganalytics.co.uk/blog/2023/4/24/azure-openai-vs-openai-whats-the-difference)
