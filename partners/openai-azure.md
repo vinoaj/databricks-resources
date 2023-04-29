@@ -26,10 +26,14 @@
 
     <img src="https://raw.githubusercontent.com/vinoaj/databricks-resources/main/assets/img/openai/azure-openai-cognitive-services-keys-endpoints.png" width="470">
 
-  - Note down your:
-    - Key (do **NOT** store this in plaintext, include it in your code, and/or commit it into your git repo)
-    - Region
-    - Endpoint URL (of the form `https://<resource-name>.openai.azure.com/`)
+    - Note down your:
+      - Key (do **NOT** store this in plaintext, include it in your code, and/or commit it into your git repo)
+      - Endpoint URL (of the form `https://<resource-name>.openai.azure.com/`)
+  - Click on `Model deployments`
+
+    <img src="https://raw.githubusercontent.com/vinoaj/databricks-resources/main/assets/img/openai/azure-openai-cognitive-services-resources-model-deployments.png" width="600">
+
+    - Note down your model deployment name
 
 ## Store key as a secret in Databricks
 
