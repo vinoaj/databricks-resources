@@ -3,7 +3,7 @@
 - [Collaborating Across the Retail Value Chain with Data and AI](https://databricks.com/p/ebook/collaborating-across-the-retail-value-chain-with-data-and-ai)(eBook)
 ![Product insights use cases](https://databricks.com/wp-content/uploads/2022/03/db-118-blog-img-1.jpg)
 ![Consumer insights use cases](https://databricks.com/wp-content/uploads/2022/03/db-118-blog-img-2.jpg)
-
+- [Retail in the Age of Generative AI 10 ways large language models (LLMs) may impact the retail industry](https://www.databricks.com/blog/2023/04/13/retail-age-generative-ai.html): our retail leaders' thoughts on where Generative AI can help retailers today
 - [Delivering Real-Time Data to Retailers with Delta Live Tables](https://databricks.com/blog/2022/04/12/delivering-real-time-data-to-retailers-with-delta-live-tables.html) (fully documented [notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/POS_DLT/index.html#POS_DLT_1.html))
 
 ## Solutions Accelerators
@@ -30,6 +30,7 @@
 ## Guides
 
 - [Enhancing the Amperity CDP with Personalized Product Recommendations](https://www.databricks.com/blog/2023/03/15/enhancing-amperity-cdp-personalized-product-recommendations.html): move identity resolution data easily between Amperity and Databricks using [Amperity's Databricks Delta table destination connector](https://docs.amperity.com/datagrid/destination_databricks_delta_table.html) (sample [📕 Notebook](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/amperity-cdp-rec/index.html#amperity-cdp-rec_1.html))
+- [📕 Notebook: processing Salesforce Marketing Cloud email events and sending them to a CDP](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/amperity-sfmc-tracking/index.html#amperity-sfmc-tracking_1.html): demonstrates how SFMC email tracking extracts can be processed within Databricks, making the complete set available for detailed process analysis, and then condensed for consumption by a CDP
 - [Getting Started with Personalization through Propensity Scoring](https://databricks.com/blog/2022/06/03/getting-started-with-personalization-through-propensity-scoring.html) (accompanying [notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/nightly/RCG/Propensity/index.html#Propensity_1.html))
 ![Propensity scoring workflow](https://databricks.com/wp-content/uploads/2022/05/db-192-blog-img-1.png)
 - [Using MLflow to deploy Graph Neural Networks for Monitoring Supply Chain Risk](https://medium.com/@ajmal.t.aziz/using-mlflow-to-deploy-graph-neural-networks-for-monitoring-supply-chain-risk-644c87e5259e)

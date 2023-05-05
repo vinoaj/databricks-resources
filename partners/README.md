@@ -40,3 +40,11 @@
 ### Power BI
 
 - [Power BI - Migrating from Synapse to Databricks](https://www.linkedin.com/pulse/power-bi-migrating-from-synapse-databricks-narius-p/)
+
+---
+
+## Applications
+
+### ERP
+
+- [Developing an Open Data Ecosystem with SAP](https://www.databricks.com/blog/2023/04/19/developing-open-data-ecosystem-sap.html): _"Having this (operations/SAP) dataset in the lakehouse allows us to iterate in near real time with operations analysts, which is probably the primary value driver since the majority of our effort is spent aligning key stakeholders across operations, supply chain, and finance on a common set of KPIs"_

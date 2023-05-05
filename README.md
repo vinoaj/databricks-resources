@@ -255,6 +255,10 @@ My **personal** list of resources and samples related to working with Databricks
 ### Delta Live Tables (DLT)
 
 - [Delta Live Tables Notebooks](https://github.com/databricks/delta-live-tables-notebooks)
+- [How We Performed ETL on One Billion Records For Under $1 With Delta Live Tables (DLT)](https://www.databricks.com/blog/2023/04/14/how-we-performed-etl-one-billion-records-under-1-delta-live-tables.html): learn how to own a $1 terabyte scale incremental pipeline that includes varied data structures (CSV & XML), CDC with SCD Type II, modeling, and data quality enforcements, while all along utilising spot compute. Check out the DLT definitions in this [GitHub repo](https://github.com/shannon-barrow/databricks-tpc-di). What stood out for me were:
+  - _2x speedup_ due to DLT making efficient compute decisions
+  - Data quality checks _exposed data errors others hadn't picked up before_ (needle in a haystack of 1.5B records)
+  - _Easy SCD Type II logic handling_
 - [Dimensional modeling implementation on the modern lakehouse using Delta Live Tables](https://www.databricks.com/blog/2022/11/07/load-edw-dimensional-model-real-time-databricks-lakehouse.html): covers SCD1 & SCD2, PK/FK constraints, IDENTITY columns, and constraints ([📄 Notebook](https://github.com/dbsys21/databricks-lakehouse/blob/main/lakehouse-buildout/dimensional-modeling/E2E-Dimensional-Modeling-DLT.sql))
 - [Data Vault Best practice & Implementation on the Lakehouse](https://www.databricks.com/blog/2023/02/24/data-vault-best-practice-implementation-lakehouse.html)
 - [Deloitte’s Guide to Declarative Data Pipelines With Delta Live Tables](https://www.databricks.com/blog/2022/10/19/deloittes-guide-declarative-data-pipelines-delta-live-tables.html) ([Whitepaper](https://www.databricks.com/wp-content/uploads/2022/10/deloitte-delta-live-tables-databricks-white-paper.pdf))
@@ -303,6 +307,10 @@ My **personal** list of resources and samples related to working with Databricks
 
 - [VS Code extension](https://marketplace.visualstudio.com/items?itemName=databricks.databricks) (short [▶️ video](https://www.youtube.com/watch?v=_QkcrYttVRs))
 - [Use an IDE with Databricks](https://docs.databricks.com/dev-tools/ide-how-to.html#set-up-the-code-sample)
+- [Spark Connect Available in Apache Spark 3.4: Run Spark Applications Everywhere](https://www.databricks.com/blog/2023/04/18/spark-connect-available-apache-spark.html): write PySpark in any environment and have your instructions processed in a remote Spark environment (e.g. Databricks cluster)! [`databricks-connect`](https://pypi.org/project/databricks-connect/) supports Spark Connect when using DBR13.0+. This simplifies client application development, mitigates memory contention on the Spark driver, separates dependency management for client applications, allows independent client and server upgrades, provides step-through IDE debugging, and thin client logging and metrics!
+      ![Spark Connect](https://cms.databricks.com/sites/default/files/inline-images/db-571-blog-img-1.png)
+- [Use Databricks from anywhere with Databricks Connect v2](https://www.databricks.com/blog/2023/04/18/use-databricks-anywhere-databricks-connect-v2.html): use the power of Databricks from any application running anywhere. It is also included in our [VS Code extension](https://marketplace.visualstudio.com/items?itemName=databricks.databricks) enabling built-in debugging of code on Databricks! Here's a [sample application](https://github.com/databricks-demos/dbconnect-plotly)
+       ![Databricks Connect](https://cms.databricks.com/sites/default/files/inline-images/db-534-blog-img-1.png)
 - [Software engineering best practices for notebooks](https://docs.databricks.com/notebooks/best-practices.html) ([accompanying notebooks](https://github.com/databricks/notebook-best-practices)) ([accompanying notebooks](https://github.com/databricks/ide-best-practices))
 - [Build Reliable Production Data and ML Pipelines With Git Support for Databricks Workflows](https://databricks.com/blog/2022/06/21/build-reliable-production-data-and-ml-pipelines-with-git-support-for-databricks-workflows.html) ([📄 notebooks](https://github.com/RafiKurlansik/e2e-cuj))
 - [Run SQL Queries on Databricks From Visual Studio Code](https://www.databricks.com/blog/2023/03/29/run-sql-queries-databricks-visual-studio-code.html): makes life easy if you use the SQLTools extension and want to iterate on your SQL logic while in your local environment (e.g. while debugging `dbt` model logic) (download [Databricks driver for SQLTools](https://marketplace.visualstudio.com/items?itemName=databricks.sqltools-databricks-driver)
@@ -392,6 +400,10 @@ My **personal** list of resources and samples related to working with Databricks
 
 - [A step-by-step guide to using MLFlow Recipes to refactor messy notebooks](https://fukumaruuu.medium.com/a-step-by-step-guide-to-using-mlflow-recipes-to-refactor-messy-notebooks-f78196b97ff0)
 
+### Feature Engineering
+
+- [Synthetic Data for Better Machine Learning](https://www.databricks.com/blog/2023/04/12/synthetic-data-better-machine-learning.html): a guide to using [Synthetic Data Vault (SDV)](https://github.com/sdv-dev/SDV) with MLflow to generate synthetic data, that reflects real-world data, for better models or safer data sharing between teams
+
 ### Feature Store
 
 - [eBook: The Comprehensive Guide to Feature Stores](https://databricks.com/wp-content/uploads/2022/03/The-Comprehensive-Guide-to-Feature-Stores.pdf) (Mar 2022)
@@ -399,6 +411,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### Distributed Training
 
 - [How (Not) To Scale Deep Learning in 6 Easy Steps](https://www.databricks.com/blog/2019/08/15/how-not-to-scale-deep-learning-in-6-easy-steps.html)
+  - [PyTorch on Databricks - Introducing the Spark PyTorch Distributor](https://www.databricks.com/blog/2023/04/20/pytorch-databricks-introducing-spark-pytorch-distributor.html): You can now easily perform distributed PyTorch training with PySpark and Databricks! (sample [📕Notebook](https://www.databricks.com/wp-content/uploads/notebooks/db-554/spark_pytorch_distributor_samples_v0.2.dbc)
 - [Accelerating Your Deep Learning with PyTorch Lightning on Databricks](https://www.databricks.com/blog/2022/09/07/accelerating-your-deep-learning-pytorch-lightning-databricks.html)
 - [Ray support on Databricks and Apache Spark Clusters](https://www.databricks.com/blog/2023/02/28/announcing-ray-support-databricks-and-apache-spark-clusters.html)
 - [▶️ Scaling Deep Learning on Databricks](https://www.youtube.com/watch?v=A95_q24nA1o)
@@ -424,6 +437,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [▶️ Streaming Data with Twitter, Delta Live Tables, Databricks Workflows, and Hugging Face](https://www.youtube.com/watch?v=LmHPk4jPnP8)
 - [Quantifying uncertainty with Tensorflow Probability](https://databricks.com/blog/2022/04/28/how-wrong-is-your-model.html)
 - [How Corning Built End-to-end ML on Databricks Lakehouse Platform](https://www.databricks.com/blog/2023/01/05/how-corning-built-end-end-ml-databricks-lakehouse-platform.html) ([▶️ AWS re:Invent 2022 talk](https://www.youtube.com/watch?v=DH_NQVT8Qc0))
+- [Scale Vision Transformers (ViT) on the Databricks Lakehouse Platform with Spark NLP](https://www.databricks.com/blog/2023/04/19/scale-vision-transformers-vit-databricks-lakehouse-platform-spark-nlp.html): Spark NLP's latest release includes support for vision transformers. This guide walks through scaling ViTs on Databricks
 
 ---
 
