@@ -326,6 +326,8 @@ My **personal** list of resources and samples related to working with Databricks
 
 ### SQL
 
+- [Understanding Caching in Databricks SQL: UI, Result, and Disk Caches](https://www.databricks.com/blog/understanding-caching-databricks-sql-ui-result-and-disk-caches)
+  ![Databricks SQL caching](https://cms.databricks.com/sites/default/files/inline-images/db-532-blog-img-1.png)
 - [What’s New With SQL User-Defined Functions](https://www.databricks.com/blog/2023/01/18/whats-new-sql-user-defined-functions.html) 2023-01-18
 
 ### ODBC & JDBC connectivity

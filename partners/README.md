@@ -10,6 +10,8 @@
 
 ## ETL / ELT
 
+-[Five Reasons to Build your Modern Data Stack on the Lakehouse with Databricks, dbt Labs and Fivetran](https://www.databricks.com/blog/five-reasons-build-your-modern-data-stack-lakehouse-databricks-dbt-labs-and-fivetran)
+
 ### Ingestion
 
 #### Arcion
