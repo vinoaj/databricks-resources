@@ -14,11 +14,27 @@ Hi team! I just wanted to share some of the interesting resources/articles that 
 
 - []()
 
+## 📊 Data Analysis / SQL
+
+- []()
+
+## ⚡️ Performance Optimisation
+
+- []()
+
 ## 🛒 Retail
 
 - []()
 
+## User Experience
+
+- []()
+
 ## 🔐 Security
+
+- []()
+
+## 🏪 Databricks Marketplace
 
 - []()
 

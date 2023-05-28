@@ -80,6 +80,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### Architecture & Data Model Design
 
 - [6 Guiding Principles to Build an Effective Data Lakehouse](https://databricks.com/blog/2022/07/14/6-guiding-principles-to-build-an-effective-data-lakehouse.html)
+- [A data architecture pattern to maximize the value of the Lakehouse](https://www.databricks.com/blog/data-architecture-pattern-maximize-value-lakehouse.html)
 - [Data Warehousing Modeling Techniques and Their Implementation on the Databricks Lakehouse Platform](https://databricks.com/blog/2022/06/24/data-warehousing-modeling-techniques-and-their-implementation-on-the-databricks-lakehouse-platform.html)
 - [Five Simple Steps for Implementing a Star Schema in Databricks With Delta Lake](https://databricks.com/blog/2022/05/20/five-simple-steps-for-implementing-a-star-schema-in-databricks-with-delta-lake.html)
 - [Databricks Lakehouse and Data Mesh, (Part 1)](https://www.databricks.com/blog/2022/10/10/databricks-lakehouse-and-data-mesh-part-1.html) [(Part 2)](https://www.databricks.com/blog/2022/10/19/building-data-mesh-based-databricks-lakehouse-part-2.html)

@@ -1,11 +1,5 @@
 # YYYY-MM-DD
 
-[Understanding Caching in Databricks SQL: UI, Result, and Disk Caches](https://www.databricks.com/blog/understanding-caching-databricks-sql-ui-result-and-disk-caches)
-![Types of DBSQL Caches](https://cms.databricks.com/sites/default/files/inline-images/db-532-blog-img-1.png)
-
-
-
-
 Hi team! I just wanted to share some of the interesting resources/articles that have come from Databricks in the last couple of weeks:
 
 ## 🎓 Training & Education
@@ -18,7 +12,11 @@ Hi team! I just wanted to share some of the interesting resources/articles that 
 
 ## 🧠 ML & AI
 
+- New Solution Accelerator! [Enhancing Product Search with LLMs]() This example utilises [Wayfair's annotation dataset (WANDS)](https://www.aboutwayfair.com/careers/tech-blog/wayfair-releases-wands-the-largest-and-richest-publicly-available-dataset-for-e-commerce-product-search-relevance) to fine-tune a `SentenceTransformer('all-MiniLM-L12-v2')` model, generate and store embeddings in a vector store (Chroma), register the model and embeddings in MLflow registry, and finally deploy the model for serving ([accompanying blog post](https://www.databricks.com/blog/enhancing-product-search-large-language-models-llms.html))
+
 - New Solution Accelerator! [Build your own Chatbot](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/diy-llm-qa-bot/index.html#diy-llm-qa-bot_1.html): walks through indexing documents, generating embeddings (using OpenAI embeddings), persisting embeddings in a vector store (FAISS), creating a Q&A flow (using Langchain), persisting the model in MLflow registry, and serving the model for your applications ([Accompanying blog post](https://www.databricks.com/blog/driving-large-language-model-revolution-customer-service-and-support))
+
+- [Databricks ❤️ Hugging Face](https://www.databricks.com/blog/contributing-spark-loader-for-hugging-face-datasets): The new `from_spark` function in Hugging Face reduces data processing time by over 40%​​. It combines Spark's efficiency with Hugging Face's pipeline integration, aiding in AI model optimisation
 
 - [Actioning Customer Reviews at Scale with Databricks SQL AI Functions](https://www.databricks.com/blog/actioning-customer-reviews-scale-databricks-sql-ai-functions): bring meaning to unstructured data using the simplicity of SQL and GPT-3.5
 
@@ -59,21 +57,19 @@ Hi team! I just wanted to share some of the interesting resources/articles that 
 
 - [Predictive I/O for Optimised Reads](https://www.databricks.com/blog/announcing-general-availability-predictive-io-reads.html) is now generally available for SQL Pro and Serverless. Provides the benefits of indexes and optimization services, but without the complexity and cost of maintaining them.
 
+- [Latency goes subsecond in Apache Spark Structured Streaming](https://www.databricks.com/blog/latency-goes-subsecond-apache-spark-structured-streaming): progress has been made on [Project Lightspeed](https://www.databricks.com/blog/2022/06/28/project-lightspeed-faster-and-simpler-stream-processing-with-apache-spark.html), and the introduction of async offset management shows a **3x improvement** in stream latency
+
 ## 🔐 Security
 
-- [Welcome Okera: Adopting an AI-centric approach to governance](https://www.databricks.com/blog/welcome-okera-adopting-ai-centric-approach-governance). Databricks will integrate Okera's capabilities into Unity Catalog, including AI-powered discovery and handling of sensitive (e.g. PII) data and new isolation technology for workloads.
+- [Welcome Okera: Adopting an AI-centric approach to governance](https://www.databricks.com/blog/welcome-okera-adopting-ai-centric-approach-governance): Databricks will integrate Okera's capabilities into Unity Catalog, including AI-powered discovery and handling of sensitive (e.g. PII) data and new isolation technology for workloads.
 
-## Delta Sharing
+- [Cluster Policy Primer](https://www.databricks.com/blog/cluster-policy-onboarding-primer): Cluster policies allow you to enforce security and cost controls on new clusters. This post walks you through what cluster policies are and how to design them for your Workspaces
 
-- []()
+- [The Hitchhiker's Guide to data privilege model and access control in Unity Catalog](https://www.databricks.com/blog/hitchhikers-guide-data-privilege-model-and-access-control-unity-catalog)
 
-## 🥂 Customer Stories
+## 🏪 Databricks Marketplace
 
-- []()
-
-## Upcoming Events
-
-- []()
+- [Public Preview of Databricks Marketplace](https://www.databricks.com/blog/announcing-public-preview-databricks-marketplace): an open marketplace for all your data, analytics, and AI needs. Unlike traditional data marketplaces, providers can also share notebooks, models, and dashboards. Access both free (e.g. Carto's spatial features for Australia) and paid data. Check it out by clicking on the Marketplace icon at the bottom of your left-hand navigation menu
 
 
 As always, please let me know if you'd like to find out more about any of the announcements or use cases above 👆🏽
