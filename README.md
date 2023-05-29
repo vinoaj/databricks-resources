@@ -134,7 +134,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [The Hitchhiker's Guide to data privilege model and access control in Unity Catalog](https://www.databricks.com/blog/hitchhikers-guide-data-privilege-model-and-access-control-unity-catalog)
 - [How Terraform can enable Unity Catalog deployment at scale for different governance models](https://www.databricks.com/blog/2022/12/08/automated-guide-distributed-and-decentralized-management-unity-catalog.html)
 - [Terraform scripts](https://github.com/databricks/unity-catalog-setup)
-- [▶️ https://www.youtube.com/watch?v=l_fZ7RFOf_s](https://www.youtube.com/watch?v=l_fZ7RFOf_s)
+- [▶️ How to Sync nested AD groups to Databricks](https://www.youtube.com/watch?v=l_fZ7RFOf_s)
 - [Export lineage via API](https://github.com/databricks/unity-catalog-setup/blob/main/lineage/lineage_export.py) example
 
 #### Migrating to Unity Catalog
@@ -428,7 +428,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### Distributed Training
 
 - [How (Not) To Scale Deep Learning in 6 Easy Steps](https://www.databricks.com/blog/2019/08/15/how-not-to-scale-deep-learning-in-6-easy-steps.html)
-  - [PyTorch on Databricks - Introducing the Spark PyTorch Distributor](https://www.databricks.com/blog/2023/04/20/pytorch-databricks-introducing-spark-pytorch-distributor.html): You can now easily perform distributed PyTorch training with PySpark and Databricks! (sample [📕Notebook](https://www.databricks.com/wp-content/uploads/notebooks/db-554/spark_pytorch_distributor_samples_v0.2.dbc)
+- [PyTorch on Databricks - Introducing the Spark PyTorch Distributor](https://www.databricks.com/blog/2023/04/20/pytorch-databricks-introducing-spark-pytorch-distributor.html): You can now easily perform distributed PyTorch training with PySpark and Databricks! (sample [📕Notebook](https://www.databricks.com/wp-content/uploads/notebooks/db-554/spark_pytorch_distributor_samples_v0.2.dbc)
 - [Accelerating Your Deep Learning with PyTorch Lightning on Databricks](https://www.databricks.com/blog/2022/09/07/accelerating-your-deep-learning-pytorch-lightning-databricks.html)
 - [Ray support on Databricks and Apache Spark Clusters](https://www.databricks.com/blog/2023/02/28/announcing-ray-support-databricks-and-apache-spark-clusters.html)
 - [▶️ Scaling Deep Learning on Databricks](https://www.youtube.com/watch?v=A95_q24nA1o)
