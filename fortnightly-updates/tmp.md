@@ -2,14 +2,6 @@
 
 Hi team! I just wanted to share some of the interesting resources/articles that have come from Databricks in the last couple of weeks:
 
-## 🎓 Training & Education
-
-- [Enroll in our New Expert-Led Large Language Models (LLMs) Courses on edX](https://www.databricks.com/blog/enroll-our-new-expert-led-large-language-models-llms-courses-edx) starting Jun 8!  Master Large Language Models with expert guidance, hands-on learning, and insights from industry pioneers. Explore cutting-edge techniques like prompt engineering, embeddings, vector databases, and model tuning. Learn from luminaries like [Stanford Professor & Databricks Co-Founder Matei Zaharia](https://cs.stanford.edu/people/matei/) and the creators of Dolly. Access free course materials to audit and elevate your LLM expertise. Consistent with our goal of keeping things open, course materials are **free** for anyone to audit. **[Enroll today](https://www.edx.org/professional-certificate/databricks-large-language-models)**
-
-## User Experience
-
-- [Test out the new navigation UI](https://www.databricks.com/blog/find-what-you-seek-new-navigation-ui) and give us your feedback. The unified navigation bar has been a great time-saver, allowing me to switch between screens in fewer clicks
-
 ## 🧠 ML & AI
 
 - New Solution Accelerator! [Enhancing Product Search with LLMs]() This example utilises [Wayfair's annotation dataset (WANDS)](https://www.aboutwayfair.com/careers/tech-blog/wayfair-releases-wands-the-largest-and-richest-publicly-available-dataset-for-e-commerce-product-search-relevance) to fine-tune a `SentenceTransformer('all-MiniLM-L12-v2')` model, generate and store embeddings in a vector store (Chroma), register the model and embeddings in MLflow registry, and finally deploy the model for serving ([accompanying blog post](https://www.databricks.com/blog/enhancing-product-search-large-language-models-llms.html))
@@ -19,6 +11,18 @@ Hi team! I just wanted to share some of the interesting resources/articles that 
 - [Databricks ❤️ Hugging Face](https://www.databricks.com/blog/contributing-spark-loader-for-hugging-face-datasets): The new `from_spark` function in Hugging Face reduces data processing time by over 40%​​. It combines Spark's efficiency with Hugging Face's pipeline integration, aiding in AI model optimisation
 
 - [Actioning Customer Reviews at Scale with Databricks SQL AI Functions](https://www.databricks.com/blog/actioning-customer-reviews-scale-databricks-sql-ai-functions): bring meaning to unstructured data using the simplicity of SQL and GPT-3.5
+
+## 🛒 Retail
+
+- [Simplify entity resolution with Databricks Automated Record Connector (ARC)](https://www.databricks.com/blog/improving-public-sector-decision-making-simple-automated-record-linking) ARC abstracts away the complexity of utilising UK Ministry of Justice's [Splink library](https://github.com/moj-analytical-services/splink) for entity resolution. It determines the optimal set of blocking rules, comparisons, and deterministic rules ([GitHub repo](https://github.com/databricks-industry-solutions/auto-data-linkage))
+
+## 🎓 Training & Education
+
+- [Enroll in our New Expert-Led Large Language Models (LLMs) Courses on edX](https://www.databricks.com/blog/enroll-our-new-expert-led-large-language-models-llms-courses-edx) starting Jun 8!  Master Large Language Models with expert guidance, hands-on learning, and insights from industry pioneers. Explore cutting-edge techniques like prompt engineering, embeddings, vector databases, and model tuning. Learn from luminaries like [Stanford Professor & Databricks Co-Founder Matei Zaharia](https://cs.stanford.edu/people/matei/) and the creators of Dolly. Access free course materials to audit and elevate your LLM expertise. Consistent with our goal of keeping things open, course materials are **free** for anyone to audit. **[Enroll today](https://www.edx.org/professional-certificate/databricks-large-language-models)**
+
+## User Experience
+
+- [Test out the new navigation UI](https://www.databricks.com/blog/find-what-you-seek-new-navigation-ui) and give us your feedback. The unified navigation bar has been a great time-saver, allowing me to switch between screens in fewer clicks
 
 ## 🛠️ Developer Experience
 
@@ -45,10 +49,6 @@ Hi team! I just wanted to share some of the interesting resources/articles that 
 - [Predictive I/O for Reads](https://www.databricks.com/blog/announcing-general-availability-predictive-io-reads.html) is now GA! It's an ML feature, to enhance the speed and efficiency of point lookups. By intelligently predicting required data and eliminating the need for costly indexes or optimization services, it significantly improves query performance. Real-world applications have demonstrated up to 35x faster response times compared to other cloud data warehouses, all while reducing complexity and maintenance overhead
 
 - [Introduction to Databricks SQL](https://www.advancinganalytics.co.uk/blog/2023/4/6/introduction-to-databricks-sql): a good walkthrough by one of our partners on the capabilities of Databricks SQL
-
-## 🛒 Retail
-
-- [Simplify entity resolution with Databricks Automated Record Connector (ARC)](https://www.databricks.com/blog/improving-public-sector-decision-making-simple-automated-record-linking) ARC abstracts away the complexity of utilising UK Ministry of Justice's [Splink library](https://github.com/moj-analytical-services/splink) for entity resolution. It determines the optimal set of blocking rules, comparisons, and deterministic rules ([GitHub repo](https://github.com/databricks-industry-solutions/auto-data-linkage))
 
 ## ⚡️ Performance Optimisation
 
