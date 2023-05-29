@@ -22,6 +22,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Paid Instructor-Lead Training (ILT) Training](https://www.databricks.com/learn/training/schedule)
 - [Request private training](https://www.databricks.com/learn/training/private-training-requests-form)
 - [Databricks Community](https://community.databricks.com/s/): community forum
+- [Enroll in our New Expert-Led Large Language Models (LLMs) Courses on edX](https://www.databricks.com/blog/enroll-our-new-expert-led-large-language-models-llms-courses-edx) starting Jun 8!  Master Large Language Models with expert guidance, hands-on learning, and insights from industry pioneers. Explore cutting-edge techniques like prompt engineering, embeddings, vector databases, and model tuning. Learn from luminaries like [Stanford Professor & Databricks Co-Founder Matei Zaharia](https://cs.stanford.edu/people/matei/) and the creators of Dolly. Access free course materials to audit and elevate your LLM expertise. Consistent with our goal of keeping things open, course materials are **free** for anyone to audit. **[Enroll today](https://www.edx.org/professional-certificate/databricks-large-language-models)**
 
 ### Release Notes
 
@@ -102,6 +103,7 @@ My **personal** list of resources and samples related to working with Databricks
 #### Cost Management
 
 - [Best Practices for Cost Management on Databricks](https://www.databricks.com/blog/2022/10/18/best-practices-cost-management-databricks.html)
+- [Cluster Policy Primer](https://www.databricks.com/blog/cluster-policy-onboarding-primer): Cluster policies allow you to enforce security and cost controls on new clusters. This post walks you through what cluster policies are and how to design them for your Workspaces
 - [Cost-conscious R&D in the Cloud that Data Scientists Will Love](https://medium.com/@kurlare/cost-conscious-r-d-in-the-cloud-that-data-scientists-will-love-148837b5ab51)
 - [How We Cut Our Databricks Costs by 50% (AWS)](https://medium.com/similarweb-engineering/how-we-cut-our-databricks-costs-by-50-7c60d6b6c069)
 
@@ -111,7 +113,7 @@ My **personal** list of resources and samples related to working with Databricks
   - [Disaster Recovery Impact Assessment questionnaire doc](https://databricks.com/wp-content/uploads/2022/04/disaster-recovery-impact-assesment.pdf)
 - [How illimity Bank Built a Disaster Recovery Strategy on the Lakehouse](https://databricks.com/blog/2022/05/09/how-illimity-bank-built-a-disaster-recovery-strategy-on-the-lakehouse.html) - DR strategy, Terraform management, data & metadata replication strategy
 
-## 🔐
+## 🔐 Security
 
 - [Security and Trust Center](https://databricks.com/trust)
 - [Databricks Bug Bounty Program](https://hackerone.com/databricks?view_policy=true) (example of bug bounty response: [Admin Isolation on Shared Clusters](https://www.databricks.com/blog/2022/10/10/admin-isolation-shared-clusters.html))
@@ -129,6 +131,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### Unity Catalog 🔐
 
 - [Serving Up a Primer for Unity Catalog Onboarding](https://www.databricks.com/blog/2022/11/22/serving-primer-unity-catalog-onboarding.html) (Databricks Admin Essentials)
+- [The Hitchhiker's Guide to data privilege model and access control in Unity Catalog](https://www.databricks.com/blog/hitchhikers-guide-data-privilege-model-and-access-control-unity-catalog)
 - [How Terraform can enable Unity Catalog deployment at scale for different governance models](https://www.databricks.com/blog/2022/12/08/automated-guide-distributed-and-decentralized-management-unity-catalog.html)
 - [Terraform scripts](https://github.com/databricks/unity-catalog-setup)
 - [▶️ https://www.youtube.com/watch?v=l_fZ7RFOf_s](https://www.youtube.com/watch?v=l_fZ7RFOf_s)
@@ -235,6 +238,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ### Ingestion: Streaming
 
+- [Latency goes subsecond in Apache Spark Structured Streaming](https://www.databricks.com/blog/latency-goes-subsecond-apache-spark-structured-streaming): progress has been made on [Project Lightspeed](https://www.databricks.com/blog/2022/06/28/project-lightspeed-faster-and-simpler-stream-processing-with-apache-spark.html), and the introduction of async offset management shows a **3x improvement** in stream latency
 - [Real-Time Insights: The Top Three Reasons Why Customers Love Data Streaming with Databricks](https://www.databricks.com/blog/2023/03/14/real-time-insights-top-three-reasons-why-customers-love-data-streaming.html)
 - [Simplifying Streaming Data Ingestion into Delta Lake](https://www.databricks.com/blog/2022/09/12/simplifying-streaming-data-ingestion-delta-lake.html)
 - [Streaming in Production: Collected Best Practices - Part 1](https://www.databricks.com/blog/2022/12/12/streaming-production-collected-best-practices.html), [Part 2](https://www.databricks.com/blog/2023/01/10/streaming-production-collected-best-practices-part-2.html)
@@ -260,8 +264,10 @@ My **personal** list of resources and samples related to working with Databricks
   - _2x speedup_ due to DLT making efficient compute decisions
   - Data quality checks _exposed data errors others hadn't picked up before_ (needle in a haystack of 1.5B records)
   - _Easy SCD Type II logic handling_
+- [Processing data simultaneously from multiple streaming platforms using Delta Live Tables](https://www.databricks.com/blog/processing-data-simultaneously-multiple-streaming-platforms-using-delta-live-tables): walkthrough of simultaneously ingesting and transforming streams across Azure Event Hubs, Kafka, and Kinesis
 - [Dimensional modeling implementation on the modern lakehouse using Delta Live Tables](https://www.databricks.com/blog/2022/11/07/load-edw-dimensional-model-real-time-databricks-lakehouse.html): covers SCD1 & SCD2, PK/FK constraints, IDENTITY columns, and constraints ([📄 Notebook](https://github.com/dbsys21/databricks-lakehouse/blob/main/lakehouse-buildout/dimensional-modeling/E2E-Dimensional-Modeling-DLT.sql))
 - [Data Vault Best practice & Implementation on the Lakehouse](https://www.databricks.com/blog/2023/02/24/data-vault-best-practice-implementation-lakehouse.html)
+- [Track health and fitness goals with Apple Healthkit and Databricks](https://www.databricks.com/blog/track-health-and-fitness-goals-apple-healthkit-and-databricks): great walkthrough of building out health insights using a metadata-driven approach with Delta Live Tables for ETL ([GitHub repo](https://github.com/jesusr-db/db-ahk))
 - [Deloitte’s Guide to Declarative Data Pipelines With Delta Live Tables](https://www.databricks.com/blog/2022/10/19/deloittes-guide-declarative-data-pipelines-delta-live-tables.html) ([Whitepaper](https://www.databricks.com/wp-content/uploads/2022/10/deloitte-delta-live-tables-databricks-white-paper.pdf))
 ![Deloitte's view on Delta Live Tables](https://cms.databricks.com/sites/default/files/inline-images/db-355-blog-img-1.png)
 - [Build a Customer 360 Solution with Fivetran and Delta Live Tables](https://www.databricks.com/blog/2022/11/09/build-customer-360-solution-fivetran-and-delta-live-tables.html) - includes SCD2 example
@@ -307,6 +313,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### IDEs
 
 - [VS Code extension](https://marketplace.visualstudio.com/items?itemName=databricks.databricks) (short [▶️ video](https://www.youtube.com/watch?v=_QkcrYttVRs))
+- [Using Databricks SQL in VSCode](https://www.advancinganalytics.co.uk/blog/2023/4/12/using-databricks-sql-in-vscode)
 - [Use an IDE with Databricks](https://docs.databricks.com/dev-tools/ide-how-to.html#set-up-the-code-sample)
 - [▶️ Databricks Connect v2 Quickstart](https://www.youtube.com/watch?v=BIysxyh_lro)
 - [Spark Connect Available in Apache Spark 3.4: Run Spark Applications Everywhere](https://www.databricks.com/blog/2023/04/18/spark-connect-available-apache-spark.html): write PySpark in any environment and have your instructions processed in a remote Spark environment (e.g. Databricks cluster)! [`databricks-connect`](https://pypi.org/project/databricks-connect/) supports Spark Connect when using DBR13.0+. This simplifies client application development, mitigates memory contention on the Spark driver, separates dependency management for client applications, allows independent client and server upgrades, provides step-through IDE debugging, and thin client logging and metrics!
@@ -322,14 +329,20 @@ My **personal** list of resources and samples related to working with Databricks
 - [GitHub Marketplace: Databricks](https://github.com/marketplace?query=databricks+publisher%3Adatabricks+)
 - [GitHub Actions documentation](https://docs.databricks.com/dev-tools/ci-cd/ci-cd-github.html)
 
+### Terraform
+
+- [30+ reusable Terraform modules to provision your Databricks Lakehouse platform](https://www.databricks.com/blog/announcing-terraform-databricks-modules): the newly released [Terraform Registry modules for Databricks](https://registry.terraform.io/modules/databricks/examples/databricks/latest) provides 30+ reusable Terraform modules and examples to provision your Databricks Lakehouse platform. I've found this useful for exploring best practices and speeding up Terraform development
+
 ---
 
 ## Databricks SQL, Analysis & Business Intelligence (BI)
 
 ### SQL
 
+- [Introduction to Databricks SQL](https://www.advancinganalytics.co.uk/blog/2023/4/6/introduction-to-databricks-sql): a good walkthrough by one of our partners on the capabilities of Databricks SQL
 - [Understanding Caching in Databricks SQL: UI, Result, and Disk Caches](https://www.databricks.com/blog/understanding-caching-databricks-sql-ui-result-and-disk-caches)
   ![Databricks SQL caching](https://cms.databricks.com/sites/default/files/inline-images/db-532-blog-img-1.png)
+- [Actioning Customer Reviews at Scale with Databricks SQL AI Functions](https://www.databricks.com/blog/actioning-customer-reviews-scale-databricks-sql-ai-functions): bring meaning to unstructured data using the simplicity of SQL and GPT-3.5
 - [What’s New With SQL User-Defined Functions](https://www.databricks.com/blog/2023/01/18/whats-new-sql-user-defined-functions.html) 2023-01-18
 
 ### ODBC & JDBC connectivity
@@ -427,6 +440,10 @@ My **personal** list of resources and samples related to working with Databricks
 
 - [Near Real-Time Anomaly Detection with Delta Live Tables and Databricks Machine Learning](https://www.databricks.com/blog/2022/08/08/near-real-time-anomaly-detection-with-delta-live-tables-and-databricks-machine-learning.html)
 
+### LLMs
+
+- [Actioning Customer Reviews at Scale with Databricks SQL AI Functions](https://www.databricks.com/blog/actioning-customer-reviews-scale-databricks-sql-ai-functions): bring meaning to unstructured data using the simplicity of SQL and GPT-3.5
+
 ### Guides
 
 - [Getting Started with Personalization through Propensity Scoring](https://databricks.com/blog/2022/06/03/getting-started-with-personalization-through-propensity-scoring.html) (accompanying [notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/nightly/RCG/Propensity/index.html#Propensity_1.html))
@@ -478,6 +495,10 @@ My **personal** list of resources and samples related to working with Databricks
 - [Customer Entity Resolution](https://www.databricks.com/blog/2022/08/04/new-solution-accelerator-customer-entity-resolution.html) ([Solution Accelerator page](https://www.databricks.com/solutions/accelerators/customer-entity-resolution) | [Notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/nightly/RCG/Customer_ER/index.html))
 - [The Emergence of the Composable Customer Data Platform](https://databricks.com/blog/2022/06/24/the-emergence-of-the-composable-customer-data-platform.html) ([whitepaper](https://cms.databricks.com/sites/default/files/2022-11/databricks_cdp_whitepaper_final-103122.pdf))
 
+### Chatbots
+
+- [Build your own Chatbot](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/diy-llm-qa-bot/index.html#diy-llm-qa-bot_1.html): walks through indexing documents, generating embeddings (using OpenAI embeddings), persisting embeddings in a vector store (FAISS), creating a Q&A flow (using Langchain), persisting the model in MLflow registry, and serving the model for your applications ([Accompanying blog post](https://www.databricks.com/blog/driving-large-language-model-revolution-customer-service-and-support))
+
 ### Cybersecurity 🔐
 
 - [Hunting for IOCs Without Knowing Table Names or Field Labels](https://databricks.com/blog/2022/07/15/hunting-for-iocs-without-knowing-table-names-or-field-labels.html)
@@ -489,6 +510,10 @@ My **personal** list of resources and samples related to working with Databricks
 - [Streaming Windows Event Logs into the Cybersecurity Lakehouse](https://databricks.com/blog/2022/05/05/streaming-windows-event-logs-into-the-cybersecurity-lakehouse.html) ([notebook](https://github.com/DerekKing001/databricks_cyber_notebooks/blob/master/winlogbeats-kafka-sysmon/winlogbeats-kafka-sysmon-example.py))
 - [Building a Cybersecurity Lakehouse for CrowdStrike Falcon Events Part I](https://databricks.com/blog/2021/05/20/building-a-cybersecurity-lakehouse-for-crowdstrike-falcon-events.html), [Part II](https://databricks.com/blog/2022/07/19/building-a-cybersecurity-lakehouse-for-crowdstrike-falcon-events-part-ii.html), [Part III](https://www.databricks.com/blog/2022/12/16/building-cybersecurity-lakehouse-crowdstrike-falcon-events-part-iii.html)
 - [▶️ Vlogs on security engineering for big data and cybersecurity](https://www.youtube.com/@lipyeow-sec7733): by [Lipyeow Lim](https://www.linkedin.com/in/lipyeowlim/), Technical Director, Cybersecurity GTM, Databricks
+
+### Entity Resolution
+
+- [Simplify entity resolution with Databricks Automated Record Connector (ARC)](https://www.databricks.com/blog/improving-public-sector-decision-making-simple-automated-record-linking) ARC abstracts away the complexity of utilising UK Ministry of Justice's [Splink library](https://github.com/moj-analytical-services/splink) for entity resolution. It determines the optimal set of blocking rules, comparisons, and deterministic rules ([GitHub repo](https://github.com/databricks-industry-solutions/auto-data-linkage))
 
 ### ERP
 
@@ -502,6 +527,10 @@ My **personal** list of resources and samples related to working with Databricks
 
 - [Real-Time Propensity Estimation to Drive Online Sales](https://www.databricks.com/blog/2023/03/21/using-real-time-propensity-estimation-drive-online-sales.html): real-time scoring of purchase intent doesn't have to be hard! This Solution Accelerator walks you through the end-to-end process of having your own real-time scoring model on Databricks. Check out the [📄 detailed notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/clickstream-analytics/index.html#clickstream-analytics_1.html) that walk you through data preparation, ETL, model training with Feature Store, model registry, processing live events in streaming or batch, and deploying the model for real-time inference
 - [Enhancing the Amperity CDP with Personalized Product Recommendations](https://www.databricks.com/blog/2023/03/15/enhancing-amperity-cdp-personalized-product-recommendations.html): move identity resolution data easily between Amperity and Databricks using [Amperity's Databricks Delta table destination connector](https://docs.amperity.com/datagrid/destination_databricks_delta_table.html) (sample [📕 Notebook](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/amperity-cdp-rec/index.html#amperity-cdp-rec_1.html))
+
+### Search
+
+- [Enhancing Product Search with LLMs](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/product-search/index.html#product-search_1.html) This example utilises [Wayfair's annotation dataset (WANDS)](https://www.aboutwayfair.com/careers/tech-blog/wayfair-releases-wands-the-largest-and-richest-publicly-available-dataset-for-e-commerce-product-search-relevance) to fine-tune a `SentenceTransformer('all-MiniLM-L12-v2')` model, generate and store embeddings in a vector store (Chroma), register the model and embeddings in MLflow registry, and finally deploy the model for serving ([accompanying blog post](https://www.databricks.com/blog/enhancing-product-search-large-language-models-llms.html))
 
 ---
 
