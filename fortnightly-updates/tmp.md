@@ -4,6 +4,11 @@ Hi team! I just wanted to share some of the interesting resources/articles that 
 
 ## 🧠 ML & AI
 
+- [Announcing MLflow 2.4: LLMOps Tools for Robust Model Evaluation](https://www.databricks.com/blog/announcing-mlflow-24-llmops-tools-robust-model-evaluation)
+  - the new **Artifact View** in MLflow Tracking simplifies comparing the performance of LLMs across different runs. This data can be downloaded for further analysis, data labeling, etc.
+  ![The MLflow Artifact View provides a side-by-side comparison of inputs, outputs, and intermediate results across multiple models](https://www.databricks.com/sites/default/files/inline-images/screenshot_2023-06-07_at_11.46.21_am.png)
+  - **Dataset Tracking**, integrated with Autologging, allows you to quickly identify which datasets were used to develop and evaluate each of your models, ensuring fair comparison and simplifying model selection for production deployment
+  ![MLflow Tracking now displays comprehensive dataset information in the UI with enhanced visibility into dataset metadata for each run. With the introduction of a new panel, you can easily visualize and explore the details of datasets, conveniently accessible from both the runs comparison view and the runs detail page](https://www.databricks.com/sites/default/files/inline-images/image2_0.png)
 
 ## 🛒 Retail
 
@@ -11,6 +16,8 @@ Hi team! I just wanted to share some of the interesting resources/articles that 
 
 ## 🎓 Training & Education
 
+- [Now Available: **New Generative AI Learning** Offerings](https://www.databricks.com/blog/now-available-new-generative-ai-learning-offerings) in Databricks Academy! This is similar content to the [Databricks LLM courses on edX](https://www.edx.org/professional-certificate/databricks-large-language-models), but also giving you the ability to download the teaching slides and notebooks. Sign up to the [first course here](https://customer-academy.databricks.com/learn/course/internal/view/elearning/1749/large-language-models-llms-application-through-production)
+  - If you don't already have access to the Databricks Academy, sign up with your work e-mail address to gain immediate free access
 
 ## 😎 User Experience
 
@@ -45,6 +52,10 @@ Hi team! I just wanted to share some of the interesting resources/articles that 
 ## 🏪 Databricks Marketplace
 
 - [▶️ Introduction to Databricks Marketplace](https://www.youtube.com/watch?v=PGgWOw7g0lM): a short primer on Databricks Marketplace by our partners Advancing Analytics
+
+## 🥂 Customer Stories
+
+- [How **Stack Overflow** built their new course recommendations](https://stackoverflow.blog/2023/05/29/more-on-our-ai-future-building-course-recommendations-and-a-new-data-platform/) solution on Azure Databricks. I think it's safe to say we all owe Stack Overflow some thanks for aiding us in our technical careers; so I was happy to see Databricks play a role in helping the community discover relevant courses. *"[It was] it clear that leveraging one platform for as much as possible would be wise, and our platform of choice was Azure Databricks. This allowed us to keep all data processing, feature engineering, model versioning, serving, and orchestration all in one place."*
 
 
 As always, please let me know if you'd like to find out more about any of the announcements or use cases above 👆🏽

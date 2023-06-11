@@ -491,14 +491,18 @@ My **personal** list of resources and samples related to working with Databricks
 
 - [Taming JavaScript Exceptions With Databricks](https://databricks.com/blog/2022/01/25/taming-javascript-exceptions-with-databricks.html)
 
+### Chatbots
+
+- [Build your own Chatbot](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/diy-llm-qa-bot/index.html#diy-llm-qa-bot_1.html): walks through indexing documents, generating embeddings (using OpenAI embeddings), persisting embeddings in a vector store (FAISS), creating a Q&A flow (using Langchain), persisting the model in MLflow registry, and serving the model for your applications ([Accompanying blog post](https://www.databricks.com/blog/driving-large-language-model-revolution-customer-service-and-support))
+
+### Clean Rooms
+
+- [How Habu Integrates With Databricks to Protect Sensitive Data](https://www.databricks.com/blog/how-habu-integrates-databricks-protect-sensitive-data)
+
 ### Customer Data
 
 - [Customer Entity Resolution](https://www.databricks.com/blog/2022/08/04/new-solution-accelerator-customer-entity-resolution.html) ([Solution Accelerator page](https://www.databricks.com/solutions/accelerators/customer-entity-resolution) | [Notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/nightly/RCG/Customer_ER/index.html))
 - [The Emergence of the Composable Customer Data Platform](https://databricks.com/blog/2022/06/24/the-emergence-of-the-composable-customer-data-platform.html) ([whitepaper](https://cms.databricks.com/sites/default/files/2022-11/databricks_cdp_whitepaper_final-103122.pdf))
-
-### Chatbots
-
-- [Build your own Chatbot](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/diy-llm-qa-bot/index.html#diy-llm-qa-bot_1.html): walks through indexing documents, generating embeddings (using OpenAI embeddings), persisting embeddings in a vector store (FAISS), creating a Q&A flow (using Langchain), persisting the model in MLflow registry, and serving the model for your applications ([Accompanying blog post](https://www.databricks.com/blog/driving-large-language-model-revolution-customer-service-and-support))
 
 ### Cybersecurity 🔐
 
@@ -543,6 +547,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Migrations
 
+- [Seamlessly Migrate Your Apache Parquet Data Lake to Delta Lake](https://www.databricks.com/blog/seamlessly-migrate-your-apache-parquet-data-lake-delta-lake)
 - [How To Migrate Your Oracle PL/SQL Code to Databricks Lakehouse Platform](https://www.databricks.com/blog/2023/02/13/how-migrate-your-oracle-plsql-code-databricks-lakehouse-platform.html)
 
 ---
