@@ -105,6 +105,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Best Practices for Cost Management on Databricks](https://www.databricks.com/blog/2022/10/18/best-practices-cost-management-databricks.html)
 - [Cluster Policy Primer](https://www.databricks.com/blog/cluster-policy-onboarding-primer): Cluster policies allow you to enforce security and cost controls on new clusters. This post walks you through what cluster policies are and how to design them for your Workspaces
 - [Cost-conscious R&D in the Cloud that Data Scientists Will Love](https://medium.com/@kurlare/cost-conscious-r-d-in-the-cloud-that-data-scientists-will-love-148837b5ab51)
+- [Databricks cost management at Coinbase](https://www.coinbase.com/blog/databricks-cost-management-at-coinbase): outlines the cost management strategy implemented at Coinbase for Databricks applications, including the launch of a cost insights platform and quota enforcement platform
 - [How We Cut Our Databricks Costs by 50% (AWS)](https://medium.com/similarweb-engineering/how-we-cut-our-databricks-costs-by-50-7c60d6b6c069)
 
 ### Disaster Recovery (DR) and High Availability (HA)

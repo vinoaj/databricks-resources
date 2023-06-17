@@ -2,6 +2,9 @@
 
 Hi team! I just wanted to share some of the interesting resources/articles that have come from Databricks in the last couple of weeks:
 
+- summit xxxx
+- For those of you who missed our Roadmap session earlier this week, I'm happy to go over the highlights with you, or you can [watch a recording in the Databricks Academy](https://customer-academy.databricks.com/learn/course/internal/view/elearning/861/databricks-product-roadmap-webinars) (select _FY24Q2 Product Roadmap Webinar - All Clouds_)
+
 ## 🧠 ML & AI
 
 - [Announcing MLflow 2.4: LLMOps Tools for Robust Model Evaluation](https://www.databricks.com/blog/announcing-mlflow-24-llmops-tools-robust-model-evaluation)
@@ -31,6 +34,8 @@ Hi team! I just wanted to share some of the interesting resources/articles that 
 - [Unifying Your Data Ecosystem with Delta Lake Integration](https://www.databricks.com/blog/integrating-delta-lakehouse-other-platforms): a useful walkthrough of options (direct cloud storage access, external hive metastore, delta sharing, JDBC/ODBC)for when you need to read/write data from/to different systems and applications
     ![Unifying Your Data Ecosystem with Delta Lake Integration](https://cms.databricks.com/sites/default/files/inline-images/db-580-blog-image-5.png)
 
+- The [Google Pub/Sub connector](https://docs.gcp.databricks.com/structured-streaming/pub-sub.html) is now live! Ingest messages from Pub/Sub, with exactly-once semantics, using Structured Streaming from any cloud (requires DBR 13.1+)
+
 ## 📊 Data Analysis / SQL
 
 - For Power BI users, we have a new set of guides on optimising dashboard performance:
@@ -58,5 +63,9 @@ Hi team! I just wanted to share some of the interesting resources/articles that 
 - [How **Stack Overflow** built their new course recommendations](https://stackoverflow.blog/2023/05/29/more-on-our-ai-future-building-course-recommendations-and-a-new-data-platform/) solution on Azure Databricks. I think it's safe to say we all owe Stack Overflow some thanks for aiding us in our technical careers; so I was happy to see Databricks play a role in helping the community discover relevant courses. *"[It was] it clear that leveraging one platform for as much as possible would be wise, and our platform of choice was Azure Databricks. This allowed us to keep all data processing, feature engineering, model versioning, serving, and orchestration all in one place."*
 
 - [How Instacart Ads Modularized Data Pipelines With Lakehouse Architecture and Spark](https://tech.instacart.com/how-instacart-ads-modularized-data-pipelines-with-lakehouse-architecture-and-spark-e9863e28488d)
+
+- [Ahold Delhaize: Workflows helps data teams scale and reduce costs](https://www.databricks.com/customers/ahold-delhaize): 1K daily ingestion jobs with 50% cost reduction
+
+
 
 As always, please let me know if you'd like to find out more about any of the announcements or use cases above 👆🏽
