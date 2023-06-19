@@ -4,7 +4,7 @@ Hi team! I just wanted to share some of the interesting resources/articles that 
 
 ## 🎓 Events, Training & Education
 
-- The Databricks Data+AI Summit is just around the corner! Kicking off on Wed 28th (AEST), it promises a lot of exciting announcements around LLMs, ML- and LLM-Ops, data engineering, and SQL goodness. If you haven't already, you can [register for free here](https://dbricks.co/45EV2yI). Recordings will be available shortly after on-demand.
+- The [Databricks Data+AI Summit](https://dbricks.co/45EV2yI) is just around the corner! Kicking off on Wed 28th (AEST), it promises a lot of exciting announcements around LLMs, ML- and LLM-Ops, data engineering, and SQL goodness. If you haven't already, you can [register for free here](https://dbricks.co/45EV2yI). Recordings will be available shortly after on-demand.
 
 - For those of you who missed our Roadmap session earlier this week, I'm happy to go over the highlights with you, or you can [watch a recording in the Databricks Academy](https://customer-academy.databricks.com/learn/course/internal/view/elearning/861/databricks-product-roadmap-webinars) (select _FY24Q2 Product Roadmap Webinar - All Clouds_)
 
