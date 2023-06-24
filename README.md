@@ -24,6 +24,18 @@ My **personal** list of resources and samples related to working with Databricks
 - [Databricks Community](https://community.databricks.com/s/): community forum
 - [Enroll in our New Expert-Led Large Language Models (LLMs) Courses on edX](https://www.databricks.com/blog/enroll-our-new-expert-led-large-language-models-llms-courses-edx) starting Jun 8!  Master Large Language Models with expert guidance, hands-on learning, and insights from industry pioneers. Explore cutting-edge techniques like prompt engineering, embeddings, vector databases, and model tuning. Learn from luminaries like [Stanford Professor & Databricks Co-Founder Matei Zaharia](https://cs.stanford.edu/people/matei/) and the creators of Dolly. Access free course materials to audit and elevate your LLM expertise. Consistent with our goal of keeping things open, course materials are **free** for anyone to audit. **[Enroll today](https://www.edx.org/professional-certificate/databricks-large-language-models)**
 
+### Useful Customer Academy Courses
+
+- [Databricks New Features and Capabilities](https://customer-academy.databricks.com/learn/catalog/view/62): this can help you come up to speed with the latest over the last 6-12 months
+- [Databricks Onboarding Series](https://customer-academy.databricks.com/learn/catalog/view/68)
+- [Databricks Lakehouse Fundamentals](https://customer-academy.databricks.com/learn/learning_plan/view/215/databricks-lakehouse-fundamentals-learning-plan-v2)
+- [Azure Platform Architect](https://customer-academy.databricks.com/learn/learning_plan/view/254/azure-databricks-platform-architect-learning-plan)
+- [GCP Platform Architect](https://customer-academy.databricks.com/learn/learning_plan/view/266/gcp-databricks-platform-architect-learning-plan)
+- [Data Engineering Practitioner](https://customer-academy.databricks.com/learn/learning_plan/view/10/data-engineer-learning-plan) (also prepares you for certification)
+- [Machine Learning Practitioner](https://customer-academy.databricks.com/learn/learning_plan/view/11/machine-learning-practitioner-learning-plan) (also prepares you for certification)
+- [Full catalog](https://customer-academy.databricks.com/learn/catalog/view/5)
+- [Short tutorials](https://customer-academy.databricks.com/learn/catalog/view/63)
+
 ### Release Notes
 
 - Azure Databricks: [Platform release notes](https://docs.microsoft.com/en-us/azure/databricks/release-notes/product/) | [Runtime release notes](https://docs.microsoft.com/en-us/azure/databricks/release-notes/runtime/) | [Databricks SQL release notes](https://docs.microsoft.com/en-us/azure/databricks/sql/release-notes/)
