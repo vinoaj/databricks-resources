@@ -37,8 +37,16 @@
 ![Propensity scoring workflow](https://databricks.com/wp-content/uploads/2022/05/db-192-blog-img-1.png)
 - [Using MLflow to deploy Graph Neural Networks for Monitoring Supply Chain Risk](https://medium.com/@ajmal.t.aziz/using-mlflow-to-deploy-graph-neural-networks-for-monitoring-supply-chain-risk-644c87e5259e)
 
-## Case Studies
+## Use Cases
 
+### Retail Media Networks (RMNs)
+
+- [Unlocking the Power of Retail Media Networks: How Data-Driven Advertising is Changing the Retail Promotions Landscape](https://www.databricks.com/blog/unlocking-power-retail-media-networks-how-data-driven-advertising-changing-retail-promotions)
+
+## 🥂 Customer Stories / Case Studies
+
+- [How Instacart Ads Modularized Data Pipelines With Lakehouse Architecture and Spark](https://tech.instacart.com/how-instacart-ads-modularized-data-pipelines-with-lakehouse-architecture-and-spark-e9863e28488d)
+- [Ahold Delhaize: Workflows helps data teams scale and reduce costs](https://www.databricks.com/customers/ahold-delhaize): 1K daily ingestion jobs with 50% cost reduction
 - [84.51° Uses Databricks Lakehouse to improve its forecasting accuracy across Kroger stores](https://www.youtube.com/watch?v=1TcmBjCOnL0)
 - [Democratizing Data for Supply Chain Optimization: How Johnson & Johnson Leverages the Databricks Lakehouse](https://databricks.com/blog/2022/04/25/democratizing-data-for-supply-chain-optimization.html)
 - [Walgreens uses Databricks Lakehouse to personalize patient experiences & optimize their supply chain](https://www.youtube.com/watch?v=l2rnu-6rEXU) (video)

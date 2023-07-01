@@ -42,6 +42,8 @@
 ### Power BI
 
 - [Power Up your BI with Microsoft Power BI and Lakehouse in Azure Databricks: part 1 - Essentials](https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/power-up-your-bi-with-microsoft-power-bi-and-lakehouse-in-azure/ba-p/3810649)
+- [Power Up your BI with Microsoft Power BI and Lakehouse in Azure Databricks: part 2 - Tuning Power BI](https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/power-up-with-power-bi-and-lakehouse-in-azure-databricks-part-3/ba-p/3825010)
+- [Power Up with Power BI and Lakehouse in Azure Databricks: part 3 - Tuning Azure Databricks SQL](https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/power-up-with-power-bi-and-lakehouse-in-azure-databricks-part-3/ba-p/3825010)
 - [Parameterizing your Databricks SQL Connections in Power BI](https://medium.com/@kyle.hale/parameterizing-your-databricks-sql-connections-in-power-bi-fd7aae20863e)
 - [Refreshing Databricks SQL Datasets in Power BI With Service Accounts](https://medium.com/@kyle.hale/humans-need-not-apply-refreshing-databricks-sql-datasets-in-power-bi-with-service-accounts-b63fcfa46486)
 - [Power BI - Migrating from Synapse to Databricks](https://www.linkedin.com/pulse/power-bi-migrating-from-synapse-databricks-narius-p/)

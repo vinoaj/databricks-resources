@@ -104,6 +104,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Leveraging Delta Across Teams at McGraw Hill](https://www.databricks.com/blog/2022/09/14/leveraging-delta-across-teams-mcgraw-hill.html) ([source code](https://github.com/MHEducation/databricks-athena-blog-code) to automate the Databricks to Athena manifest based integration)
 ![McGraw Hill architecture](https://cms.databricks.com/sites/default/files/inline-images/db-302-blog-img-4.png)
 - [Data Modeling using erwin on Databricks](https://www.databricks.com/blog/2023/04/05/visual-data-modeling-using-erwin-data-modeler-databricks-lakehouse-platform.html)
+- [Multi-cloud Architecture for Portable Data and AI Processing in Financial Services](https://www.databricks.com/blog/multi-cloud-architecture-portable-data-and-ai-processing-financial-services): a useful blueprint for owning a reliable and governed **multi-cloud data architecture**. Although this article is focused on the financial services industry, it is relevant for any organisations with data footprints across clouds
 
 ### Administration
 
@@ -329,11 +330,16 @@ My **personal** list of resources and samples related to working with Databricks
 - [VS Code extension](https://marketplace.visualstudio.com/items?itemName=databricks.databricks) (short [▶️ video](https://www.youtube.com/watch?v=_QkcrYttVRs))
 - [Using Databricks SQL in VSCode](https://www.advancinganalytics.co.uk/blog/2023/4/12/using-databricks-sql-in-vscode)
 - [Use an IDE with Databricks](https://docs.databricks.com/dev-tools/ide-how-to.html#set-up-the-code-sample)
+- [Debug your code and notebooks by using Visual Studio Code](https://www.databricks.com/blog/debug-your-code-and-notebooks-using-visual-studio-code)
+  - Interactive debugging with Databricks Connect: developers can step through their code and inspect variables in real time. Databricks Connect enables running Spark code on remote clusters from the IDE, thereby enabling code step-through while debugging
+  - Support for `ipynb` notebooks
+  - Support for `dbutils` and Spark SQL
 - [▶️ Databricks Connect v2 Quickstart](https://www.youtube.com/watch?v=BIysxyh_lro)
 - [Spark Connect Available in Apache Spark 3.4: Run Spark Applications Everywhere](https://www.databricks.com/blog/2023/04/18/spark-connect-available-apache-spark.html): write PySpark in any environment and have your instructions processed in a remote Spark environment (e.g. Databricks cluster)! [`databricks-connect`](https://pypi.org/project/databricks-connect/) supports Spark Connect when using DBR13.0+. This simplifies client application development, mitigates memory contention on the Spark driver, separates dependency management for client applications, allows independent client and server upgrades, provides step-through IDE debugging, and thin client logging and metrics!
       ![Spark Connect](https://cms.databricks.com/sites/default/files/inline-images/db-571-blog-img-1.png)
 - [Use Databricks from anywhere with Databricks Connect v2](https://www.databricks.com/blog/2023/04/18/use-databricks-anywhere-databricks-connect-v2.html): use the power of Databricks from any application running anywhere. It is also included in our [VS Code extension](https://marketplace.visualstudio.com/items?itemName=databricks.databricks) enabling built-in debugging of code on Databricks! Here's a [sample application](https://github.com/databricks-demos/dbconnect-plotly)
        ![Databricks Connect](https://cms.databricks.com/sites/default/files/inline-images/db-534-blog-img-1.png)
+- [▶️ Databricks Connect + Spark Connect: How you can build on Spark from anywhere](https://www.youtube.com/watch?v=Cwj-L8sQRGc): _"Databricks Connect v2 leverages Spark Connect so you can connect to your Spark clusters within Databricks"_
 - [Software engineering best practices for notebooks](https://docs.databricks.com/notebooks/best-practices.html) ([accompanying notebooks](https://github.com/databricks/notebook-best-practices)) ([accompanying notebooks](https://github.com/databricks/ide-best-practices))
 - [Build Reliable Production Data and ML Pipelines With Git Support for Databricks Workflows](https://databricks.com/blog/2022/06/21/build-reliable-production-data-and-ml-pipelines-with-git-support-for-databricks-workflows.html) ([📄 notebooks](https://github.com/RafiKurlansik/e2e-cuj))
 - [Run SQL Queries on Databricks From Visual Studio Code](https://www.databricks.com/blog/2023/03/29/run-sql-queries-databricks-visual-studio-code.html): makes life easy if you use the SQLTools extension and want to iterate on your SQL logic while in your local environment (e.g. while debugging `dbt` model logic) (download [Databricks driver for SQLTools](https://marketplace.visualstudio.com/items?itemName=databricks.sqltools-databricks-driver)
@@ -456,6 +462,8 @@ My **personal** list of resources and samples related to working with Databricks
 
 ### LLMs
 
+- [LLM Model Recommendations](https://www.databricks.com/product/machine-learning/large-language-models-oss-guidance): we often get asked what are the best OSS LLM models to use for which use case. This frequently-updated matrix is a handy reference to identify the right models by use case and depending on whether you are seeking quality-, balanced-, or speed-optimised models
+
 - [Actioning Customer Reviews at Scale with Databricks SQL AI Functions](https://www.databricks.com/blog/actioning-customer-reviews-scale-databricks-sql-ai-functions): bring meaning to unstructured data using the simplicity of SQL and GPT-3.5
 
 ### Guides
@@ -571,11 +579,14 @@ My **personal** list of resources and samples related to working with Databricks
 
 ---
 
-## Case Studies
+## 🥂 Customer Stories / Case Studies
 
 - [Monash University stands up 'lakehouse' in Databricks, Azure](https://www.itnews.com.au/news/monash-university-stands-up-lakehouse-in-databricks-azure-585801)
 - [Australia's heavy vehicle regulator builds 'fatigue engine' to reduce truckie deaths](https://www.itnews.com.au/news/heavy-vehicle-regulator-builds-fatigue-engine-to-reduce-truckie-deaths-580113)
 - [Why we migrated to a Data Lakehouse on Delta Lake for T-Mobile Data Science and Analytics Team](https://delta.io/blog/2022-09-14-why-migrate-lakehouse-delta-lake-tmo-dsna/)
+- [How **Stack Overflow** built their new course recommendations](https://stackoverflow.blog/2023/05/29/more-on-our-ai-future-building-course-recommendations-and-a-new-data-platform/) solution on Azure Databricks. I think it's safe to say we all owe Stack Overflow some thanks for aiding us in our technical careers; so I was happy to see Databricks play a role in helping the community discover relevant courses. *"[It was] clear that leveraging one platform for as much as possible would be wise, and our platform of choice was Azure Databricks. This allowed us to keep all data processing, feature engineering, model versioning, serving, and orchestration all in one place."*
+- [How Instacart Ads Modularized Data Pipelines With Lakehouse Architecture and Spark](https://tech.instacart.com/how-instacart-ads-modularized-data-pipelines-with-lakehouse-architecture-and-spark-e9863e28488d)
+- [Ahold Delhaize: Workflows helps data teams scale and reduce costs](https://www.databricks.com/customers/ahold-delhaize): 1K daily ingestion jobs with 50% cost reduction
 - [Having your cake and eating it too: How _Vizio_ built a next-generation data platform to enable BI reporting, real-time streaming, and AI/ML](https://medium.com/@parveen.jindal/having-your-cake-and-eating-it-too-how-vizio-built-a-next-generation-data-platform-to-enable-bi-4fc42c539543): Vizio's journey in adopting the Lakehouse for a single platform that met their data warehouse and ML needs. _" Databricks was the only platform that could handle ETL, monitoring, orchestration, streaming, ML, and Data Governance on a single platform. Not only was Databricks SQL + Delta able to run queries faster on real-world data (in our analysis, Databricks was 3x faster) but we no longer needed to buy other services just to run the platform and add features in the future"_
 - [_Ripple_: ML Training and Deployment Pipeline Using Databricks](https://engineering.ripple.com/ml-training-and-deployment-pipeline-using-databricks/): how Ripple uses Databricks to manage robust MLOps pipelines across a multi-cloud (GCP and AWS) architecture: _"ML flow tracking and MLflow API help coordinate these actions with ease in spite of using different platforms for model development, testing and deployment"_
 
