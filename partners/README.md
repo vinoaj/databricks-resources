@@ -54,6 +54,12 @@
 
 ---
 
+## Governance
+
+### Alation
+
+- [▶️ Connecting with Alation](https://www.youtube.com/watch?v=Ol7TrcLDdKo)
+
 ## Applications
 
 ### ERP

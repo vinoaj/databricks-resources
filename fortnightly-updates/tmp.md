@@ -8,7 +8,7 @@ Hi team! I just wanted to share some of the interesting resources/articles that 
 
 ## 🛠️ Developer Experience
 
-- []()
+- [Introducing Lakehouse Apps](https://www.databricks.com/blog/introducing-lakehouse-apps): build secure native data and AI applications without compromise. Are you building applications on top of your Lakehouse data? Lakehouse Apps allows you to build and host those applications directly on your Lakehouse, preventing the need to move data around.
 
 ## 🪛 Data Engineering
 
