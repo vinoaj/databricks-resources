@@ -8,7 +8,7 @@ Hi team! I just wanted to share some of the interesting resources/articles that 
 
 ## 🛠️ Developer Experience
 
-- [Introducing Lakehouse Apps](https://www.databricks.com/blog/introducing-lakehouse-apps): build secure native data and AI applications without compromise. Are you building applications on top of your Lakehouse data? Lakehouse Apps allows you to build and host those applications directly on your Lakehouse, preventing the need to move data around.
+- [Introducing Lakehouse Apps](https://www.databricks.com/blog/introducing-lakehouse-apps): build secure native data and AI applications without compromise. Are you building applications on top of your Lakehouse data? Lakehouse Apps allows you to build and host those applications directly on your Lakehouse, preventing the need to move data around and worrying about inconsistent governance models.
 
 ## 🪛 Data Engineering
 
@@ -32,7 +32,7 @@ Hi team! I just wanted to share some of the interesting resources/articles that 
 
 ## 🔐 Security
 
-- []()
+- [Identifying and Tagging PII data with Unity Catalog](https://medium.com/@andrewpweaver/identifying-and-tagging-pii-data-with-unity-catalog-870522f25730)
 
 ## 🏪 Databricks Marketplace
 
@@ -44,11 +44,11 @@ Hi team! I just wanted to share some of the interesting resources/articles that 
 
 ## 🥂 Customer Stories
 
-- []()
+- [Australian Red Cross Lifeblood wins 2023 Data for Good Award](https://www.databricks.com/blog/announcing-winners-2023-databricks-data-team-awards): Red Cross are able to attract more donations and strengthen community bonds through initiatives that span granular forecasting, real-time wait-time predictions, customer segmentation, and marketing attribution
 
 ## Upcoming Events
 
-- []()
+- [Accelerating Innovation at JetBlue 🛫 Using Databricks](https://www.databricks.com/blog/accelerating-innovation-jetblue-using-databricks)
 
 ## 🎓 Training & Education
 
