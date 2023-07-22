@@ -48,7 +48,9 @@ Hi team! I just wanted to share some of the interesting resources/articles that 
 
 ## Upcoming Events
 
-- [Accelerating Innovation at JetBlue 🛫 Using Databricks](https://www.databricks.com/blog/accelerating-innovation-jetblue-using-databricks)
+- [Accelerating Innovation at JetBlue 🛫 Using Databricks](https://www.databricks.com/blog/accelerating-innovation-jetblue-using-databricks): ([▶️ video](https://youtu.be/h4z4vBoxQ6s?t=5958)) thanks to Databricks JetBlue has benefited with: Rapid prototyping, iteration, and launching of data pipelines, jobs, and ML models; Elevated customer experience; Continuous improvement of overall value; Lowered TCO
+    ![JetBlue Lakehouse architecture](https://www.databricks.com/sites/default/files/inline-images/image15.png)
+    ![JetBlue BlueSky AI](https://www.databricks.com/sites/default/files/inline-images/image002.png)
 
 ## 🎓 Training & Education
 

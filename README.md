@@ -353,6 +353,10 @@ My **personal** list of resources and samples related to working with Databricks
 
 - [30+ reusable Terraform modules to provision your Databricks Lakehouse platform](https://www.databricks.com/blog/announcing-terraform-databricks-modules): the newly released [Terraform Registry modules for Databricks](https://registry.terraform.io/modules/databricks/examples/databricks/latest) provides 30+ reusable Terraform modules and examples to provision your Databricks Lakehouse platform. I've found this useful for exploring best practices and speeding up Terraform development
 
+### Unit Testing
+
+- [Spark test suite](https://github.com/holdenk/spark-testing-base) (Scala)
+
 ---
 
 ## Databricks SQL, Analysis & Business Intelligence (BI)
