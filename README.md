@@ -133,6 +133,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 - [Security and Trust Center](https://databricks.com/trust)
 - [Databricks Bug Bounty Program](https://hackerone.com/databricks?view_policy=true) (example of bug bounty response: [Admin Isolation on Shared Clusters](https://www.databricks.com/blog/2022/10/10/admin-isolation-shared-clusters.html))
+- [Commitment to Responsible AI](https://www.databricks.com/blog/helping-enterprises-responsibly-deploy-ai)
 - [Security best practices](https://www.databricks.com/blog/2023/03/30/security-best-practices-databricks-lakehouse-platform.html) including comprehensive checklists for [GCP](https://www.databricks.com/wp-content/uploads/2022/09/security-best-practices-databricks-on-gcp.pdf), [Azure](https://www.databricks.com/sites/default/files/2023-01/azure_databricks-security_best_practices_and_threat_model.pdf), and [AWS](https://www.databricks.com/wp-content/uploads/2022/09/security-best-practices-databricks-on-aws.pdf)
 - [Security Analysis Tool (SAT)](https://www.databricks.com/blog/2023/02/03/announcing-multi-cloud-support-security-analysis-tool-sat.html): [📄 GitHub repo](https://github.com/databricks-industry-solutions/security-analysis-tool), [▶️ Setup instructions](https://www.youtube.com/watch?v=kLSc3UHKL40)
 - [GxP Best Practices Whitepaper](https://www.databricks.com/trust/gxp): GxP stands for "Good x Practices" and the variable `x` refers to a specific discipline, such as clinical, manufacturing or laboratory. The goal of GxP compliance is to ensure that regulated industries have a process that runs reliably, can survive failures and human error, and meets global traceability, accountability and data integrity requirements. No matter what industry you operate in, I believe these are solid practices to align with
@@ -426,6 +427,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Machine Learning (ML) & Artificial Intelligence (AI) 🧠
 
+- [Commitment to Responsible AI](https://www.databricks.com/blog/helping-enterprises-responsibly-deploy-ai)
 - [Selecting an Effective & Productive Machine Learning Platform](https://alexanderkwok17.medium.com/selecting-an-effective-productive-machine-learning-platform-8b7d7efa3d4f)
 
 ### MLOps
