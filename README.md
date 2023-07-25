@@ -29,6 +29,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Databricks New Features and Capabilities](https://customer-academy.databricks.com/learn/catalog/view/62): this can help you come up to speed with the latest over the last 6-12 months
 - [Databricks Onboarding Series](https://customer-academy.databricks.com/learn/catalog/view/68)
 - [Databricks Lakehouse Fundamentals](https://customer-academy.databricks.com/learn/learning_plan/view/215/databricks-lakehouse-fundamentals-learning-plan-v2)
+- [Generative AI Fundamentals](https://vnjv.co/GenAIFund)
 - [Azure Platform Architect](https://customer-academy.databricks.com/learn/learning_plan/view/254/azure-databricks-platform-architect-learning-plan)
 - [GCP Platform Architect](https://customer-academy.databricks.com/learn/learning_plan/view/266/gcp-databricks-platform-architect-learning-plan)
 - [Data Engineering Practitioner](https://customer-academy.databricks.com/learn/learning_plan/view/10/data-engineer-learning-plan) (also prepares you for certification)
@@ -61,6 +62,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Value Generation
 
+- [2023 State of Data + AI report](https://cms.databricks.com/sites/default/files/2023-06/databricks-2023-state-of-data-report-06072023-v2.pdf)
 - [Databricks 30 Index](https://databricks.com/blog/2021/03/17/winning-with-data-ai-meet-the-databricks-30-index.html): (March 2021) The Databricks 30 is an equal-weight price index composed of 5 marquee customers each across Retail/Consumer Products, Financial Services, Healthcare, Media/Entertainment, Manufacturing/Logistics, in addition to 5 strategic partners
 ![Databricks 30 Index performance](https://databricks.com/wp-content/uploads/2021/03/db-30-blog-image-1.png)
 - [Forrester Total Economic Impact™ Study](https://www.databricks.com/p/whitepaper/forrester-tei-study) (April 2020)
