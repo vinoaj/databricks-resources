@@ -390,6 +390,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ### Performance tuning
 
+- [Comprehensive Guide to Optimize Databricks, Spark and Delta Lake Workloads](https://www.databricks.com/discover/pages/optimize-data-workloads-guide)
 - [Delta Lake best practices](https://docs.databricks.com/delta/best-practices.html)
 - [Optimize performance with file management](https://docs.databricks.com/delta/optimizations/file-mgmt.html)
 - [Make Your Data Lakehouse Run, Faster With Delta Lake 1.1](https://databricks.com/blog/2022/01/31/make-your-data-lakehouse-run-faster-with-delta-lake-1-1.html)
