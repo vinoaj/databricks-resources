@@ -141,6 +141,7 @@ My **personal** list of resources and samples related to working with Databricks
 - [Admin Isolation on Shared Clusters](https://www.databricks.com/blog/2022/10/10/admin-isolation-shared-clusters.html)
 - [Scanning for Arbitrary Code in Databricks Workspace With Improved Search and Audit Logs](https://databricks.com/blog/2022/07/19/scanning-for-arbitrary-code-in-databricks-workspace-with-improved-search-and-audit-logs.html)
 - [Monitoring Notebook Command Logs With Static Analysis Tools](https://www.databricks.com/blog/2022/11/02/monitoring-notebook-command-logs-static-analysis-tools.html) ([📄 Notebooks](https://github.com/granturing/notebook-monitoring))
+- [Protecting Your Compute Resources From Bitcoin Miners With a Data Lakehouse](https://www.databricks.com/blog/protecting-your-compute-resources-bitcoin-miners-data-lakehouse)
 - [An example](https://systemweakness.com/simplified-data-masking-in-databricks-8649adb3f60f) of using the [`MASK()`](https://docs.databricks.com/sql/language-manual/functions/mask.html) (available in DBR 12.2+) function for easy data masking
 - [How Databricks restricts third party libraries in JVM compute platforms](https://www.databricks.com/blog/2022/08/23/restricting-libraries-in-jvm-compute-platforms.html)
 - [Building the Trusted Research Environment with Azure Databricks](https://www.databricks.com/blog/2023/03/27/trusted-research-environments-health-and-life-sciences.html)
