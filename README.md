@@ -45,6 +45,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 - [📄 Databricks Academy lab notebooks](https://github.com/databricks-academy)
 - [📄 Databricks Industry Solutions notebooks](https://github.com/databricks-industry-solutions)
+- [📄 Databricks ML examples](https://github.com/databricks/databricks-ml-examples/)
 - [Notebook gallery](https://github.com/databricks/notebook_gallery)
 
 ### Community & Support
