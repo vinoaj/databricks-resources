@@ -16,7 +16,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 [▶️ YouTube channel](https://www.youtube.com/channel/UC3q8O3Bh2Le8Rj1-Q-_UUbA) | [🎧 Data Brew Podcast](https://databricks.com/discover/data-brew) | [📖 Databricks Blog](https://databricks.com/blog)
 
-- [▶️ Data + AI Summit (DAIS) 2022 recordings](https://www.youtube.com/playlist?list=PLTPXxbhUt-YVWi_cf2UUDc9VZFLoRgu0l)
+- ▶️ Data + AI Summit (DAIS) recordings: [2023](https://www.databricks.com/dataaisummit/sessions/) | [2022](https://www.youtube.com/playlist?list=PLTPXxbhUt-YVWi_cf2UUDc9VZFLoRgu0l)
 - [Free Live Onboarding Training](https://files.training.databricks.com/static/ilt-sessions/onboarding/index.html): no-cost, role-based onboarding training, multiple times a day across key geographic regions for Databricks customers, partners, as well as the general public
 - [Customer Academy](https://customer-academy.databricks.com/learn): all your self-paced training and certification needs in one place
 - [Paid Instructor-Lead Training (ILT) Training](https://www.databricks.com/learn/training/schedule)
