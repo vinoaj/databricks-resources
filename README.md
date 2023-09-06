@@ -16,7 +16,11 @@ My **personal** list of resources and samples related to working with Databricks
 
 [▶️ YouTube channel](https://www.youtube.com/channel/UC3q8O3Bh2Le8Rj1-Q-_UUbA) | [🎧 Data Brew Podcast](https://databricks.com/discover/data-brew) | [📖 Databricks Blog](https://databricks.com/blog)
 
+- [Demo Hub](https://www.databricks.com/resources/demos): access ready-to-run Notebooks that walk you through common worfklows and use cases on Databricks
 - ▶️ Data + AI Summit (DAIS) recordings: [2023](https://www.databricks.com/dataaisummit/sessions/) | [2022](https://www.youtube.com/playlist?list=PLTPXxbhUt-YVWi_cf2UUDc9VZFLoRgu0l)
+- [Weekly "Ask Databricks" Live Sessions](https://www.advancinganalytics.co.uk/askdbx). You can also
+catch replays on [Databricks'](https://www.youtube.com/@Databricks) and [Advancing Analytics'](https://www.youtube.com/@AdvancingAnalytics) YouTube channels
+- [What's coming page](https://docs.gcp.databricks.com/whats-coming.html): provides an overview of what's coming in near future releases, helping you plan ahead of time
 - [Free Live Onboarding Training](https://files.training.databricks.com/static/ilt-sessions/onboarding/index.html): no-cost, role-based onboarding training, multiple times a day across key geographic regions for Databricks customers, partners, as well as the general public
 - [Free half-day live training classes](https://files.training.databricks.com/static/ilt-sessions/half-day-workshops/index.html)
 - [Customer Academy](https://customer-academy.databricks.com/learn): all your self-paced training and certification needs in one place
@@ -46,7 +50,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 - [📄 Databricks Academy lab notebooks](https://github.com/databricks-academy)
 - [📄 Databricks Industry Solutions notebooks](https://github.com/databricks-industry-solutions)
-- [📄 Databricks ML examples](https://github.com/databricks/databricks-ml-examples/)
+- [📄 Databricks ML examples](https://github.com/databricks/databricks-ml-examples/) with detailed Notebooks on how to work with OSS LLMs (e.g. `Llama-2-*`, `mpt-*`) using MLflow in Databricks
 - [Notebook gallery](https://github.com/databricks/notebook_gallery)
 
 ### Community & Support
@@ -147,6 +151,11 @@ My **personal** list of resources and samples related to working with Databricks
 - [An example](https://systemweakness.com/simplified-data-masking-in-databricks-8649adb3f60f) of using the [`MASK()`](https://docs.databricks.com/sql/language-manual/functions/mask.html) (available in DBR 12.2+) function for easy data masking
 - [How Databricks restricts third party libraries in JVM compute platforms](https://www.databricks.com/blog/2022/08/23/restricting-libraries-in-jvm-compute-platforms.html)
 - [Building the Trusted Research Environment with Azure Databricks](https://www.databricks.com/blog/2023/03/27/trusted-research-environments-health-and-life-sciences.html)
+
+### PII
+
+- [How PII scanning is done at Seek](https://www.youtube.com/watch?v=nTAKQuxZ9lI) using [Presidio](https://microsoft.github.io/presidio/) and Unity Catalog
+- [Identifying and Tagging PII data with Unity Catalog](https://medium.com/@andrewpweaver/identifying-and-tagging-pii-data-with-unity-catalog-870522f25730)
 
 ### Unity Catalog 🔐
 
@@ -388,6 +397,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Best Practices
 
+- [Comprehensive Guide to Optimize Databricks, Spark and Delta Lake Workloads](https://www.databricks.com/discover/pages/optimize-data-workloads-guide): a new guide walking you through all the possible ways to tune your workloads for ⚡️ performance and 💰 cost
 - [Streaming in Production: Collected Best Practices - Part 1](https://www.databricks.com/blog/2022/12/12/streaming-production-collected-best-practices.html), [Part 2](https://www.databricks.com/blog/2023/01/10/streaming-production-collected-best-practices-part-2.html)
 - [10 Best Practices for writing SQL in Databricks](https://medium.com/@fpatano/10-best-practices-for-writing-sql-in-databricks-7a445740e540)
 
@@ -475,7 +485,7 @@ My **personal** list of resources and samples related to working with Databricks
 ### LLMs
 
 - [LLM Model Recommendations](https://www.databricks.com/product/machine-learning/large-language-models-oss-guidance): we often get asked what are the best OSS LLM models to use for which use case. This frequently-updated matrix is a handy reference to identify the right models by use case and depending on whether you are seeking quality-, balanced-, or speed-optimised models
-
+- [GitHub repo](https://github.com/databricks/databricks-ml-examples/) with detailed Notebooks on how to work with OSS LLMs (e.g. `Llama-2-*`, `mpt-*`) using MLflow in Databricks
 - [Actioning Customer Reviews at Scale with Databricks SQL AI Functions](https://www.databricks.com/blog/actioning-customer-reviews-scale-databricks-sql-ai-functions): bring meaning to unstructured data using the simplicity of SQL and GPT-3.5
 
 ### Guides
@@ -557,6 +567,10 @@ My **personal** list of resources and samples related to working with Databricks
 
 - [How Organizations Can Extract the Full Potential of SAP Data with a Lakehouse](https://www.databricks.com/blog/2022/09/20/how-organizations-can-extract-full-potential-sap-data-lakehouse.html)
 
+### Large Language Models (LLMs)
+
+- Solution Accelerator: [Automated Analysis of Product Reviews Using Large Language Models (LLMs)](https://www.databricks.com/blog/automated-analysis-product-reviews-using-large-language-models-llms)([📕 Notebooks](https://notebooks.databricks.com/notebooks/RCG/review-summarisation/index.html#review-summarisation_1.html))
+
 ### Marketing Analytics
 
 - [How to Build a Marketing Analytics Solution Using Fivetran and dbt on the Databricks Lakehouse](https://www.databricks.com/blog/2022/08/03/how-to-build-a-marketing-analytics-solution-using-fivetran-and-dbt-on-the-databricks-lakehouse.html)
@@ -565,6 +579,10 @@ My **personal** list of resources and samples related to working with Databricks
 
 - [Real-Time Propensity Estimation to Drive Online Sales](https://www.databricks.com/blog/2023/03/21/using-real-time-propensity-estimation-drive-online-sales.html): real-time scoring of purchase intent doesn't have to be hard! This Solution Accelerator walks you through the end-to-end process of having your own real-time scoring model on Databricks. Check out the [📄 detailed notebooks](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/clickstream-analytics/index.html#clickstream-analytics_1.html) that walk you through data preparation, ETL, model training with Feature Store, model registry, processing live events in streaming or batch, and deploying the model for real-time inference
 - [Enhancing the Amperity CDP with Personalized Product Recommendations](https://www.databricks.com/blog/2023/03/15/enhancing-amperity-cdp-personalized-product-recommendations.html): move identity resolution data easily between Amperity and Databricks using [Amperity's Databricks Delta table destination connector](https://docs.amperity.com/datagrid/destination_databricks_delta_table.html) (sample [📕 Notebook](https://d1r5llqwmkrl74.cloudfront.net/notebooks/RCG/amperity-cdp-rec/index.html#amperity-cdp-rec_1.html))
+
+### Propensity Scoring
+
+- [Managing Complex Propensity Scoring Scenarios with Databricks](https://www.databricks.com/blog/managing-complex-propensity-scoring-scenarios-databricks)([Notebooks](https://notebooks.databricks.com/notebooks/RCG/Propensity/index.html#Propensity_1.html)| [GitHub](https://github.com/databricks-industry-solutions/propensity-workflows)): a new Solution Accelerator to manage regular feature updates (utilising Feature Store) and periodic model re-training
 
 ### Search
 
@@ -594,9 +612,19 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## 🥂 Customer Stories / Case Studies
 
+- [Australian Red Cross Lifeblood wins 2023 Data for Good Award](https://www.databricks.com/blog/announcing-winners-2023-databricks-data-team-awards): Red Cross are able to attract more donations and strengthen community bonds through initiatives that span granular forecasting, real-time wait-time predictions, customer segmentation, and marketing attribution
 - [Monash University stands up 'lakehouse' in Databricks, Azure](https://www.itnews.com.au/news/monash-university-stands-up-lakehouse-in-databricks-azure-585801)
 - [Australia's heavy vehicle regulator builds 'fatigue engine' to reduce truckie deaths](https://www.itnews.com.au/news/heavy-vehicle-regulator-builds-fatigue-engine-to-reduce-truckie-deaths-580113)
+- [Accelerating Innovation at JetBlue 🛫 Using Databricks](https://www.databricks.com/blog/accelerating-innovation-jetblue-using-databricks): ([▶️ video](https://youtu.be/h4z4vBoxQ6s?t=5958)) thanks to Databricks JetBlue has benefited with: Rapid prototyping, iteration, and launching of data pipelines, jobs, and ML models; Elevated customer experience; Continuous improvement of overall value; Lowered TCO
+    ![JetBlue Lakehouse architecture](https://www.databricks.com/sites/default/files/inline-images/image15.png)
+    ![JetBlue BlueSky AI](https://www.databricks.com/sites/default/files/inline-images/image002.png)
+- [How Akamai Leverages Databricks Unity Catalog For Distributed Data Governance](https://medium.com/@agilad_3118/how-akamai-leverages-databricks-unity-catalog-for-distributed-data-governance-d1eda1c5851) (accompanying [Summit presentation and slides](https://www.databricks.com/dataaisummit/session/distributing-data-governance-how-unity-catalog-allows-collaborative-approach/)): with 50 exabytes of data accessed across 80 workspaces, Unity Catalog brought many efficiencies to the team:
+  - Eliminated the need for duplicating mounts for shared datasets across workspaces
+  - Implemented fine-grained access controls at the row and column levels
+  - Eliminated the pains of syncing user management and access control across multiple workspaces
+  - Single pane of glass for data observability
 - [Why we migrated to a Data Lakehouse on Delta Lake for T-Mobile Data Science and Analytics Team](https://delta.io/blog/2022-09-14-why-migrate-lakehouse-delta-lake-tmo-dsna/)
+- [**FactSet**'s Lakehouse adoption](https://medium.com/factset/the-factset-enterprise-solutions-lakehouse-5932ee5276f) resulted in faster processing times and improved team productivity while reducing costs by 83%
 - [How **Stack Overflow** built their new course recommendations](https://stackoverflow.blog/2023/05/29/more-on-our-ai-future-building-course-recommendations-and-a-new-data-platform/) solution on Azure Databricks. I think it's safe to say we all owe Stack Overflow some thanks for aiding us in our technical careers; so I was happy to see Databricks play a role in helping the community discover relevant courses. *"[It was] clear that leveraging one platform for as much as possible would be wise, and our platform of choice was Azure Databricks. This allowed us to keep all data processing, feature engineering, model versioning, serving, and orchestration all in one place."*
 - [How Instacart Ads Modularized Data Pipelines With Lakehouse Architecture and Spark](https://tech.instacart.com/how-instacart-ads-modularized-data-pipelines-with-lakehouse-architecture-and-spark-e9863e28488d)
 - [Ahold Delhaize: Workflows helps data teams scale and reduce costs](https://www.databricks.com/customers/ahold-delhaize): 1K daily ingestion jobs with 50% cost reduction
