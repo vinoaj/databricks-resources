@@ -51,6 +51,7 @@ catch replays on [Databricks'](https://www.youtube.com/@Databricks) and [Advanci
 - [📄 Databricks Academy lab notebooks](https://github.com/databricks-academy)
 - [📄 Databricks Industry Solutions notebooks](https://github.com/databricks-industry-solutions)
 - [📄 Databricks ML examples](https://github.com/databricks/databricks-ml-examples/) with detailed Notebooks on how to work with OSS LLMs (e.g. `Llama-2-*`, `mpt-*`) using MLflow in Databricks
+- [📄 LLM GPU serving examples](https://github.com/ahdbilal/Databricks-GPU-Serving-Examples/)
 - [Notebook gallery](https://github.com/databricks/notebook_gallery)
 
 ### Community & Support
@@ -486,6 +487,7 @@ catch replays on [Databricks'](https://www.youtube.com/@Databricks) and [Advanci
 
 - [LLM Model Recommendations](https://www.databricks.com/product/machine-learning/large-language-models-oss-guidance): we often get asked what are the best OSS LLM models to use for which use case. This frequently-updated matrix is a handy reference to identify the right models by use case and depending on whether you are seeking quality-, balanced-, or speed-optimised models
 - [GitHub repo](https://github.com/databricks/databricks-ml-examples/) with detailed Notebooks on how to work with OSS LLMs (e.g. `Llama-2-*`, `mpt-*`) using MLflow in Databricks
+- [📄 LLM GPU serving examples](https://github.com/ahdbilal/Databricks-GPU-Serving-Examples/)
 - [Actioning Customer Reviews at Scale with Databricks SQL AI Functions](https://www.databricks.com/blog/actioning-customer-reviews-scale-databricks-sql-ai-functions): bring meaning to unstructured data using the simplicity of SQL and GPT-3.5
 
 ### Guides
