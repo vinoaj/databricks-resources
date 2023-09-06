@@ -2,6 +2,8 @@
 
 Hi team! I just wanted to share some of the interesting resources/articles that have come from Databricks in the last couple of weeks:
 
+- **NEW** ✨
+
 ## 🧠 ML & AI
 
 - []()

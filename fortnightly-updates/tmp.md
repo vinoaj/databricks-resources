@@ -24,11 +24,11 @@ Hi team! It's been a while! I just wanted to share some of the interesting resou
 
 ## 🧠 ML & AI
 
-- **NEW** Demo: [Deploy Your LLM Chatbot With Retrieval Augmented Generation (RAG) and llama2-70B (MosaicML inferences)](https://www.databricks.com/resources/demos/tutorials/data-science-and-ai/lakehouse-ai-deploy-your-llm-chatbot?itm_data=demo_center): this end-to-end demo showcases building a RAG-based chatbot, and showcases Databricks Vector Search, MLflow AI gateway, and MosaicML inference (access the [📕 notebooks directly here](https://notebooks.databricks.com/demos/llm-rag-chatbot/index.html#)). While some of these capabilities are in preview, it gives you a taste of what's coming!
+- **NEW** ✨ Demo: [Deploy Your LLM Chatbot With Retrieval Augmented Generation (RAG) and llama2-70B (MosaicML inferences)](https://www.databricks.com/resources/demos/tutorials/data-science-and-ai/lakehouse-ai-deploy-your-llm-chatbot?itm_data=demo_center): this end-to-end demo showcases building a RAG-based chatbot, and showcases Databricks Vector Search, MLflow AI gateway, and MosaicML inference (access the [📕 notebooks directly here](https://notebooks.databricks.com/demos/llm-rag-chatbot/index.html#)). While some of these capabilities are in preview, it gives you a taste of what's coming!
 
-- **NEW** Solution Accelerator: [Automated Analysis of Product Reviews Using Large Language Models (LLMs)](https://www.databricks.com/blog/automated-analysis-product-reviews-using-large-language-models-llms)([📕 Notebooks](https://notebooks.databricks.com/notebooks/RCG/review-summarisation/index.html#review-summarisation_1.html))
+- **NEW** ✨ Solution Accelerator: [Automated Analysis of Product Reviews Using Large Language Models (LLMs)](https://www.databricks.com/blog/automated-analysis-product-reviews-using-large-language-models-llms)([📕 Notebooks](https://notebooks.databricks.com/notebooks/RCG/review-summarisation/index.html#review-summarisation_1.html))
 
-- **NEW** [GitHub repo](https://github.com/databricks/databricks-ml-examples/) with detailed Notebooks on how to work with OSS LLMs (e.g. `Llama-2-*`, `mpt-*`) using MLflow in Databricks
+- **NEW** ✨ [GitHub repo](https://github.com/databricks/databricks-ml-examples/) with detailed Notebooks on how to work with OSS LLMs (e.g. `Llama-2-*`, `mpt-*`) using MLflow in Databricks
 
 - [Managing Complex Propensity Scoring Scenarios with Databricks](https://www.databricks.com/blog/managing-complex-propensity-scoring-scenarios-databricks)([Notebooks](https://notebooks.databricks.com/notebooks/RCG/Propensity/index.html#Propensity_1.html)| [GitHub](https://github.com/databricks-industry-solutions/propensity-workflows)): a new Solution Accelerator to manage regular feature updates (utilising Feature Store) and periodic model re-training
 
@@ -55,7 +55,7 @@ Hi team! It's been a while! I just wanted to share some of the interesting resou
 
 ## 🛒 Retail
 
-- **NEW** Solution Accelerator: [Automated Analysis of Product Reviews Using Large Language Models (LLMs)](https://www.databricks.com/blog/automated-analysis-product-reviews-using-large-language-models-llms)([📕 Notebooks](https://notebooks.databricks.com/notebooks/RCG/review-summarisation/index.html#review-summarisation_1.html))
+- **NEW** ✨ Solution Accelerator: [Automated Analysis of Product Reviews Using Large Language Models (LLMs)](https://www.databricks.com/blog/automated-analysis-product-reviews-using-large-language-models-llms)([📕 Notebooks](https://notebooks.databricks.com/notebooks/RCG/review-summarisation/index.html#review-summarisation_1.html))
 
 - [Go from Months to Hours with Databricks Marketplace for Retailers](https://www.databricks.com/blog/go-months-hours-databricks-marketplace-retailers)
 
