@@ -18,6 +18,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 - ▶️ Data + AI Summit (DAIS) recordings: [2023](https://www.databricks.com/dataaisummit/sessions/) | [2022](https://www.youtube.com/playlist?list=PLTPXxbhUt-YVWi_cf2UUDc9VZFLoRgu0l)
 - [Free Live Onboarding Training](https://files.training.databricks.com/static/ilt-sessions/onboarding/index.html): no-cost, role-based onboarding training, multiple times a day across key geographic regions for Databricks customers, partners, as well as the general public
+- [Free half-day live training classes](https://files.training.databricks.com/static/ilt-sessions/half-day-workshops/index.html)
 - [Customer Academy](https://customer-academy.databricks.com/learn): all your self-paced training and certification needs in one place
 - [Paid Instructor-Lead Training (ILT) Training](https://www.databricks.com/learn/training/schedule)
 - [Request private training](https://www.databricks.com/learn/training/private-training-requests-form)
@@ -573,6 +574,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 ## Tools 🛠
 
+- [Databricks Labs Data Generator](https://github.com/databrickslabs/dbldatagen): Python library for generating synthetic data within the Databricks environment using Spark. The generated data may be used for testing, benchmarking, demos, and many other uses.
 - [dbx](https://github.com/databrickslabs/dbx): DataBricks CLI eXtensions - aka `dbx` is a CLI tool for advanced Databricks jobs management
 
 ---
