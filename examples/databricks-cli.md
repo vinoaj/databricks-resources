@@ -6,9 +6,23 @@
 
 ### macOS Homebrew
 
+Uninstall legacy version
+
+```sh
+pip uninstall databricks-cli
+```
+
+Install new version
+
 ```sh
 brew tap databricks/tap
 brew install databricks
+```
+
+Upgrade CLI
+
+```sh
+brew upgrade databricks
 ```
 
 #### zsh
