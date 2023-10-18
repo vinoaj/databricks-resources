@@ -1,25 +1,25 @@
 # Databricks notebook source
 # MAGIC %md-sandbox
-# MAGIC 
+# MAGIC
 # MAGIC # Delta Lake: Turn your Data Lake into a Lakehouse
 # MAGIC &nbsp;
 # MAGIC &nbsp;
 # MAGIC <div style="background:#110336">
-# MAGIC   <img src="https://dataengconf.com.au//images/dataEngLogos/DataEng.MeetUp600x450.option1.v1.jpg?w=320&q=75" style="height:200px"/>
+# MAGIC   <img src="https://pbs.twimg.com/profile_images/1329385878444142593/6YxNvOqY_400x400.jpg" style="height:200px"/>
 # MAGIC   <img src="https://delta.io/static/delta-lake-logo-a1c0d80d23c17de5f5d7224cb40f15dc.svg" style="height:100px; padding:50px 0;"/>
 # MAGIC </div>
 # MAGIC &nbsp;
-# MAGIC 
+# MAGIC
 # MAGIC This notebook was prepared for [my talk](https://dataengconf.com.au/conference/schedule) at the [**DataEngBytes** conference](https://dataengconf.com.au/conference/sydney) held on 2022-09-29 in Sydney, Australia.    
-# MAGIC 
+# MAGIC
 # MAGIC - Author: Vinoaj (Vinny) Vijeyakumaar (vinoaj@gmail.com, vinny.vijeyakumaar@databricks.com)
 # MAGIC - _Opinions are my own and not necessarily the views of my employer_
-# MAGIC 
-# MAGIC 
+# MAGIC
+# MAGIC
 # MAGIC ## Demo Objectives
-# MAGIC 
+# MAGIC
 # MAGIC Delta Lake provides ACID transactions, scalable metadata handling, and unifies streaming and batch data processing on top of existing data lakes. 
-# MAGIC 
+# MAGIC
 # MAGIC In this demo, we will touch upon Delta Lake's more powerful features:
 # MAGIC * ACID transactions
 # MAGIC * DML support
@@ -27,16 +27,16 @@
 # MAGIC * Time Travel
 # MAGIC * Change data feeds
 # MAGIC * ... and more!
-# MAGIC 
-# MAGIC 
+# MAGIC
+# MAGIC
 # MAGIC ### The Data
-# MAGIC 
+# MAGIC
 # MAGIC The data used in this demo is from the Kaggle competition [`predict-closed-questions-on-stack-overflow`](https://www.kaggle.com/competitions/predict-closed-questions-on-stack-overflow/overview).
-# MAGIC 
-# MAGIC 
+# MAGIC
+# MAGIC
 # MAGIC ### The Environment
 # MAGIC This notebooks is setup to run in a Databricks Workspace. Databricks clusters are already set up with Spark, Delta Lake, and their respective SDKs (e.g. PySpark). This notebook was developed using **DBR 11.2** (_Spark 3.3.0_)
-# MAGIC 
+# MAGIC
 # MAGIC To set up Delta Lake in a non-Databricks environment, please [follow these instructions](https://docs.delta.io/latest/quick-start.html)
 
 # COMMAND ----------
@@ -61,7 +61,7 @@ import os
 # COMMAND ----------
 
 USERNAME = "vinny.vijeyakumaar@databricks.com"
-SECRETS_SCOPE = "vinnyvijeyakumaar"
+SECRETS_SCOPE = "vinny-vijeyakumaar"
 
 KAGGLE_USERNAME = dbutils.secrets.get(scope=SECRETS_SCOPE, key="KAGGLE_USERNAME")
 KAGGLE_KEY = dbutils.secrets.get(scope=SECRETS_SCOPE, key="KAGGLE_KEY")
@@ -109,14 +109,9 @@ dbutils.fs.rm(f"/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_COMPETITION}/{T
 # MAGIC %sh
 # MAGIC # Create output directory
 # MAGIC mkdir -p /tmp/$USERNAME/files/$KAGGLE_COMPETITION/
-# MAGIC 
+# MAGIC
 # MAGIC # Extract files
 # MAGIC unzip /tmp/$USERNAME/$KAGGLE_COMPETITION.zip -d /tmp/$USERNAME/files/$KAGGLE_COMPETITION/
-
-# COMMAND ----------
-
-#cleanup
-!rm /tmp/$USERNAME/$KAGGLE_COMPETITION.zip
 
 # COMMAND ----------
 
@@ -131,16 +126,21 @@ dbutils.fs.rm(f"/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_COMPETITION}/{T
 # MAGIC %md
 # MAGIC The downloaded and unzipped files are stored on the driver's local disk. 
 # MAGIC We now move the relevant files to `DBFS` so that they're persisted on cloud storage.
-# MAGIC 
+# MAGIC
 # MAGIC For the purposes of this demo, we'll only move `train.csv`
 
 # COMMAND ----------
 
 file_pattern = "train.csv"
 
+# dbutils.fs.help("cp")
 dbutils.fs.cp(f"file:/tmp/{USERNAME}/files/{KAGGLE_COMPETITION}/{file_pattern}", 
-              f"/Users/{USERNAME}/custom_demos/input_files/{KAGGLE_COMPETITION}/", 
+              f"/Users/{USERNAME}/custom_demos/input_files/{KAGGLE_COMPETITION}/{file_pattern}", 
               True)
+
+# COMMAND ----------
+
+dbutils.fs.ls(f"file:/tmp/{USERNAME}/files/{KAGGLE_COMPETITION}/{file_pattern}")
 
 # COMMAND ----------
 
@@ -149,6 +149,7 @@ display(dbutils.fs.ls(f"/Users/{USERNAME}/custom_demos/input_files/{KAGGLE_COMPE
 # COMMAND ----------
 
 #cleanup
+!rm /tmp/$USERNAME/$KAGGLE_COMPETITION.zip
 !rm -rf /tmp/$USERNAME/files/$KAGGLE_COMPETITION/
 
 # COMMAND ----------
@@ -158,9 +159,9 @@ display(dbutils.fs.ls(f"/Users/{USERNAME}/custom_demos/input_files/{KAGGLE_COMPE
 # COMMAND ----------
 
 # MAGIC %md ### ![](https://pages.databricks.com/rs/094-YMS-629/images/delta-lake-tiny-logo.png) Import Data and create a Delta Lake Table
-# MAGIC 
+# MAGIC
 # MAGIC &nbsp;
-# MAGIC 
+# MAGIC
 # MAGIC <img src="https://databricks.com/wp-content/uploads/2020/12/simplysaydelta.png" width=600/>
 
 # COMMAND ----------
@@ -197,10 +198,10 @@ data_csv = (spark.read
 
 # MAGIC %md
 # MAGIC ### Delta Table creation using SQL
-# MAGIC 
+# MAGIC
 # MAGIC Let's do the same with SQL instead
-# MAGIC 
-# MAGIC 
+# MAGIC
+# MAGIC
 # MAGIC - First use Databricks' native handling of CSVs to create a temporary view with the CSV data
 # MAGIC - Then create a Delta Table, specifying
 # MAGIC   - Partition columns
@@ -217,9 +218,9 @@ data_csv = (spark.read
 # MAGIC   path "/Users/vinny.vijeyakumaar@databricks.com/custom_demos/input_files/predict-closed-questions-on-stack-overflow/train.csv",
 # MAGIC   header "true", multiLine "true", escape '"'
 # MAGIC );
-# MAGIC 
+# MAGIC
 # MAGIC -- DROP TABLE IF EXISTS vinny_vijeyakumaar.stackoverflow_train01;
-# MAGIC 
+# MAGIC
 # MAGIC -- Create the Delta table
 # MAGIC CREATE OR REPLACE TABLE vinny_vijeyakumaar.stackoverflow_train01
 # MAGIC USING DELTA
@@ -239,10 +240,13 @@ data_csv = (spark.read
 # MAGIC     , DATE(TO_TIMESTAMP(PostCreationDate, "MM/dd/yyyy HH:mm:ss")) AS PostCreationDate
 # MAGIC     , * EXCEPT (PostId, PostCreationDate)
 # MAGIC   FROM tvw_train;
-# MAGIC 
+# MAGIC
 # MAGIC -- Cleanup
 # MAGIC DROP VIEW IF EXISTS tvw_train;
-# MAGIC 
+
+# COMMAND ----------
+
+# MAGIC %sql
 # MAGIC -- Show data
 # MAGIC SELECT *
 # MAGIC FROM vinny_vijeyakumaar.stackoverflow_train01;
@@ -299,7 +303,7 @@ display(dbutils.fs.ls(path))
 # MAGIC - Transaction log files are stored at the top level `_delta_log/` directory 
 # MAGIC - A `.json` log file is created at the end of every successful transaction
 # MAGIC - A checkpoint log is created every `n` transactions, and is stored in the `_last_checkpoint` directory
-# MAGIC 
+# MAGIC
 # MAGIC _Note_: even 
 
 # COMMAND ----------
@@ -349,9 +353,9 @@ with open(log_path, "r") as logfile:
 # COMMAND ----------
 
 # MAGIC %md ## ![](https://pages.databricks.com/rs/094-YMS-629/images/delta-lake-tiny-logo.png) Unified Batch and Streaming Source and Sink
-# MAGIC 
+# MAGIC
 # MAGIC Delta Lake can simultaneously support streaming & batch reads & writes on the same table. These cells showcase streaming and batch concurrent queries (inserts and reads)
-# MAGIC 
+# MAGIC
 # MAGIC * We will run a streaming query on this data
 # MAGIC * This notebook will run an `INSERT` against our `stackoverflow_train01` table
 
@@ -385,7 +389,7 @@ with open(log_path, "r") as logfile:
 
 # MAGIC %md
 # MAGIC ##![](https://pages.databricks.com/rs/094-YMS-629/images/delta-lake-tiny-logo.png) Full DML Support
-# MAGIC 
+# MAGIC
 # MAGIC Delta Lake supports standard DML including UPDATE, DELETE and MERGE INTO providing developers more controls to manage their big datasets.
 
 # COMMAND ----------
@@ -423,7 +427,7 @@ display_log_files()
 # MAGIC %md
 # MAGIC ### MERGE INTO
 # MAGIC Upsert into tables using the [`MERGE` SQL Operation](https://docs.delta.io/latest/delta-update.html#upsert-into-a-table-using-merge). 
-# MAGIC 
+# MAGIC
 # MAGIC In non-Databricks environments, see [Configure SparkSession](https://docs.delta.io/latest/delta-batch.html#-sql-support) for steps to enable support for SQL commands.
 
 # COMMAND ----------
@@ -434,8 +438,6 @@ display_log_files()
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC -- DROP TABLE vinny_vijeyakumaar.load_updates;
-# MAGIC 
 # MAGIC CREATE TABLE IF NOT EXISTS vinny_vijeyakumaar.load_updates (
 # MAGIC   PostId string, PostCreationDate string, OwnerUserId string,
 # MAGIC   OwnerCreationDate string, ReputationAtPostCreation string,
@@ -443,15 +445,15 @@ display_log_files()
 # MAGIC   Tag1 string, Tag2 string, Tag3 string, Tag4 string, Tag5 string, PostClosedDate string,
 # MAGIC   OpenStatus string
 # MAGIC );
-# MAGIC 
+# MAGIC
 # MAGIC TRUNCATE TABLE vinny_vijeyakumaar.load_updates;
-# MAGIC 
+# MAGIC
 # MAGIC INSERT INTO vinny_vijeyakumaar.load_updates VALUES
 # MAGIC   (999999, DATE("2007-08-01"), "", 999999, "", "", "", "", "", "", "", "", "", "", ""),
 # MAGIC   (888888, DATE("2007-08-01"), "", 888888, "", "", "", "", "", "", "", "", "", "", ""),
 # MAGIC   (1167904, DATE("2007-08-01"), "", 1167904, "", "", "", "", "", "", "", "", "", "", ""),
 # MAGIC   (1078360, DATE("2007-08-01"), "", 1078360, "", "", "", "", "", "", "", "", "", "", "");
-# MAGIC 
+# MAGIC
 # MAGIC SELECT * FROM vinny_vijeyakumaar.load_updates;
 
 # COMMAND ----------
@@ -485,13 +487,13 @@ pretty_print_log(log_path)
 
 # MAGIC %md-sandbox
 # MAGIC <img src="https://github.com/QuentinAmbard/databricks-demo/raw/main/retail/resources/images/delta-lake-perf-bench.png" width="500" style="float: right; margin-left: 50px"/>
-# MAGIC 
+# MAGIC
 # MAGIC ### Blazing fast query at scale
-# MAGIC 
+# MAGIC
 # MAGIC Log files are compacted in a parquet checkpoint every `n` commits. The checkpoint file contains the entire table structure.
-# MAGIC 
+# MAGIC
 # MAGIC Table is self suficient, the metastore doesn't store additional information removing bottleneck and scaling metadata
-# MAGIC 
+# MAGIC
 # MAGIC This result in **fast read query**, even with a growing number of files/partitions!
 
 # COMMAND ----------
@@ -545,7 +547,7 @@ generate_transactions(250)
 # MAGIC %md
 # MAGIC ### ![](https://pages.databricks.com/rs/094-YMS-629/images/delta-lake-tiny-logo.png) Checkpoint files
 # MAGIC [Protocol reference](https://github.com/delta-io/delta/blob/master/PROTOCOL.md#checkpoints)
-# MAGIC 
+# MAGIC
 # MAGIC Checkpoint files are stored as `parquet` files in the `_delta_log` directory
 
 # COMMAND ----------
@@ -556,9 +558,9 @@ generate_transactions(250)
 
 # MAGIC %md
 # MAGIC Rather than listing an entire directory to determine the last available checkpoint file, readers can locate the most recent checkpoint by looking at the `_delta_log/_last_checkpoint` file (which is a `JSON` file)
-# MAGIC 
+# MAGIC
 # MAGIC [Protocol reference](https://github.com/delta-io/delta/blob/master/PROTOCOL.md#last-checkpoint-file)
-# MAGIC 
+# MAGIC
 # MAGIC The checkpoint file points the reader to the latest available checkpoint log. In the below example it is `202`
 
 # COMMAND ----------
@@ -606,7 +608,7 @@ display(spark.read.parquet(f"/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_CO
 # MAGIC %sql
 # MAGIC ALTER TABLE vinny_vijeyakumaar.stackoverflow_train01 
 # MAGIC   ADD CONSTRAINT post_id_not_null CHECK (PostId IS NOT NULL);
-# MAGIC 
+# MAGIC
 # MAGIC ALTER TABLE vinny_vijeyakumaar.stackoverflow_train01 
 # MAGIC   ADD CONSTRAINT post_creation_date_valid CHECK (
 # MAGIC     PostCreationDate BETWEEN "2007-08-01" AND "2012-09-01");
@@ -636,7 +638,7 @@ display(spark.read.parquet(f"/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_CO
 # MAGIC %md
 # MAGIC ##![](https://pages.databricks.com/rs/094-YMS-629/images/delta-lake-tiny-logo.png) Schema Evolution
 # MAGIC With the `mergeSchema` option, you can evolve your Delta Lake table schema
-# MAGIC 
+# MAGIC
 # MAGIC Let's merge into a table, simultaneously:
 # MAGIC - Introducing 2 new columns `newCol1`, `newCol2`
 # MAGIC - Updating some existing records
@@ -651,15 +653,15 @@ display(spark.read.parquet(f"/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_CO
 # MAGIC   Tag1 string, Tag2 string, Tag3 string, Tag4 string, Tag5 string, PostClosedDate string,
 # MAGIC   OpenStatus string, newCol1 string, newCol2 string
 # MAGIC );
-# MAGIC 
+# MAGIC
 # MAGIC TRUNCATE TABLE vinny_vijeyakumaar.load_updates_02;
-# MAGIC 
+# MAGIC
 # MAGIC INSERT INTO vinny_vijeyakumaar.load_updates_02 VALUES
 # MAGIC   (999999, DATE("2007-08-01"), "", 999999, "", "", "", "", "", "", "", "", "", "", "", "A", "B"),
 # MAGIC   (888888, DATE("2007-08-01"), "", 888888, "", "", "", "", "", "", "", "", "", "", "", "1", "2"),
 # MAGIC   (1167904, DATE("2007-08-01"), "", 1167904, "", "", "", "", "", "", "", "", "", "", "", "X", "Y"),
 # MAGIC   (1078360, DATE("2007-08-01"), "", 1078360, "", "", "", "", "", "", "", "", "", "", "", "99", "99");
-# MAGIC 
+# MAGIC
 # MAGIC SELECT * FROM vinny_vijeyakumaar.load_updates_02
 
 # COMMAND ----------
@@ -686,19 +688,19 @@ display(spark.read.parquet(f"/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_CO
 
 # MAGIC %md ## ![](https://pages.databricks.com/rs/094-YMS-629/images/delta-lake-tiny-logo.png) Let's Travel back in Time!
 # MAGIC Databricks Delta’s time travel capabilities simplify building data pipelines for the following use cases. 
-# MAGIC 
+# MAGIC
 # MAGIC * Audit Data Changes
 # MAGIC * Reproduce experiments & reports
 # MAGIC * Rollbacks
-# MAGIC 
+# MAGIC
 # MAGIC As you write into a Delta table or directory, every operation is automatically versioned.
-# MAGIC 
+# MAGIC
 # MAGIC You can query by:
 # MAGIC 1. Using a timestamp
 # MAGIC 1. Using a version number
-# MAGIC 
+# MAGIC
 # MAGIC using Python, Scala, and/or Scala syntax; for these examples we will use the SQL syntax.  
-# MAGIC 
+# MAGIC
 # MAGIC For more information, refer to [Introducing Delta Time Travel for Large Scale Data Lakes](https://databricks.com/blog/2019/02/04/introducing-delta-time-travel-for-large-scale-data-lakes.html)
 
 # COMMAND ----------
@@ -726,18 +728,18 @@ display(spark.read.parquet(f"/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_CO
 # MAGIC )
 # MAGIC , rec_count_01 AS (
 # MAGIC   SELECT COUNT(*) AS n FROM vinny_vijeyakumaar.stackoverflow_train01
-# MAGIC   TIMESTAMP AS OF (CURRENT_TIMESTAMP() - INTERVAL 240 MINUTES)
+# MAGIC   TIMESTAMP AS OF (CURRENT_TIMESTAMP() - INTERVAL 20 MINUTES)
 # MAGIC )
 # MAGIC , rec_count_now AS (
 # MAGIC   SELECT COUNT(*) AS n FROM vinny_vijeyakumaar.stackoverflow_train01
 # MAGIC )
-# MAGIC SELECT r0.n AS start, r1.n AS 240minsAgo, rn.n AS now
+# MAGIC SELECT r0.n AS start, r1.n AS 20minsAgo, rn.n AS now
 # MAGIC FROM rec_count_00 r0, rec_count_01 r1, rec_count_now rn
 
 # COMMAND ----------
 
 # MAGIC %md ### ![](https://pages.databricks.com/rs/094-YMS-629/images/delta-lake-tiny-logo.png) Restoring previous versions of a Delta Table
-# MAGIC 
+# MAGIC
 # MAGIC [Documentation](https://docs.delta.io/latest/delta-utility.html#restore-a-delta-table-to-an-earlier-state)
 
 # COMMAND ----------
@@ -755,9 +757,9 @@ display(spark.read.parquet(f"/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_CO
 # MAGIC ## ![](https://pages.databricks.com/rs/094-YMS-629/images/delta-lake-tiny-logo.png) Delta Lake CDF (Change Data Feed) to support data sharing and Datamesh organization
 # MAGIC <img src="https://github.com/QuentinAmbard/databricks-demo/raw/main/retail/resources/images/delta-cdf-datamesh.png" style="float:right; margin-right: 50px" width="300px" />
 # MAGIC &nbsp;
-# MAGIC 
+# MAGIC
 # MAGIC Enable [Change Data Feed](https://docs.delta.io/2.0.0/delta-change-data-feed.html) on your Delta table. With CDF, you can track all the changes (INSERT/UPDATE/DELETE) from your table.
-# MAGIC 
+# MAGIC
 # MAGIC It's then easy to subscribe to modifications stream on one of your table to propagate changes downsteram (e.g. GDPR DELETEs downstream)
 
 # COMMAND ----------
@@ -798,8 +800,8 @@ display(spark.read.parquet(f"/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_CO
 # MAGIC -- Let's assume our orchestration tool knows that the last update happened at 2022-09-29 00:00:00
 # MAGIC FROM TABLE_CHANGES("vinny_vijeyakumaar.stackoverflow_train01", "2022-09-29 00:00:00")
 # MAGIC WHERE _change_type IN ("insert", "update_postimage");
-# MAGIC 
-# MAGIC 
+# MAGIC
+# MAGIC
 # MAGIC DELETE FROM target_schema.target_table 
 # MAGIC WHERE PostId IN (
 # MAGIC   SELECT PostId
@@ -828,7 +830,7 @@ display(spark.read.parquet(f"/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_CO
 
 # MAGIC %sql
 # MAGIC DESCRIBE HISTORY vinny_vijeyakumaar.stackoverflow_train01 LIMIT 1;
-# MAGIC 
+# MAGIC
 # MAGIC -- Looking at operationMetrics, we can see that 43 files were coalesced into a single file
 
 # COMMAND ----------
@@ -836,7 +838,7 @@ display(spark.read.parquet(f"/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_CO
 # MAGIC %md
 # MAGIC ### `VACUUM`
 # MAGIC You can remove files no longer referenced by a Delta table and are older than the retention threshold by running the vacuum command on the table. `VACUUM` is not triggered automatically. The default retention threshold for the files is 7 days. 
-# MAGIC 
+# MAGIC
 # MAGIC **Note**: Vacuuming will prevent the ability to time travel back to a version where that version's files have been removed
 
 # COMMAND ----------
@@ -848,7 +850,7 @@ display(spark.read.parquet(f"/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_CO
 
 # MAGIC %sql
 # MAGIC SET spark.databricks.delta.retentionDurationCheck.enabled = false;
-# MAGIC 
+# MAGIC
 # MAGIC -- Use `DRY RUN` to verify which files will be deleted
 # MAGIC VACUUM vinny_vijeyakumaar.stackoverflow_train01 RETAIN 12 HOURS DRY RUN;
 
@@ -865,16 +867,16 @@ display(spark.read.parquet(f"/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_CO
 # COMMAND ----------
 
 # MAGIC %md-sandbox
-# MAGIC 
+# MAGIC
 # MAGIC # Thank you for following along!
 # MAGIC &nbsp;
 # MAGIC &nbsp;
 # MAGIC <div style="background:#110336">
-# MAGIC   <img src="https://dataengconf.com.au//images/dataEngLogos/DataEng.MeetUp600x450.option1.v1.jpg?w=320&q=75" style="height:200px"/>
+# MAGIC   <img src="https://pbs.twimg.com/profile_images/1329385878444142593/6YxNvOqY_400x400.jpg" style="height:200px"/>
 # MAGIC   <img src="https://delta.io/static/delta-lake-logo-a1c0d80d23c17de5f5d7224cb40f15dc.svg" style="height:100px; padding:50px 0;"/>
 # MAGIC </div>
 # MAGIC &nbsp;
-# MAGIC 
+# MAGIC
 # MAGIC Find [**more resources here**](https://github.com/vinoaj/databricks-resources/tree/main/presentations/dataengconf_syd_20220929)
 
 # COMMAND ----------
@@ -883,16 +885,16 @@ display(spark.read.parquet(f"/Users/{USERNAME}/custom_demos/lakehouse/{KAGGLE_CO
 # MAGIC # Upcoming Databricks Events ... Join Us!
 # MAGIC ## (Free & in-person!) Data+AI World Tour Sydney
 # MAGIC ![Data+AI World Tour Sydney](https://github.com/vinoaj/databricks-resources/raw/main/assets/img/data_ai_world_tour_sydney.png)
-# MAGIC 
+# MAGIC
 # MAGIC [🔗 Registration link](https://www.databricks.com/dataaisummit/worldtour/sydney)
-# MAGIC 
+# MAGIC
 # MAGIC Our lineup of data and AI experts, leaders and visionaries includes [Matei Zaharia](https://www.linkedin.com/in/mateizaharia), co-founder Apache Spark and Databricks. 
-# MAGIC 
+# MAGIC
 # MAGIC Come spend the day with Lakehouse experts and practitioners from across Australia and New Zealand. Learn howlocal entrprises and startups are pushing the Lakehouse boundaries!
-# MAGIC 
+# MAGIC
 # MAGIC ## (Free & in-person!) Databricks Bootcamps
 # MAGIC [🔗 Registration link](https://pages.databricks.com/00-202202-APJ-FE-Databricks-Bootcamp-2022-q4-Router_LP---Registration-page.html?utm_source=databricks&utm_medium=vinny&utm_campaign=7013f000000LkDCAA0)
-# MAGIC 
+# MAGIC
 # MAGIC We're holding **free** Databricks Bootcamps across Brisbane, Sydney, Melbourne, Adelaide, Perth, and Auckland over Oct - Dec.
-# MAGIC 
+# MAGIC
 # MAGIC Led by Databricks instructors, these sessions will use real-world data sets as we go under the hood to demonstrate how to use robust technologies such as Delta Lake, Databricks SQL and MLflow
