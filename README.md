@@ -16,7 +16,7 @@ My **personal** list of resources and samples related to working with Databricks
 
 [▶️ YouTube channel](https://www.youtube.com/channel/UC3q8O3Bh2Le8Rj1-Q-_UUbA) | [🎧 Data Brew Podcast](https://databricks.com/discover/data-brew) | [📖 Databricks Blog](https://databricks.com/blog)
 
-- [Demo Hub](https://www.databricks.com/resources/demos): access ready-to-run Notebooks that walk you through common worfklows and use cases on Databricks
+- [Demo Hub](https://www.databricks.com/resources/demos): access ready-to-run Notebooks that walk you through common workflows and use cases on Databricks
 - ▶️ Data + AI Summit (DAIS) recordings: [2023](https://www.databricks.com/dataaisummit/sessions/) | [2022](https://www.youtube.com/playlist?list=PLTPXxbhUt-YVWi_cf2UUDc9VZFLoRgu0l)
 - [Weekly "Ask Databricks" Live Sessions](https://www.advancinganalytics.co.uk/askdbx). You can also
 catch replays on [Databricks'](https://www.youtube.com/@Databricks) and [Advancing Analytics'](https://www.youtube.com/@AdvancingAnalytics) YouTube channels
