@@ -161,6 +161,7 @@ catch replays on [Databricks'](https://www.youtube.com/@Databricks) and [Advanci
 ### Unity Catalog 🔐
 
 - [Serving Up a Primer for Unity Catalog Onboarding](https://www.databricks.com/blog/2022/11/22/serving-primer-unity-catalog-onboarding.html) (Databricks Admin Essentials)
+- [📕 Unity Catalog example Notebook](https://docs.databricks.com/en/_extras/notebooks/source/unity-catalog-example-notebook.html)
 - [The Hitchhiker's Guide to data privilege model and access control in Unity Catalog](https://www.databricks.com/blog/hitchhikers-guide-data-privilege-model-and-access-control-unity-catalog)
 - [How Terraform can enable Unity Catalog deployment at scale for different governance models](https://www.databricks.com/blog/2022/12/08/automated-guide-distributed-and-decentralized-management-unity-catalog.html)
 - [Terraform scripts](https://github.com/databricks/unity-catalog-setup)
