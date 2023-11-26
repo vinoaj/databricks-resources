@@ -1,5 +1,14 @@
 # Demo / Example Resources
 
+## General examples
+
+### Linking to a Notebook from a Markdown cell
+
+Use `($./<notebook_title_without_file_extension>)` to refer to a Notebook in the same folder.
+
+Example:
+`Refer to [Notebook: 01_Data_Download_and_Prep]($./01_Data_Download_and_Prep)`
+
 ## Open Datasets
 
 ### Collections
