@@ -490,6 +490,7 @@ catch replays on [Databricks'](https://www.youtube.com/@Databricks) and [Advanci
 - [GitHub repo](https://github.com/databricks/databricks-ml-examples/) with detailed Notebooks on how to work with OSS LLMs (e.g. `Llama-2-*`, `mpt-*`) using MLflow in Databricks
 - [📄 LLM GPU serving examples](https://github.com/ahdbilal/Databricks-GPU-Serving-Examples/)
 - [Actioning Customer Reviews at Scale with Databricks SQL AI Functions](https://www.databricks.com/blog/actioning-customer-reviews-scale-databricks-sql-ai-functions): bring meaning to unstructured data using the simplicity of SQL and GPT-3.5
+- [Tutorial: Connecting Databricks’ DBRX LLM to a Power BI report](https://medium.com/@kyle.hale/tutorial-connecting-databricks-dbrx-llm-to-a-power-bi-report-2c489cef7283)
 
 ### Guides
 

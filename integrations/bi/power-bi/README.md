@@ -6,6 +6,7 @@
 - [Architecting Aggregations in PowerBI with Databricks SQL](https://medium.com/@kyle.hale/architecting-aggregations-in-powerbi-with-databricks-sql-675899014ce3)
 - [Easier data model management for Power BI using Delta Live Tables](https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/easier-data-model-management-for-power-bi-using-delta-live/ba-p/3500698) ([accompanying notebooks](https://github.com/adb-essentials/adb-essentials-demos/tree/main/retail_demo/02-data-eng-streaming/delta-live-tables))
 - [▶️ Databricks Meets Power BI](https://www.youtube.com/watch?v=IEklNQ70SSY): Data+AI Summit June 2022 session
+- [Tutorial: Connecting Databricks’ DBRX LLM to a Power BI report](https://medium.com/@kyle.hale/tutorial-connecting-databricks-dbrx-llm-to-a-power-bi-report-2c489cef7283)
 
 - **Azure Databricks vs Spark Connector** in Power BI? Prefer the native Azure Databricks connector, for the following reasons
   - Utilises Databricks SQL endpoints, which is designed for high-concurrency low-latency applications such as BI
