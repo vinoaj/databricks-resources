@@ -1,6 +1,7 @@
 # Azure Databricks
 
 - [Azure Databricks Best Practices](https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md)
+- [Data Exfiltration Protection with Azure Databricks](https://www.databricks.com/blog/data-exfiltration-protection-with-azure-databricks)
 
 ## Ingestion
 

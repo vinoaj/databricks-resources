@@ -491,6 +491,7 @@ catch replays on [Databricks'](https://www.youtube.com/@Databricks) and [Advanci
 - [📄 LLM GPU serving examples](https://github.com/ahdbilal/Databricks-GPU-Serving-Examples/)
 - [Actioning Customer Reviews at Scale with Databricks SQL AI Functions](https://www.databricks.com/blog/actioning-customer-reviews-scale-databricks-sql-ai-functions): bring meaning to unstructured data using the simplicity of SQL and GPT-3.5
 - [Tutorial: Connecting Databricks’ DBRX LLM to a Power BI report](https://medium.com/@kyle.hale/tutorial-connecting-databricks-dbrx-llm-to-a-power-bi-report-2c489cef7283)
+- [Implementing LLM Guardrails for Safe and Responsible Generative AI Deployment](https://www.databricks.com/blog/implementing-llm-guardrails-safe-and-responsible-generative-ai-deployment-databricks)
 
 ### Guides
 
