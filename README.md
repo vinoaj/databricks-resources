@@ -69,6 +69,7 @@ catch replays on [Databricks'](https://www.youtube.com/@Databricks) and [Advanci
 
 ## Value Generation
 
+- [CIO Vision 2025](https://www.databricks.com/wp-content/uploads/2022/09/cio-vision-2025-final.pdf) report in conjunction with MIT
 - [2023 State of Data + AI report](https://cms.databricks.com/sites/default/files/2023-06/databricks-2023-state-of-data-report-06072023-v2.pdf)
 - [Databricks 30 Index](https://databricks.com/blog/2021/03/17/winning-with-data-ai-meet-the-databricks-30-index.html): (March 2021) The Databricks 30 is an equal-weight price index composed of 5 marquee customers each across Retail/Consumer Products, Financial Services, Healthcare, Media/Entertainment, Manufacturing/Logistics, in addition to 5 strategic partners
 ![Databricks 30 Index performance](https://databricks.com/wp-content/uploads/2021/03/db-30-blog-image-1.png)
@@ -124,6 +125,7 @@ catch replays on [Databricks'](https://www.youtube.com/@Databricks) and [Advanci
 
 #### Cost Management
 
+- [Intelligently Balance Cost Optimization & Reliability on Databricks](https://www.databricks.com/blog/intelligently-balance-cost-optimization-reliability-databricks)
 - [Best Practices for Cost Management on Databricks](https://www.databricks.com/blog/2022/10/18/best-practices-cost-management-databricks.html)
 - [Cluster Policy Primer](https://www.databricks.com/blog/cluster-policy-onboarding-primer): Cluster policies allow you to enforce security and cost controls on new clusters. This post walks you through what cluster policies are and how to design them for your Workspaces
 - [Cost-conscious R&D in the Cloud that Data Scientists Will Love](https://medium.com/@kurlare/cost-conscious-r-d-in-the-cloud-that-data-scientists-will-love-148837b5ab51)
